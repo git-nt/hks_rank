@@ -1,62 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HKS Rankings</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
-        th, td { border: 1px solid #ddd; padding: 10px; }
-        th { background-color: #a5c8f0; color: #135aa1; }
-    </style>
-</head>
-<body>
-    <h1>HKS Rankings</h1>
-    <table id="rankingsTable">
-        <thead></thead>
-        <tbody></tbody>
-    </table>
+name: Update Rankings
 
-    <script>
-        async function fetchRankings() {
-            try {
-                const response = await fetch('rankings.json'); // ✅ Fetch updated rankings
-                const rankings = await response.json();
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour (adjust as needed)
+  workflow_dispatch:  # ✅ Enables manual runs
 
-                const tableHead = document.querySelector("#rankingsTable thead");
-                const tableBody = document.querySelector("#rankingsTable tbody");
+jobs:
+  update:
+    runs-on: ubuntu-latest
 
-                tableHead.innerHTML = "";
-                tableBody.innerHTML = "";
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-                // Set up headers
-                const headers = Object.keys(rankings[0]);
-                const headerRow = document.createElement("tr");
-                headers.forEach(header => {
-                    const th = document.createElement("th");
-                    th.textContent = header;
-                    headerRow.appendChild(th);
-                });
-                tableHead.appendChild(headerRow);
+      - name: Set Up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-                // Set up data rows
-                rankings.forEach(rank => {
-                    const row = document.createElement("tr");
-                    headers.forEach(header => {
-                        const td = document.createElement("td");
-                        td.textContent = rank[header];
-                        row.appendChild(td);
-                    });
-                    tableBody.appendChild(row);
-                });
-            } catch (error) {
-                console.error("Failed to fetch rankings:", error);
-            }
-        }
+      - name: Install Dependencies
+        run: pip install pandas loguru openpyxl
 
-        fetchRankings();
-        setInterval(fetchRankings, 60000);  // Refresh every 60 seconds
-    </script>
-</body>
-</html>
+      - name: Run Ranking Script
+        run: python projects/hks_ranking/hks_ranking.py  # Adjust path if needed
+
+      - name: Move rankings.json to Root
+        run: mv projects/hks_ranking/rankings.json rankings.json
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add rankings.json projects/hks_ranking/ranking.xlsx
+          git commit -m "Auto-update rankings"
+          git push
