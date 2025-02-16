@@ -25,15 +25,17 @@ jobs:
         run: pip install pandas loguru openpyxl
 
       - name: Run Ranking Script
-        run: python projects/hks_ranking/hks_ranking.py  # Adjust path if needed
+        run: python hks_ranking.py
 
-      - name: Move rankings.json to Root
-        run: mv projects/hks_ranking/rankings.json rankings.json
+      - name: Move `rankings.json` to Root
+        run: |
+          mv rankings.json rankings.json || true
+          mv ranking.xlsx ranking.xlsx || true
 
       - name: Commit and Push Results
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add rankings.json projects/hks_ranking/ranking.xlsx
-          git commit -m "Auto-update rankings"
+          git add rankings.json ranking.xlsx
+          git diff --cached --quiet || git commit -m "Auto-update rankings"
           git push
