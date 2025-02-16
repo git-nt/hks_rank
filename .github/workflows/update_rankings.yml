@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HKS Rankings</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 10px; }
+        th { background-color: #a5c8f0; color: #135aa1; }
+    </style>
+</head>
+<body>
+    <h1>HKS Rankings</h1>
+    <table id="rankingsTable">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        async function fetchRankings() {
+            try {
+                const response = await fetch('rankings.json'); // ✅ Fetch updated rankings
+                const rankings = await response.json();
+
+                const tableHead = document.querySelector("#rankingsTable thead");
+                const tableBody = document.querySelector("#rankingsTable tbody");
+
+                tableHead.innerHTML = "";
+                tableBody.innerHTML = "";
+
+                // Set up headers
+                const headers = Object.keys(rankings[0]);
+                const headerRow = document.createElement("tr");
+                headers.forEach(header => {
+                    const th = document.createElement("th");
+                    th.textContent = header;
+                    headerRow.appendChild(th);
+                });
+                tableHead.appendChild(headerRow);
+
+                // Set up data rows
+                rankings.forEach(rank => {
+                    const row = document.createElement("tr");
+                    headers.forEach(header => {
+                        const td = document.createElement("td");
+                        td.textContent = rank[header];
+                        row.appendChild(td);
+                    });
+                    tableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error("Failed to fetch rankings:", error);
+            }
+        }
+
+        fetchRankings();
+        setInterval(fetchRankings, 60000);  // Refresh every 60 seconds
+    </script>
+</body>
+</html>
