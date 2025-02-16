@@ -1,6 +1,6 @@
 [
     {
-        "Rank":"1.00",
+        "Rank":1,
         "Player":"Lucian Šošić",
         "Total Score":"1260.51",
         "12x7 & Hrvatskih 100 - Best 5":"394.65",
@@ -23,7 +23,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"2.00",
+        "Rank":2,
         "Player":"Lovro Jurišić",
         "Total Score":"1241.70",
         "12x7 & Hrvatskih 100 - Best 5":"386.49",
@@ -46,7 +46,7 @@
         "Austrian Open 2024":"150.00"
     },
     {
-        "Rank":"3.00",
+        "Rank":3,
         "Player":"Ante Uzelac",
         "Total Score":"1201.76",
         "12x7 & Hrvatskih 100 - Best 5":"370.48",
@@ -69,7 +69,7 @@
         "Austrian Open 2024":"129.27"
     },
     {
-        "Rank":"4.00",
+        "Rank":4,
         "Player":"Filip Znaor",
         "Total Score":"1081.02",
         "12x7 & Hrvatskih 100 - Best 5":"338.24",
@@ -92,7 +92,7 @@
         "Austrian Open 2024":"126.83"
     },
     {
-        "Rank":"5.00",
+        "Rank":5,
         "Player":"Željko Pavić",
         "Total Score":"1067.59",
         "12x7 & Hrvatskih 100 - Best 5":"348.62",
@@ -115,7 +115,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"6.00",
+        "Rank":6,
         "Player":"Neven Trgovec",
         "Total Score":"1056.99",
         "12x7 & Hrvatskih 100 - Best 5":"223.73",
@@ -138,7 +138,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"7.00",
+        "Rank":7,
         "Player":"Mladen Vukorepa",
         "Total Score":"1055.02",
         "12x7 & Hrvatskih 100 - Best 5":"346.23",
@@ -161,7 +161,7 @@
         "Austrian Open 2024":"115.85"
     },
     {
-        "Rank":"8.00",
+        "Rank":8,
         "Player":"Goran Vesić",
         "Total Score":"1031.19",
         "12x7 & Hrvatskih 100 - Best 5":"337.44",
@@ -184,7 +184,7 @@
         "Austrian Open 2024":"104.88"
     },
     {
-        "Rank":"9.00",
+        "Rank":9,
         "Player":"Nikola Lazić",
         "Total Score":"1027.02",
         "12x7 & Hrvatskih 100 - Best 5":"321.10",
@@ -207,7 +207,7 @@
         "Austrian Open 2024":"102.44"
     },
     {
-        "Rank":"10.00",
+        "Rank":10,
         "Player":"Juraj Kveder",
         "Total Score":"1010.21",
         "12x7 & Hrvatskih 100 - Best 5":"314.86",
@@ -230,7 +230,7 @@
         "Austrian Open 2024":"125.61"
     },
     {
-        "Rank":"11.00",
+        "Rank":11,
         "Player":"Borko Barić",
         "Total Score":"1000.50",
         "12x7 & Hrvatskih 100 - Best 5":"319.52",
@@ -253,7 +253,7 @@
         "Austrian Open 2024":"118.29"
     },
     {
-        "Rank":"12.00",
+        "Rank":12,
         "Player":"Haris Mujkić",
         "Total Score":"967.37",
         "12x7 & Hrvatskih 100 - Best 5":"325.01",
@@ -276,7 +276,7 @@
         "Austrian Open 2024":"101.22"
     },
     {
-        "Rank":"13.00",
+        "Rank":13,
         "Player":"Ivica Brtan",
         "Total Score":"950.05",
         "12x7 & Hrvatskih 100 - Best 5":"311.20",
@@ -299,7 +299,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"14.00",
+        "Rank":14,
         "Player":"Bojan Hlača",
         "Total Score":"936.79",
         "12x7 & Hrvatskih 100 - Best 5":"306.81",
@@ -322,7 +322,7 @@
         "Austrian Open 2024":"103.66"
     },
     {
-        "Rank":"15.00",
+        "Rank":15,
         "Player":"Jurica Benčik",
         "Total Score":"926.04",
         "12x7 & Hrvatskih 100 - Best 5":"334.24",
@@ -345,7 +345,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"16.00",
+        "Rank":16,
         "Player":"Domagoj Marić",
         "Total Score":"922.29",
         "12x7 & Hrvatskih 100 - Best 5":"297.34",
@@ -368,7 +368,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"17.00",
+        "Rank":17,
         "Player":"Krešimir Sučević-Međeral",
         "Total Score":"913.27",
         "12x7 & Hrvatskih 100 - Best 5":"362.37",
@@ -391,7 +391,7 @@
         "Austrian Open 2024":"126.83"
     },
     {
-        "Rank":"18.00",
+        "Rank":18,
         "Player":"Krunoslav Valentić",
         "Total Score":"902.49",
         "12x7 & Hrvatskih 100 - Best 5":"276.29",
@@ -414,7 +414,7 @@
         "Austrian Open 2024":"103.66"
     },
     {
-        "Rank":"19.00",
+        "Rank":19,
         "Player":"Pavao Crnko",
         "Total Score":"864.97",
         "12x7 & Hrvatskih 100 - Best 5":"288.71",
@@ -437,7 +437,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"20.00",
+        "Rank":20,
         "Player":"Petar Kordić",
         "Total Score":"856.76",
         "12x7 & Hrvatskih 100 - Best 5":"269.18",
@@ -460,7 +460,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"21.00",
+        "Rank":21,
         "Player":"Šime Gverić",
         "Total Score":"855.18",
         "12x7 & Hrvatskih 100 - Best 5":"80.00",
@@ -483,7 +483,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"22.00",
+        "Rank":22,
         "Player":"Dalibor Benković",
         "Total Score":"852.53",
         "12x7 & Hrvatskih 100 - Best 5":"282.43",
@@ -506,7 +506,7 @@
         "Austrian Open 2024":"103.66"
     },
     {
-        "Rank":"23.00",
+        "Rank":23,
         "Player":"Ivan Jurić",
         "Total Score":"851.85",
         "12x7 & Hrvatskih 100 - Best 5":"214.50",
@@ -529,7 +529,7 @@
         "Austrian Open 2024":"136.59"
     },
     {
-        "Rank":"24.00",
+        "Rank":24,
         "Player":"Dražen Nemet",
         "Total Score":"839.84",
         "12x7 & Hrvatskih 100 - Best 5":"342.81",
@@ -552,7 +552,7 @@
         "Austrian Open 2024":"125.61"
     },
     {
-        "Rank":"25.00",
+        "Rank":25,
         "Player":"Tomislav Bartolović",
         "Total Score":"827.19",
         "12x7 & Hrvatskih 100 - Best 5":"272.14",
@@ -575,7 +575,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"26.00",
+        "Rank":26,
         "Player":"Josip Paškov",
         "Total Score":"826.01",
         "12x7 & Hrvatskih 100 - Best 5":"273.76",
@@ -598,7 +598,7 @@
         "Austrian Open 2024":"93.90"
     },
     {
-        "Rank":"27.00",
+        "Rank":27,
         "Player":"Ivica Glavan",
         "Total Score":"815.70",
         "12x7 & Hrvatskih 100 - Best 5":"268.72",
@@ -621,7 +621,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"28.00",
+        "Rank":28,
         "Player":"Fabijan Bošnjak",
         "Total Score":"804.19",
         "12x7 & Hrvatskih 100 - Best 5":"120.69",
@@ -644,7 +644,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"29.00",
+        "Rank":29,
         "Player":"Ivan Marić",
         "Total Score":"781.84",
         "12x7 & Hrvatskih 100 - Best 5":"263.36",
@@ -667,7 +667,7 @@
         "Austrian Open 2024":"81.71"
     },
     {
-        "Rank":"30.00",
+        "Rank":30,
         "Player":"Mario Ferenčak",
         "Total Score":"777.74",
         "12x7 & Hrvatskih 100 - Best 5":"236.22",
@@ -690,7 +690,7 @@
         "Austrian Open 2024":"100.00"
     },
     {
-        "Rank":"31.00",
+        "Rank":31,
         "Player":"Marinko Čogelja",
         "Total Score":"770.97",
         "12x7 & Hrvatskih 100 - Best 5":"254.24",
@@ -713,7 +713,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"32.00",
+        "Rank":32,
         "Player":"Krešimir Melnik",
         "Total Score":"764.88",
         "12x7 & Hrvatskih 100 - Best 5":"66.67",
@@ -736,7 +736,7 @@
         "Austrian Open 2024":"114.63"
     },
     {
-        "Rank":"33.00",
+        "Rank":33,
         "Player":"Luka Čmrlec",
         "Total Score":"739.10",
         "12x7 & Hrvatskih 100 - Best 5":"257.75",
@@ -759,7 +759,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"34.00",
+        "Rank":34,
         "Player":"Kristo Kristić",
         "Total Score":"732.73",
         "12x7 & Hrvatskih 100 - Best 5":"335.46",
@@ -782,7 +782,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"35.00",
+        "Rank":35,
         "Player":"Dražen Cukina",
         "Total Score":"726.29",
         "12x7 & Hrvatskih 100 - Best 5":"252.61",
@@ -805,7 +805,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"36.00",
+        "Rank":36,
         "Player":"Tomislav Grubišić",
         "Total Score":"723.93",
         "12x7 & Hrvatskih 100 - Best 5":"274.74",
@@ -828,7 +828,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"37.00",
+        "Rank":37,
         "Player":"Branimir Ivković",
         "Total Score":"722.15",
         "12x7 & Hrvatskih 100 - Best 5":"269.88",
@@ -851,7 +851,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"38.00",
+        "Rank":38,
         "Player":"Siniša Žegor",
         "Total Score":"691.54",
         "12x7 & Hrvatskih 100 - Best 5":"213.08",
@@ -874,7 +874,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"39.00",
+        "Rank":39,
         "Player":"Bruno Vojvodić",
         "Total Score":"684.37",
         "12x7 & Hrvatskih 100 - Best 5":"231.15",
@@ -897,7 +897,7 @@
         "Austrian Open 2024":"82.93"
     },
     {
-        "Rank":"40.00",
+        "Rank":40,
         "Player":"Saša Benzon",
         "Total Score":"655.22",
         "12x7 & Hrvatskih 100 - Best 5":"56.74",
@@ -920,7 +920,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"41.00",
+        "Rank":41,
         "Player":"Tomislav Nedić",
         "Total Score":"648.36",
         "12x7 & Hrvatskih 100 - Best 5":"131.67",
@@ -943,7 +943,7 @@
         "Austrian Open 2024":"92.68"
     },
     {
-        "Rank":"42.00",
+        "Rank":42,
         "Player":"Marko Inđić",
         "Total Score":"646.43",
         "12x7 & Hrvatskih 100 - Best 5":"238.14",
@@ -966,7 +966,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"43.00",
+        "Rank":43,
         "Player":"Leo Kovač",
         "Total Score":"642.54",
         "12x7 & Hrvatskih 100 - Best 5":"197.89",
@@ -989,7 +989,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"44.00",
+        "Rank":44,
         "Player":"Maja Bulatović",
         "Total Score":"640.71",
         "12x7 & Hrvatskih 100 - Best 5":"216.86",
@@ -1012,7 +1012,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"45.00",
+        "Rank":45,
         "Player":"Barislav Poparić",
         "Total Score":"636.12",
         "12x7 & Hrvatskih 100 - Best 5":"252.50",
@@ -1035,7 +1035,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"46.00",
+        "Rank":46,
         "Player":"Petar Prugovečki",
         "Total Score":"632.86",
         "12x7 & Hrvatskih 100 - Best 5":"254.89",
@@ -1058,7 +1058,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"47.00",
+        "Rank":47,
         "Player":"Ivan Ribarić",
         "Total Score":"627.93",
         "12x7 & Hrvatskih 100 - Best 5":"293.74",
@@ -1081,7 +1081,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"48.00",
+        "Rank":48,
         "Player":"Josip Rončević",
         "Total Score":"626.19",
         "12x7 & Hrvatskih 100 - Best 5":"270.42",
@@ -1104,7 +1104,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"49.00",
+        "Rank":49,
         "Player":"Josip Maskaljević",
         "Total Score":"621.10",
         "12x7 & Hrvatskih 100 - Best 5":"166.48",
@@ -1127,7 +1127,7 @@
         "Austrian Open 2024":"85.37"
     },
     {
-        "Rank":"50.00",
+        "Rank":50,
         "Player":"Sandro Jažo",
         "Total Score":"617.47",
         "12x7 & Hrvatskih 100 - Best 5":"198.47",
@@ -1150,7 +1150,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"51.00",
+        "Rank":51,
         "Player":"Matko Šimić",
         "Total Score":"609.49",
         "12x7 & Hrvatskih 100 - Best 5":"153.66",
@@ -1173,7 +1173,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"52.00",
+        "Rank":52,
         "Player":"Hrvoje Šimić",
         "Total Score":"604.54",
         "12x7 & Hrvatskih 100 - Best 5":"191.76",
@@ -1196,7 +1196,7 @@
         "Austrian Open 2024":"93.90"
     },
     {
-        "Rank":"53.00",
+        "Rank":53,
         "Player":"Vanja Galović",
         "Total Score":"589.24",
         "12x7 & Hrvatskih 100 - Best 5":"209.28",
@@ -1219,7 +1219,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"54.00",
+        "Rank":54,
         "Player":"Verner Stanušić",
         "Total Score":"580.27",
         "12x7 & Hrvatskih 100 - Best 5":"123.82",
@@ -1242,7 +1242,7 @@
         "Austrian Open 2024":"87.80"
     },
     {
-        "Rank":"55.00",
+        "Rank":55,
         "Player":"Domagoj Šesto",
         "Total Score":"568.02",
         "12x7 & Hrvatskih 100 - Best 5":"119.84",
@@ -1265,7 +1265,7 @@
         "Austrian Open 2024":"93.90"
     },
     {
-        "Rank":"56.00",
+        "Rank":56,
         "Player":"Hrvoje Pichler",
         "Total Score":"536.08",
         "12x7 & Hrvatskih 100 - Best 5":"248.92",
@@ -1288,7 +1288,7 @@
         "Austrian Open 2024":"86.59"
     },
     {
-        "Rank":"57.00",
+        "Rank":57,
         "Player":"Darko Bačić",
         "Total Score":"533.96",
         "12x7 & Hrvatskih 100 - Best 5":"188.01",
@@ -1311,7 +1311,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"58.00",
+        "Rank":58,
         "Player":"Nikola Paleka",
         "Total Score":"531.80",
         "12x7 & Hrvatskih 100 - Best 5":"61.40",
@@ -1334,7 +1334,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"59.00",
+        "Rank":59,
         "Player":"Hrvoje Stojanović",
         "Total Score":"525.25",
         "12x7 & Hrvatskih 100 - Best 5":"148.58",
@@ -1357,7 +1357,7 @@
         "Austrian Open 2024":"76.83"
     },
     {
-        "Rank":"60.00",
+        "Rank":60,
         "Player":"Bojan Radošević",
         "Total Score":"523.28",
         "12x7 & Hrvatskih 100 - Best 5":"238.21",
@@ -1380,7 +1380,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"61.00",
+        "Rank":61,
         "Player":"Matej Mašić",
         "Total Score":"518.09",
         "12x7 & Hrvatskih 100 - Best 5":"197.76",
@@ -1403,7 +1403,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"62.00",
+        "Rank":62,
         "Player":"Maja Vražić",
         "Total Score":"510.93",
         "12x7 & Hrvatskih 100 - Best 5":"202.83",
@@ -1426,7 +1426,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"63.00",
+        "Rank":63,
         "Player":"Ana Žele",
         "Total Score":"508.06",
         "12x7 & Hrvatskih 100 - Best 5":"222.00",
@@ -1449,7 +1449,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"64.00",
+        "Rank":64,
         "Player":"Vladimir Ribičić",
         "Total Score":"505.82",
         "12x7 & Hrvatskih 100 - Best 5":"194.12",
@@ -1472,7 +1472,7 @@
         "Austrian Open 2024":"65.85"
     },
     {
-        "Rank":"65.00",
+        "Rank":65,
         "Player":"Srećko Veselinović",
         "Total Score":"499.02",
         "12x7 & Hrvatskih 100 - Best 5":"274.28",
@@ -1495,7 +1495,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"66.00",
+        "Rank":66,
         "Player":"Dominik Varga",
         "Total Score":"498.19",
         "12x7 & Hrvatskih 100 - Best 5":"286.12",
@@ -1518,7 +1518,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"67.00",
+        "Rank":67,
         "Player":"Perica Živanović",
         "Total Score":"477.59",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -1541,7 +1541,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"68.00",
+        "Rank":68,
         "Player":"Zvonimir Pejić",
         "Total Score":"476.44",
         "12x7 & Hrvatskih 100 - Best 5":"118.14",
@@ -1564,7 +1564,7 @@
         "Austrian Open 2024":"91.46"
     },
     {
-        "Rank":"69.00",
+        "Rank":69,
         "Player":"Boris Gruden",
         "Total Score":"469.96",
         "12x7 & Hrvatskih 100 - Best 5":"237.95",
@@ -1587,7 +1587,7 @@
         "Austrian Open 2024":"78.05"
     },
     {
-        "Rank":"70.00",
+        "Rank":70,
         "Player":"Boris Bilas",
         "Total Score":"469.25",
         "12x7 & Hrvatskih 100 - Best 5":"131.00",
@@ -1610,7 +1610,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"71.00",
+        "Rank":71,
         "Player":"Stipe Renje",
         "Total Score":"466.24",
         "12x7 & Hrvatskih 100 - Best 5":"153.75",
@@ -1633,7 +1633,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"72.00",
+        "Rank":72,
         "Player":"Branimir Arsić",
         "Total Score":"461.36",
         "12x7 & Hrvatskih 100 - Best 5":"270.76",
@@ -1656,7 +1656,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"73.00",
+        "Rank":73,
         "Player":"Tino Nevešćanin",
         "Total Score":"457.12",
         "12x7 & Hrvatskih 100 - Best 5":"185.54",
@@ -1679,7 +1679,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"74.00",
+        "Rank":74,
         "Player":"Matej Ljubić",
         "Total Score":"446.36",
         "12x7 & Hrvatskih 100 - Best 5":"181.76",
@@ -1702,7 +1702,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"75.00",
+        "Rank":75,
         "Player":"Jan Kukić",
         "Total Score":"441.86",
         "12x7 & Hrvatskih 100 - Best 5":"207.45",
@@ -1725,7 +1725,7 @@
         "Austrian Open 2024":"73.17"
     },
     {
-        "Rank":"76.00",
+        "Rank":76,
         "Player":"Danijel Šušnjara",
         "Total Score":"434.46",
         "12x7 & Hrvatskih 100 - Best 5":"316.79",
@@ -1748,7 +1748,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"77.00",
+        "Rank":77,
         "Player":"Luka Jerković",
         "Total Score":"431.41",
         "12x7 & Hrvatskih 100 - Best 5":"240.29",
@@ -1771,7 +1771,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"78.00",
+        "Rank":78,
         "Player":"Goran Koprenica",
         "Total Score":"416.75",
         "12x7 & Hrvatskih 100 - Best 5":"214.68",
@@ -1794,7 +1794,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"79.00",
+        "Rank":79,
         "Player":"Bruno Tatarević",
         "Total Score":"413.00",
         "12x7 & Hrvatskih 100 - Best 5":"137.12",
@@ -1817,7 +1817,7 @@
         "Austrian Open 2024":"46.34"
     },
     {
-        "Rank":"80.00",
+        "Rank":80,
         "Player":"Mak Krajina",
         "Total Score":"409.26",
         "12x7 & Hrvatskih 100 - Best 5":"88.38",
@@ -1840,7 +1840,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"81.00",
+        "Rank":81,
         "Player":"Morana Zibar",
         "Total Score":"402.52",
         "12x7 & Hrvatskih 100 - Best 5":"43.33",
@@ -1863,7 +1863,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"82.00",
+        "Rank":82,
         "Player":"Filip Galić",
         "Total Score":"392.20",
         "12x7 & Hrvatskih 100 - Best 5":"220.77",
@@ -1886,7 +1886,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"83.00",
+        "Rank":83,
         "Player":"Stipe Mustapić",
         "Total Score":"365.25",
         "12x7 & Hrvatskih 100 - Best 5":"174.51",
@@ -1909,7 +1909,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"84.00",
+        "Rank":84,
         "Player":"Marin Arbani",
         "Total Score":"364.53",
         "12x7 & Hrvatskih 100 - Best 5":"364.53",
@@ -1932,7 +1932,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"85.00",
+        "Rank":85,
         "Player":"Kristian Lasić",
         "Total Score":"351.02",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -1955,7 +1955,7 @@
         "Austrian Open 2024":"125.61"
     },
     {
-        "Rank":"86.00",
+        "Rank":86,
         "Player":"Josip Banić",
         "Total Score":"347.71",
         "12x7 & Hrvatskih 100 - Best 5":"46.67",
@@ -1978,7 +1978,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"87.00",
+        "Rank":87,
         "Player":"Alen Mušnjak",
         "Total Score":"340.21",
         "12x7 & Hrvatskih 100 - Best 5":"72.19",
@@ -2001,7 +2001,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"88.00",
+        "Rank":88,
         "Player":"Domagoj Pozderac",
         "Total Score":"337.07",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -2024,7 +2024,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"89.00",
+        "Rank":89,
         "Player":"Bernard Pervan",
         "Total Score":"332.90",
         "12x7 & Hrvatskih 100 - Best 5":"91.14",
@@ -2047,7 +2047,7 @@
         "Austrian Open 2024":"90.24"
     },
     {
-        "Rank":"90.00",
+        "Rank":90,
         "Player":"Nikola Kulušić",
         "Total Score":"330.51",
         "12x7 & Hrvatskih 100 - Best 5":"77.86",
@@ -2070,7 +2070,7 @@
         "Austrian Open 2024":"86.59"
     },
     {
-        "Rank":"91.00",
+        "Rank":91,
         "Player":"Siniša Ružić",
         "Total Score":"329.32",
         "12x7 & Hrvatskih 100 - Best 5":"87.48",
@@ -2093,7 +2093,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"92.00",
+        "Rank":92,
         "Player":"Matej Pavlinić",
         "Total Score":"324.76",
         "12x7 & Hrvatskih 100 - Best 5":"105.29",
@@ -2116,7 +2116,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"93.00",
+        "Rank":93,
         "Player":"Mirko Juričić",
         "Total Score":"321.40",
         "12x7 & Hrvatskih 100 - Best 5":"131.04",
@@ -2139,7 +2139,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"94.00",
+        "Rank":94,
         "Player":"Mislav Stojanović",
         "Total Score":"320.24",
         "12x7 & Hrvatskih 100 - Best 5":"50.77",
@@ -2162,7 +2162,7 @@
         "Austrian Open 2024":"92.68"
     },
     {
-        "Rank":"95.00",
+        "Rank":95,
         "Player":"Matija Gurović",
         "Total Score":"320.16",
         "12x7 & Hrvatskih 100 - Best 5":"114.22",
@@ -2185,7 +2185,7 @@
         "Austrian Open 2024":"57.32"
     },
     {
-        "Rank":"96.00",
+        "Rank":96,
         "Player":"Karla Knežević",
         "Total Score":"309.86",
         "12x7 & Hrvatskih 100 - Best 5":"45.54",
@@ -2208,7 +2208,7 @@
         "Austrian Open 2024":"82.93"
     },
     {
-        "Rank":"97.00",
+        "Rank":97,
         "Player":"Deni Škarpa",
         "Total Score":"309.78",
         "12x7 & Hrvatskih 100 - Best 5":"81.54",
@@ -2231,7 +2231,7 @@
         "Austrian Open 2024":"70.73"
     },
     {
-        "Rank":"98.00",
+        "Rank":98,
         "Player":"Ivo Karamatić",
         "Total Score":"303.02",
         "12x7 & Hrvatskih 100 - Best 5":"106.73",
@@ -2254,7 +2254,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"99.00",
+        "Rank":99,
         "Player":"Šimo Širanović",
         "Total Score":"294.77",
         "12x7 & Hrvatskih 100 - Best 5":"103.33",
@@ -2277,7 +2277,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"100.00",
+        "Rank":100,
         "Player":"Slaven Maros",
         "Total Score":"294.23",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -2300,7 +2300,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"101.00",
+        "Rank":101,
         "Player":"Grgo Birin",
         "Total Score":"291.05",
         "12x7 & Hrvatskih 100 - Best 5":"182.43",
@@ -2323,7 +2323,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"102.00",
+        "Rank":102,
         "Player":"Saša Jević",
         "Total Score":"285.48",
         "12x7 & Hrvatskih 100 - Best 5":"285.48",
@@ -2346,7 +2346,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"103.00",
+        "Rank":103,
         "Player":"Marin Blažetić",
         "Total Score":"284.27",
         "12x7 & Hrvatskih 100 - Best 5":"97.16",
@@ -2369,7 +2369,7 @@
         "Austrian Open 2024":"81.71"
     },
     {
-        "Rank":"104.00",
+        "Rank":104,
         "Player":"Ivan Ljubić",
         "Total Score":"281.98",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -2392,7 +2392,7 @@
         "Austrian Open 2024":"89.02"
     },
     {
-        "Rank":"105.00",
+        "Rank":105,
         "Player":"Ante Jurjević",
         "Total Score":"276.67",
         "12x7 & Hrvatskih 100 - Best 5":"158.53",
@@ -2415,7 +2415,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"106.00",
+        "Rank":106,
         "Player":"Marko Poličić",
         "Total Score":"269.35",
         "12x7 & Hrvatskih 100 - Best 5":"94.53",
@@ -2438,7 +2438,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"107.00",
+        "Rank":107,
         "Player":"Vjekoslav Vuk",
         "Total Score":"268.88",
         "12x7 & Hrvatskih 100 - Best 5":"142.56",
@@ -2461,7 +2461,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"108.00",
+        "Rank":108,
         "Player":"Tamara Tomin",
         "Total Score":"265.45",
         "12x7 & Hrvatskih 100 - Best 5":"91.66",
@@ -2484,7 +2484,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"109.00",
+        "Rank":109,
         "Player":"Marin Knežević",
         "Total Score":"264.91",
         "12x7 & Hrvatskih 100 - Best 5":"167.04",
@@ -2507,7 +2507,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"110.00",
+        "Rank":110,
         "Player":"Ivan Ćorić",
         "Total Score":"252.72",
         "12x7 & Hrvatskih 100 - Best 5":"46.77",
@@ -2530,7 +2530,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"111.00",
+        "Rank":111,
         "Player":"Danijel Jurić",
         "Total Score":"248.78",
         "12x7 & Hrvatskih 100 - Best 5":"55.38",
@@ -2553,7 +2553,7 @@
         "Austrian Open 2024":"95.12"
     },
     {
-        "Rank":"112.00",
+        "Rank":112,
         "Player":"Lazar Živkov",
         "Total Score":"244.75",
         "12x7 & Hrvatskih 100 - Best 5":"124.49",
@@ -2576,7 +2576,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"113.00",
+        "Rank":113,
         "Player":"Milan Dobrić",
         "Total Score":"244.31",
         "12x7 & Hrvatskih 100 - Best 5":"132.59",
@@ -2599,7 +2599,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"114.00",
+        "Rank":114,
         "Player":"Toni Blažević",
         "Total Score":"244.08",
         "12x7 & Hrvatskih 100 - Best 5":"35.35",
@@ -2622,7 +2622,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"115.00",
+        "Rank":115,
         "Player":"Vinko Šeremet",
         "Total Score":"237.30",
         "12x7 & Hrvatskih 100 - Best 5":"53.72",
@@ -2645,7 +2645,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"116.00",
+        "Rank":116,
         "Player":"Ivan Vlahov",
         "Total Score":"233.97",
         "12x7 & Hrvatskih 100 - Best 5":"163.05",
@@ -2668,7 +2668,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"117.00",
+        "Rank":117,
         "Player":"Josip Župčić",
         "Total Score":"233.51",
         "12x7 & Hrvatskih 100 - Best 5":"53.40",
@@ -2691,7 +2691,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"118.00",
+        "Rank":118,
         "Player":"Kristijan Musa",
         "Total Score":"231.34",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -2714,7 +2714,7 @@
         "Austrian Open 2024":"112.20"
     },
     {
-        "Rank":"119.00",
+        "Rank":119,
         "Player":"Gordan Grzunov",
         "Total Score":"228.72",
         "12x7 & Hrvatskih 100 - Best 5":"71.47",
@@ -2737,7 +2737,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"120.00",
+        "Rank":120,
         "Player":"Stanko Kovač",
         "Total Score":"224.78",
         "12x7 & Hrvatskih 100 - Best 5":"45.56",
@@ -2760,7 +2760,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"121.00",
+        "Rank":121,
         "Player":"Dragan Boras",
         "Total Score":"223.68",
         "12x7 & Hrvatskih 100 - Best 5":"80.40",
@@ -2783,7 +2783,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"122.00",
+        "Rank":122,
         "Player":"Damir Obad",
         "Total Score":"223.05",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -2806,7 +2806,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"123.00",
+        "Rank":123,
         "Player":"Ivan Čikotić",
         "Total Score":"222.36",
         "12x7 & Hrvatskih 100 - Best 5":"135.81",
@@ -2829,7 +2829,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"124.00",
+        "Rank":124,
         "Player":"Damir Hamzić",
         "Total Score":"220.33",
         "12x7 & Hrvatskih 100 - Best 5":"44.75",
@@ -2852,7 +2852,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"125.00",
+        "Rank":125,
         "Player":"Bruno Grgurević",
         "Total Score":"219.54",
         "12x7 & Hrvatskih 100 - Best 5":"43.43",
@@ -2875,7 +2875,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"126.00",
+        "Rank":126,
         "Player":"Tomislav Vrban",
         "Total Score":"218.95",
         "12x7 & Hrvatskih 100 - Best 5":"218.95",
@@ -2898,7 +2898,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"127.00",
+        "Rank":127,
         "Player":"Juraj Strgar",
         "Total Score":"218.45",
         "12x7 & Hrvatskih 100 - Best 5":"105.00",
@@ -2921,7 +2921,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"128.00",
+        "Rank":128,
         "Player":"Marin Vučić",
         "Total Score":"216.58",
         "12x7 & Hrvatskih 100 - Best 5":"131.45",
@@ -2944,7 +2944,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"129.00",
+        "Rank":129,
         "Player":"Slobodan Pavlović",
         "Total Score":"211.77",
         "12x7 & Hrvatskih 100 - Best 5":"97.15",
@@ -2967,7 +2967,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"130.00",
+        "Rank":130,
         "Player":"Dino Milić-Jakovlić",
         "Total Score":"211.63",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -2990,7 +2990,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"131.00",
+        "Rank":131,
         "Player":"Boris Rauš",
         "Total Score":"211.51",
         "12x7 & Hrvatskih 100 - Best 5":"113.64",
@@ -3013,7 +3013,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"132.00",
+        "Rank":132,
         "Player":"Duje Ahmetović",
         "Total Score":"211.39",
         "12x7 & Hrvatskih 100 - Best 5":"70.71",
@@ -3036,7 +3036,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"133.00",
+        "Rank":133,
         "Player":"Lovro Marinović",
         "Total Score":"205.75",
         "12x7 & Hrvatskih 100 - Best 5":"75.15",
@@ -3059,7 +3059,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"134.00",
+        "Rank":134,
         "Player":"Filip Stevanović",
         "Total Score":"194.12",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3082,7 +3082,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"135.00",
+        "Rank":135,
         "Player":"Duško Lakić",
         "Total Score":"190.85",
         "12x7 & Hrvatskih 100 - Best 5":"61.54",
@@ -3105,7 +3105,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"136.00",
+        "Rank":136,
         "Player":"Ivica Loina",
         "Total Score":"184.93",
         "12x7 & Hrvatskih 100 - Best 5":"102.17",
@@ -3128,7 +3128,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"137.00",
+        "Rank":137,
         "Player":"Mislav Čagalj",
         "Total Score":"181.88",
         "12x7 & Hrvatskih 100 - Best 5":"55.68",
@@ -3151,7 +3151,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"138.00",
+        "Rank":138,
         "Player":"Karlo Sokol",
         "Total Score":"179.01",
         "12x7 & Hrvatskih 100 - Best 5":"91.08",
@@ -3174,7 +3174,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"139.00",
+        "Rank":139,
         "Player":"Dorjana Širola",
         "Total Score":"175.89",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3197,7 +3197,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"140.00",
+        "Rank":140,
         "Player":"Gvido Piasevoli",
         "Total Score":"173.46",
         "12x7 & Hrvatskih 100 - Best 5":"42.42",
@@ -3220,7 +3220,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"141.00",
+        "Rank":141,
         "Player":"Petar Bratulić",
         "Total Score":"168.59",
         "12x7 & Hrvatskih 100 - Best 5":"50.46",
@@ -3243,7 +3243,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"142.00",
+        "Rank":142,
         "Player":"Mario Krnić",
         "Total Score":"168.13",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3266,7 +3266,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"143.00",
+        "Rank":143,
         "Player":"Patrik Krpan",
         "Total Score":"167.02",
         "12x7 & Hrvatskih 100 - Best 5":"167.02",
@@ -3289,7 +3289,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"144.00",
+        "Rank":144,
         "Player":"Ivana Kokor",
         "Total Score":"166.69",
         "12x7 & Hrvatskih 100 - Best 5":"166.69",
@@ -3312,7 +3312,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"145.00",
+        "Rank":145,
         "Player":"Filip Brcko",
         "Total Score":"164.67",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3335,7 +3335,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"146.00",
+        "Rank":146,
         "Player":"Ivan Sikirica",
         "Total Score":"164.43",
         "12x7 & Hrvatskih 100 - Best 5":"68.74",
@@ -3358,7 +3358,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"147.00",
+        "Rank":147,
         "Player":"Mislav Maldini",
         "Total Score":"161.28",
         "12x7 & Hrvatskih 100 - Best 5":"53.95",
@@ -3381,7 +3381,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"148.00",
+        "Rank":148,
         "Player":"Ivan Gržetić",
         "Total Score":"160.09",
         "12x7 & Hrvatskih 100 - Best 5":"61.82",
@@ -3404,7 +3404,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"149.00",
+        "Rank":149,
         "Player":"Martin Radelja",
         "Total Score":"158.56",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3427,7 +3427,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"150.00",
+        "Rank":150,
         "Player":"Gojko Prusina",
         "Total Score":"157.85",
         "12x7 & Hrvatskih 100 - Best 5":"53.79",
@@ -3450,7 +3450,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"151.00",
+        "Rank":151,
         "Player":"Jure Curać",
         "Total Score":"154.64",
         "12x7 & Hrvatskih 100 - Best 5":"154.64",
@@ -3473,7 +3473,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"152.00",
+        "Rank":152,
         "Player":"Jurica Lojzek",
         "Total Score":"153.22",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3496,7 +3496,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"153.00",
+        "Rank":153,
         "Player":"Tanja Gradečak",
         "Total Score":"152.89",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3519,7 +3519,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"154.00",
+        "Rank":154,
         "Player":"Antonio Šnajder",
         "Total Score":"148.62",
         "12x7 & Hrvatskih 100 - Best 5":"40.00",
@@ -3542,7 +3542,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"155.00",
+        "Rank":155,
         "Player":"Jelena Šumanovac",
         "Total Score":"147.58",
         "12x7 & Hrvatskih 100 - Best 5":"74.40",
@@ -3565,7 +3565,7 @@
         "Austrian Open 2024":"73.17"
     },
     {
-        "Rank":"156.00",
+        "Rank":156,
         "Player":"Dragan Gulam",
         "Total Score":"147.41",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3588,7 +3588,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"157.00",
+        "Rank":157,
         "Player":"Ana Pašalić",
         "Total Score":"145.70",
         "12x7 & Hrvatskih 100 - Best 5":"48.89",
@@ -3611,7 +3611,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"158.00",
+        "Rank":158,
         "Player":"Davorin Benković",
         "Total Score":"142.69",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3634,7 +3634,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"159.00",
+        "Rank":159,
         "Player":"Ivor Čevapović",
         "Total Score":"139.83",
         "12x7 & Hrvatskih 100 - Best 5":"47.27",
@@ -3657,7 +3657,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"160.00",
+        "Rank":160,
         "Player":"Fabijan Čorak",
         "Total Score":"138.36",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3680,7 +3680,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"161.00",
+        "Rank":161,
         "Player":"Nikola Tafra",
         "Total Score":"134.21",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3703,7 +3703,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"162.00",
+        "Rank":162,
         "Player":"Kazimir Balog",
         "Total Score":"129.40",
         "12x7 & Hrvatskih 100 - Best 5":"129.40",
@@ -3726,7 +3726,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"163.00",
+        "Rank":163,
         "Player":"Silvija Iva Miličević",
         "Total Score":"127.49",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3749,7 +3749,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"164.00",
+        "Rank":164,
         "Player":"Ivan Andonov",
         "Total Score":"126.72",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3772,7 +3772,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"165.00",
+        "Rank":165,
         "Player":"Ivan Žderić",
         "Total Score":"124.14",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3795,7 +3795,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"166.00",
+        "Rank":166,
         "Player":"Roko Sven Surać",
         "Total Score":"122.84",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3818,7 +3818,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"167.00",
+        "Rank":167,
         "Player":"Siniša Blagojević",
         "Total Score":"122.26",
         "12x7 & Hrvatskih 100 - Best 5":"61.06",
@@ -3841,7 +3841,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"168.00",
+        "Rank":168,
         "Player":"Dominik Grivac",
         "Total Score":"122.01",
         "12x7 & Hrvatskih 100 - Best 5":"55.34",
@@ -3864,7 +3864,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"169.00",
+        "Rank":169,
         "Player":"Sara Lukač",
         "Total Score":"121.55",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3887,7 +3887,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"170.00",
+        "Rank":170,
         "Player":"Valter Gross",
         "Total Score":"121.49",
         "12x7 & Hrvatskih 100 - Best 5":"68.47",
@@ -3910,7 +3910,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"171.00",
+        "Rank":171,
         "Player":"Prakhar Gupta",
         "Total Score":"120.26",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3933,7 +3933,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"172.00",
+        "Rank":172,
         "Player":"Petar Trpeza",
         "Total Score":"120.21",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -3956,7 +3956,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"173.00",
+        "Rank":173,
         "Player":"Stjepan Jelovac",
         "Total Score":"120.07",
         "12x7 & Hrvatskih 100 - Best 5":"35.86",
@@ -3979,7 +3979,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"174.00",
+        "Rank":174,
         "Player":"Zvonimir Batarilo",
         "Total Score":"119.15",
         "12x7 & Hrvatskih 100 - Best 5":"119.15",
@@ -4002,7 +4002,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"175.00",
+        "Rank":175,
         "Player":"Mateo Seferi",
         "Total Score":"116.09",
         "12x7 & Hrvatskih 100 - Best 5":"37.21",
@@ -4025,7 +4025,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"176.00",
+        "Rank":176,
         "Player":"Branimir Šegović",
         "Total Score":"115.46",
         "12x7 & Hrvatskih 100 - Best 5":"52.09",
@@ -4048,7 +4048,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"177.00",
+        "Rank":177,
         "Player":"Aleksandar Drača",
         "Total Score":"115.36",
         "12x7 & Hrvatskih 100 - Best 5":"37.78",
@@ -4071,7 +4071,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"178.00",
+        "Rank":178,
         "Player":"Stefan Grnčarski",
         "Total Score":"113.79",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4094,7 +4094,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"179.00",
+        "Rank":179,
         "Player":"Mario Dominković",
         "Total Score":"112.48",
         "12x7 & Hrvatskih 100 - Best 5":"34.46",
@@ -4117,7 +4117,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"180.00",
+        "Rank":180,
         "Player":"Jurica Vuco",
         "Total Score":"111.50",
         "12x7 & Hrvatskih 100 - Best 5":"45.56",
@@ -4140,7 +4140,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"181.00",
+        "Rank":181,
         "Player":"Karlo Lugomer",
         "Total Score":"111.21",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4163,7 +4163,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"182.00",
+        "Rank":182,
         "Player":"Dušan Torbica",
         "Total Score":"111.21",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4186,7 +4186,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"183.00",
+        "Rank":183,
         "Player":"Petar Đapić",
         "Total Score":"110.96",
         "12x7 & Hrvatskih 100 - Best 5":"73.46",
@@ -4209,7 +4209,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"184.00",
+        "Rank":184,
         "Player":"Dino Vodopija",
         "Total Score":"110.48",
         "12x7 & Hrvatskih 100 - Best 5":"34.46",
@@ -4232,7 +4232,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"185.00",
+        "Rank":185,
         "Player":"Sandro Jovanović",
         "Total Score":"110.26",
         "12x7 & Hrvatskih 100 - Best 5":"44.31",
@@ -4255,7 +4255,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"186.00",
+        "Rank":186,
         "Player":"Ana Kolobarić",
         "Total Score":"107.33",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4278,7 +4278,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"187.00",
+        "Rank":187,
         "Player":"Bojan Goja",
         "Total Score":"106.36",
         "12x7 & Hrvatskih 100 - Best 5":"106.36",
@@ -4301,7 +4301,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"188.00",
+        "Rank":188,
         "Player":"Ivan Covic",
         "Total Score":"106.03",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4324,7 +4324,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"189.00",
+        "Rank":189,
         "Player":"Robert Lojpur",
         "Total Score":"105.99",
         "12x7 & Hrvatskih 100 - Best 5":"105.99",
@@ -4347,7 +4347,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"190.00",
+        "Rank":190,
         "Player":"Bruno Brodarić",
         "Total Score":"104.74",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4370,7 +4370,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"191.00",
+        "Rank":191,
         "Player":"Leira Harabalja",
         "Total Score":"102.61",
         "12x7 & Hrvatskih 100 - Best 5":"44.85",
@@ -4393,7 +4393,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"192.00",
+        "Rank":192,
         "Player":"Dominik Hrestak",
         "Total Score":"102.16",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4416,7 +4416,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"193.00",
+        "Rank":193,
         "Player":"Lukša Benić",
         "Total Score":"102.16",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4439,7 +4439,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"194.00",
+        "Rank":194,
         "Player":"Darko Laklija",
         "Total Score":"102.16",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4462,7 +4462,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"195.00",
+        "Rank":195,
         "Player":"Filip Drezgić",
         "Total Score":"102.16",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4485,7 +4485,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"196.00",
+        "Rank":196,
         "Player":"Goran Milić",
         "Total Score":"100.71",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4508,7 +4508,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"197.00",
+        "Rank":197,
         "Player":"Damir Prpić",
         "Total Score":"99.57",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4531,7 +4531,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"198.00",
+        "Rank":198,
         "Player":"Vedran Rončević",
         "Total Score":"99.57",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4554,7 +4554,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"199.00",
+        "Rank":199,
         "Player":"Karlo Martinek",
         "Total Score":"99.29",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4577,7 +4577,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"200.00",
+        "Rank":200,
         "Player":"Goran Đaković",
         "Total Score":"98.49",
         "12x7 & Hrvatskih 100 - Best 5":"58.77",
@@ -4600,7 +4600,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"201.00",
+        "Rank":201,
         "Player":"Mihael Hibler",
         "Total Score":"98.27",
         "12x7 & Hrvatskih 100 - Best 5":"98.27",
@@ -4623,7 +4623,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"202.00",
+        "Rank":202,
         "Player":"Stipe Vukšić",
         "Total Score":"96.98",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4646,7 +4646,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"203.00",
+        "Rank":203,
         "Player":"Marul Kuljiš",
         "Total Score":"95.69",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4669,7 +4669,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"204.00",
+        "Rank":204,
         "Player":"Franjo Falak",
         "Total Score":"95.69",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4692,7 +4692,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"205.00",
+        "Rank":205,
         "Player":"Barislav Poaprić",
         "Total Score":"95.17",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4715,7 +4715,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"206.00",
+        "Rank":206,
         "Player":"Nikola Delić",
         "Total Score":"95.15",
         "12x7 & Hrvatskih 100 - Best 5":"95.15",
@@ -4738,7 +4738,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"207.00",
+        "Rank":207,
         "Player":"Igor Zenzerović",
         "Total Score":"94.95",
         "12x7 & Hrvatskih 100 - Best 5":"94.95",
@@ -4761,7 +4761,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"208.00",
+        "Rank":208,
         "Player":"Mate Ćubić",
         "Total Score":"94.40",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4784,7 +4784,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"209.00",
+        "Rank":209,
         "Player":"Leonard Stojkov",
         "Total Score":"93.10",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4807,7 +4807,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"210.00",
+        "Rank":210,
         "Player":"Želimir Periš",
         "Total Score":"92.40",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4830,7 +4830,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"211.00",
+        "Rank":211,
         "Player":"Sanja Pavlović",
         "Total Score":"91.87",
         "12x7 & Hrvatskih 100 - Best 5":"91.87",
@@ -4853,7 +4853,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"212.00",
+        "Rank":212,
         "Player":"Mislav Blagaić",
         "Total Score":"91.21",
         "12x7 & Hrvatskih 100 - Best 5":"91.21",
@@ -4876,7 +4876,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"213.00",
+        "Rank":213,
         "Player":"Marija Rađa",
         "Total Score":"89.22",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4899,7 +4899,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"214.00",
+        "Rank":214,
         "Player":"Tino Neveščanin",
         "Total Score":"88.97",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4922,7 +4922,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"215.00",
+        "Rank":215,
         "Player":"Marijan Pandžić",
         "Total Score":"88.45",
         "12x7 & Hrvatskih 100 - Best 5":"28.97",
@@ -4945,7 +4945,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"216.00",
+        "Rank":216,
         "Player":"Vladimir Dadić",
         "Total Score":"87.93",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4968,7 +4968,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"217.00",
+        "Rank":217,
         "Player":"Ivan Požežanac-Hajić",
         "Total Score":"87.93",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -4991,7 +4991,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"218.00",
+        "Rank":218,
         "Player":"Saša Lenuzzi",
         "Total Score":"86.77",
         "12x7 & Hrvatskih 100 - Best 5":"86.77",
@@ -5014,7 +5014,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"219.00",
+        "Rank":219,
         "Player":"Slobodan Pavlovic",
         "Total Score":"86.64",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5037,7 +5037,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"220.00",
+        "Rank":220,
         "Player":"Dejan Cerovec",
         "Total Score":"86.64",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5060,7 +5060,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"221.00",
+        "Rank":221,
         "Player":"Milan Kantor",
         "Total Score":"86.64",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5083,7 +5083,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"222.00",
+        "Rank":222,
         "Player":"Lovro Dijanović",
         "Total Score":"86.59",
         "12x7 & Hrvatskih 100 - Best 5":"34.46",
@@ -5106,7 +5106,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"223.00",
+        "Rank":223,
         "Player":"Mario Kovač",
         "Total Score":"85.34",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5129,7 +5129,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"224.00",
+        "Rank":224,
         "Player":"Martin Majcenović",
         "Total Score":"84.94",
         "12x7 & Hrvatskih 100 - Best 5":"47.44",
@@ -5152,7 +5152,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"225.00",
+        "Rank":225,
         "Player":"Antun Akšamović",
         "Total Score":"84.05",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5175,7 +5175,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"226.00",
+        "Rank":226,
         "Player":"Ljerka Karleuša Mujkić",
         "Total Score":"84.05",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5198,7 +5198,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"227.00",
+        "Rank":227,
         "Player":"Lovro Kostur",
         "Total Score":"83.79",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5221,7 +5221,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"228.00",
+        "Rank":228,
         "Player":"Ivan Barić",
         "Total Score":"83.69",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5244,7 +5244,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"229.00",
+        "Rank":229,
         "Player":"Ivan Brnan",
         "Total Score":"83.04",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5267,7 +5267,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"230.00",
+        "Rank":230,
         "Player":"Patrik Đivić",
         "Total Score":"82.27",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5290,7 +5290,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"231.00",
+        "Rank":231,
         "Player":"Valter Kvalić",
         "Total Score":"80.85",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5313,7 +5313,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"232.00",
+        "Rank":232,
         "Player":"Ivan Radun",
         "Total Score":"80.17",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5336,7 +5336,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"233.00",
+        "Rank":233,
         "Player":"Filip Vinković",
         "Total Score":"80.17",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5359,7 +5359,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"234.00",
+        "Rank":234,
         "Player":"Krste Gašperov",
         "Total Score":"80.17",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5382,7 +5382,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"235.00",
+        "Rank":235,
         "Player":"Tvrtko Aščić",
         "Total Score":"79.43",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5405,7 +5405,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"236.00",
+        "Rank":236,
         "Player":"Toni Poparić",
         "Total Score":"79.43",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5428,7 +5428,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"237.00",
+        "Rank":237,
         "Player":"Filip Paštelek",
         "Total Score":"78.88",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5451,7 +5451,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"238.00",
+        "Rank":238,
         "Player":"Uroš Milurović",
         "Total Score":"77.59",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5474,7 +5474,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"239.00",
+        "Rank":239,
         "Player":"Boris Bjedov",
         "Total Score":"77.59",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5497,7 +5497,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"240.00",
+        "Rank":240,
         "Player":"Antonio Grgić",
         "Total Score":"76.60",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5520,7 +5520,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"241.00",
+        "Rank":241,
         "Player":"Jakov Kusić",
         "Total Score":"75.00",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5543,7 +5543,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"242.00",
+        "Rank":242,
         "Player":"Matko Kreber",
         "Total Score":"75.00",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5566,7 +5566,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"243.00",
+        "Rank":243,
         "Player":"Marko Lovrović",
         "Total Score":"74.85",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5589,7 +5589,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"244.00",
+        "Rank":244,
         "Player":"Božidar Marjanović",
         "Total Score":"74.32",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5612,7 +5612,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"245.00",
+        "Rank":245,
         "Player":"Vedran Kos",
         "Total Score":"73.71",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5635,7 +5635,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"246.00",
+        "Rank":246,
         "Player":"Ivan Nešković",
         "Total Score":"73.71",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5658,7 +5658,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"247.00",
+        "Rank":247,
         "Player":"Milan Gajišin",
         "Total Score":"73.71",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5681,7 +5681,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"248.00",
+        "Rank":248,
         "Player":"Stjepan Ćorić",
         "Total Score":"72.97",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5704,7 +5704,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"249.00",
+        "Rank":249,
         "Player":"Matko Dujmovic",
         "Total Score":"72.41",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5727,7 +5727,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"250.00",
+        "Rank":250,
         "Player":"Jurica Picak",
         "Total Score":"72.41",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5750,7 +5750,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"251.00",
+        "Rank":251,
         "Player":"Kristian Bešker",
         "Total Score":"72.41",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5773,7 +5773,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"252.00",
+        "Rank":252,
         "Player":"Vlado Ribičić",
         "Total Score":"72.34",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5796,7 +5796,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"253.00",
+        "Rank":253,
         "Player":"Ivan Kardum",
         "Total Score":"72.34",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5819,7 +5819,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"254.00",
+        "Rank":254,
         "Player":"Marijo Mandić",
         "Total Score":"71.12",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5842,7 +5842,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"255.00",
+        "Rank":255,
         "Player":"Bernard Grubišić",
         "Total Score":"70.92",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5865,7 +5865,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"256.00",
+        "Rank":256,
         "Player":"Hrvoje Ðurak",
         "Total Score":"70.92",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5888,7 +5888,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"257.00",
+        "Rank":257,
         "Player":"Marin Petrović",
         "Total Score":"69.83",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5911,7 +5911,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"258.00",
+        "Rank":258,
         "Player":"Filip Kopecki",
         "Total Score":"69.83",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5934,7 +5934,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"259.00",
+        "Rank":259,
         "Player":"Arandjel Smiljanic",
         "Total Score":"69.83",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5957,7 +5957,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"260.00",
+        "Rank":260,
         "Player":"Filip Skalja",
         "Total Score":"69.34",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -5980,7 +5980,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"261.00",
+        "Rank":261,
         "Player":"Christian Andrić",
         "Total Score":"69.16",
         "12x7 & Hrvatskih 100 - Best 5":"27.78",
@@ -6003,7 +6003,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"262.00",
+        "Rank":262,
         "Player":"Tomislav Jurić",
         "Total Score":"68.05",
         "12x7 & Hrvatskih 100 - Best 5":"26.67",
@@ -6026,7 +6026,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"263.00",
+        "Rank":263,
         "Player":"Filip Seferi",
         "Total Score":"67.24",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6049,7 +6049,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"264.00",
+        "Rank":264,
         "Player":"Zvonimir Kasalo",
         "Total Score":"65.96",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6072,7 +6072,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"265.00",
+        "Rank":265,
         "Player":"Maja Pavlinić",
         "Total Score":"65.95",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6095,7 +6095,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"266.00",
+        "Rank":266,
         "Player":"Marina Maretić",
         "Total Score":"65.12",
         "12x7 & Hrvatskih 100 - Best 5":"65.12",
@@ -6118,7 +6118,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"267.00",
+        "Rank":267,
         "Player":"Jure Čović",
         "Total Score":"64.89",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6141,7 +6141,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"268.00",
+        "Rank":268,
         "Player":"Marino Polić",
         "Total Score":"64.66",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6164,7 +6164,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"269.00",
+        "Rank":269,
         "Player":"Ivan Svalina",
         "Total Score":"64.66",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6187,7 +6187,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"270.00",
+        "Rank":270,
         "Player":"Mateo Marković",
         "Total Score":"63.16",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6210,7 +6210,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"271.00",
+        "Rank":271,
         "Player":"Marijan Lipovac",
         "Total Score":"62.33",
         "12x7 & Hrvatskih 100 - Best 5":"62.33",
@@ -6233,7 +6233,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"272.00",
+        "Rank":272,
         "Player":"Mislav Ivankovic",
         "Total Score":"62.07",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6256,7 +6256,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"273.00",
+        "Rank":273,
         "Player":"Kruno Valentić",
         "Total Score":"61.40",
         "12x7 & Hrvatskih 100 - Best 5":"61.40",
@@ -6279,7 +6279,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"274.00",
+        "Rank":274,
         "Player":"Nikola Vasić",
         "Total Score":"61.11",
         "12x7 & Hrvatskih 100 - Best 5":"61.11",
@@ -6302,7 +6302,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"275.00",
+        "Rank":275,
         "Player":"Josipa Palajsa",
         "Total Score":"60.99",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6325,7 +6325,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"276.00",
+        "Rank":276,
         "Player":"Tomislav Belošić",
         "Total Score":"60.94",
         "12x7 & Hrvatskih 100 - Best 5":"60.94",
@@ -6348,7 +6348,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"277.00",
+        "Rank":277,
         "Player":"Jerko Oreč",
         "Total Score":"59.57",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6371,7 +6371,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"278.00",
+        "Rank":278,
         "Player":"Silva Šiftar",
         "Total Score":"59.57",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6394,7 +6394,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"279.00",
+        "Rank":279,
         "Player":"Boris Delipetar",
         "Total Score":"59.53",
         "12x7 & Hrvatskih 100 - Best 5":"59.53",
@@ -6417,7 +6417,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"280.00",
+        "Rank":280,
         "Player":"Ivan Skorić",
         "Total Score":"59.48",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6440,7 +6440,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"281.00",
+        "Rank":281,
         "Player":"Paško Majcenović",
         "Total Score":"59.48",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6463,7 +6463,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"282.00",
+        "Rank":282,
         "Player":"Romano Pecotić",
         "Total Score":"59.19",
         "12x7 & Hrvatskih 100 - Best 5":"59.19",
@@ -6486,7 +6486,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"283.00",
+        "Rank":283,
         "Player":"Domagoj Boroš",
         "Total Score":"58.19",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6509,7 +6509,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"284.00",
+        "Rank":284,
         "Player":"Marko Mesiček",
         "Total Score":"58.16",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6532,7 +6532,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"285.00",
+        "Rank":285,
         "Player":"Sven Marcelić",
         "Total Score":"57.67",
         "12x7 & Hrvatskih 100 - Best 5":"57.67",
@@ -6555,7 +6555,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"286.00",
+        "Rank":286,
         "Player":"Nikola Philipp",
         "Total Score":"56.90",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6578,7 +6578,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"287.00",
+        "Rank":287,
         "Player":"Dario Galinec",
         "Total Score":"56.90",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6601,7 +6601,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"288.00",
+        "Rank":288,
         "Player":"David Koprek",
         "Total Score":"56.90",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6624,7 +6624,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"289.00",
+        "Rank":289,
         "Player":"Branko Bešenić",
         "Total Score":"56.90",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6647,7 +6647,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"290.00",
+        "Rank":290,
         "Player":"Borna Škrlec",
         "Total Score":"55.76",
         "12x7 & Hrvatskih 100 - Best 5":"55.76",
@@ -6670,7 +6670,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"291.00",
+        "Rank":291,
         "Player":"Marko Mandarić",
         "Total Score":"55.60",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6693,7 +6693,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"292.00",
+        "Rank":292,
         "Player":"Ozren Naglav",
         "Total Score":"55.60",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6716,7 +6716,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"293.00",
+        "Rank":293,
         "Player":"Tomo Skeleta",
         "Total Score":"54.88",
         "12x7 & Hrvatskih 100 - Best 5":"54.88",
@@ -6739,7 +6739,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"294.00",
+        "Rank":294,
         "Player":"Tomislav Pavlak",
         "Total Score":"54.55",
         "12x7 & Hrvatskih 100 - Best 5":"54.55",
@@ -6762,7 +6762,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"295.00",
+        "Rank":295,
         "Player":"Željko Pavlović",
         "Total Score":"54.31",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6785,7 +6785,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"296.00",
+        "Rank":296,
         "Player":"Ivan Horvat",
         "Total Score":"54.31",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6808,7 +6808,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"297.00",
+        "Rank":297,
         "Player":"Snježana Bunčić",
         "Total Score":"53.95",
         "12x7 & Hrvatskih 100 - Best 5":"53.95",
@@ -6831,7 +6831,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"298.00",
+        "Rank":298,
         "Player":"Bartol Periš",
         "Total Score":"53.80",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6854,7 +6854,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"299.00",
+        "Rank":299,
         "Player":"Ante Živković",
         "Total Score":"53.02",
         "12x7 & Hrvatskih 100 - Best 5":"53.02",
@@ -6877,7 +6877,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"300.00",
+        "Rank":300,
         "Player":"Karolina Jevicki Vuco",
         "Total Score":"53.02",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6900,7 +6900,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"301.00",
+        "Rank":301,
         "Player":"Marko Glibušić",
         "Total Score":"52.22",
         "12x7 & Hrvatskih 100 - Best 5":"52.22",
@@ -6923,7 +6923,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"302.00",
+        "Rank":302,
         "Player":"Matija Kaučić",
         "Total Score":"51.72",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -6946,7 +6946,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"303.00",
+        "Rank":303,
         "Player":"Darinka Pisac",
         "Total Score":"51.32",
         "12x7 & Hrvatskih 100 - Best 5":"51.32",
@@ -6969,7 +6969,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"304.00",
+        "Rank":304,
         "Player":"Andrea Stanković",
         "Total Score":"50.91",
         "12x7 & Hrvatskih 100 - Best 5":"50.91",
@@ -6992,7 +6992,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"305.00",
+        "Rank":305,
         "Player":"Mihovil Parčina",
         "Total Score":"50.46",
         "12x7 & Hrvatskih 100 - Best 5":"50.46",
@@ -7015,7 +7015,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"306.00",
+        "Rank":306,
         "Player":"Bruno Grbavac",
         "Total Score":"50.43",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7038,7 +7038,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"307.00",
+        "Rank":307,
         "Player":"Srđan Bilić",
         "Total Score":"50.43",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7061,7 +7061,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"308.00",
+        "Rank":308,
         "Player":"Gordan Branković",
         "Total Score":"50.43",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7084,7 +7084,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"309.00",
+        "Rank":309,
         "Player":"Matej Škara",
         "Total Score":"49.43",
         "12x7 & Hrvatskih 100 - Best 5":"19.69",
@@ -7107,7 +7107,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"310.00",
+        "Rank":310,
         "Player":"Branimir Renje",
         "Total Score":"49.23",
         "12x7 & Hrvatskih 100 - Best 5":"49.23",
@@ -7130,7 +7130,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"311.00",
+        "Rank":311,
         "Player":"Goran Djaković",
         "Total Score":"49.14",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7153,7 +7153,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"312.00",
+        "Rank":312,
         "Player":"Dunja Galinec",
         "Total Score":"49.14",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7176,7 +7176,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"313.00",
+        "Rank":313,
         "Player":"Damir Boroš",
         "Total Score":"49.14",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7199,7 +7199,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"314.00",
+        "Rank":314,
         "Player":"Ante Varvoda",
         "Total Score":"49.14",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7222,7 +7222,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"315.00",
+        "Rank":315,
         "Player":"Dijana Volkmer Krajina",
         "Total Score":"48.69",
         "12x7 & Hrvatskih 100 - Best 5":"48.69",
@@ -7245,7 +7245,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"316.00",
+        "Rank":316,
         "Player":"Domagoj Kardum",
         "Total Score":"48.37",
         "12x7 & Hrvatskih 100 - Best 5":"48.37",
@@ -7268,7 +7268,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"317.00",
+        "Rank":317,
         "Player":"Tunjo Džijan",
         "Total Score":"48.23",
         "12x7 & Hrvatskih 100 - Best 5":"48.23",
@@ -7291,7 +7291,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"318.00",
+        "Rank":318,
         "Player":"Matko Dujmović",
         "Total Score":"47.46",
         "12x7 & Hrvatskih 100 - Best 5":"47.46",
@@ -7314,7 +7314,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"319.00",
+        "Rank":319,
         "Player":"Marinko Uremović",
         "Total Score":"46.67",
         "12x7 & Hrvatskih 100 - Best 5":"46.67",
@@ -7337,7 +7337,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"320.00",
+        "Rank":320,
         "Player":"Tomislav Kralj",
         "Total Score":"46.55",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7360,7 +7360,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"321.00",
+        "Rank":321,
         "Player":"Filip Novosel",
         "Total Score":"46.15",
         "12x7 & Hrvatskih 100 - Best 5":"46.15",
@@ -7383,7 +7383,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"322.00",
+        "Rank":322,
         "Player":"Jasmin Mikolčević",
         "Total Score":"46.10",
         "12x7 & Hrvatskih 100 - Best 5":"46.10",
@@ -7406,7 +7406,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"323.00",
+        "Rank":323,
         "Player":"Josip Filipović",
         "Total Score":"45.58",
         "12x7 & Hrvatskih 100 - Best 5":"45.58",
@@ -7429,7 +7429,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"324.00",
+        "Rank":324,
         "Player":"Sara Božić",
         "Total Score":"45.56",
         "12x7 & Hrvatskih 100 - Best 5":"45.56",
@@ -7452,7 +7452,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"325.00",
+        "Rank":325,
         "Player":"Matej Simić",
         "Total Score":"45.26",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7475,7 +7475,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"326.00",
+        "Rank":326,
         "Player":"Karlo Biličić",
         "Total Score":"45.26",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7498,7 +7498,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"327.00",
+        "Rank":327,
         "Player":"Marija Anušić",
         "Total Score":"44.65",
         "12x7 & Hrvatskih 100 - Best 5":"44.65",
@@ -7521,7 +7521,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"328.00",
+        "Rank":328,
         "Player":"Velko Grbin",
         "Total Score":"44.62",
         "12x7 & Hrvatskih 100 - Best 5":"44.62",
@@ -7544,7 +7544,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"329.00",
+        "Rank":329,
         "Player":"Marko Galić",
         "Total Score":"44.62",
         "12x7 & Hrvatskih 100 - Best 5":"44.62",
@@ -7567,7 +7567,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"330.00",
+        "Rank":330,
         "Player":"Mario Kauka",
         "Total Score":"43.64",
         "12x7 & Hrvatskih 100 - Best 5":"43.64",
@@ -7590,7 +7590,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"331.00",
+        "Rank":331,
         "Player":"Antonio Šalov",
         "Total Score":"43.08",
         "12x7 & Hrvatskih 100 - Best 5":"43.08",
@@ -7613,7 +7613,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"332.00",
+        "Rank":332,
         "Player":"Boris Gajić",
         "Total Score":"42.79",
         "12x7 & Hrvatskih 100 - Best 5":"42.79",
@@ -7636,7 +7636,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"333.00",
+        "Rank":333,
         "Player":"Zoran Lendić",
         "Total Score":"42.22",
         "12x7 & Hrvatskih 100 - Best 5":"42.22",
@@ -7659,7 +7659,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"334.00",
+        "Rank":334,
         "Player":"Danijel Kovačević",
         "Total Score":"42.22",
         "12x7 & Hrvatskih 100 - Best 5":"42.22",
@@ -7682,7 +7682,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"335.00",
+        "Rank":335,
         "Player":"Boris Bralo",
         "Total Score":"41.85",
         "12x7 & Hrvatskih 100 - Best 5":"41.85",
@@ -7705,7 +7705,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"336.00",
+        "Rank":336,
         "Player":"Barisalav Poparić",
         "Total Score":"41.85",
         "12x7 & Hrvatskih 100 - Best 5":"41.85",
@@ -7728,7 +7728,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"337.00",
+        "Rank":337,
         "Player":"Ivan Guć",
         "Total Score":"41.26",
         "12x7 & Hrvatskih 100 - Best 5":"41.26",
@@ -7751,7 +7751,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"338.00",
+        "Rank":338,
         "Player":"Ivan Žmak",
         "Total Score":"40.68",
         "12x7 & Hrvatskih 100 - Best 5":"40.68",
@@ -7774,7 +7774,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"339.00",
+        "Rank":339,
         "Player":"Antonio Franović",
         "Total Score":"40.62",
         "12x7 & Hrvatskih 100 - Best 5":"40.62",
@@ -7797,7 +7797,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"340.00",
+        "Rank":340,
         "Player":"Mirko Tatarević",
         "Total Score":"40.34",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7820,7 +7820,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"341.00",
+        "Rank":341,
         "Player":"Mate Piškor",
         "Total Score":"40.09",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7843,7 +7843,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"342.00",
+        "Rank":342,
         "Player":"Miroslav Klen",
         "Total Score":"40.00",
         "12x7 & Hrvatskih 100 - Best 5":"40.00",
@@ -7866,7 +7866,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"343.00",
+        "Rank":343,
         "Player":"Ivan Salečić",
         "Total Score":"40.00",
         "12x7 & Hrvatskih 100 - Best 5":"40.00",
@@ -7889,7 +7889,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"344.00",
+        "Rank":344,
         "Player":"Miloš Rakita",
         "Total Score":"39.32",
         "12x7 & Hrvatskih 100 - Best 5":"39.32",
@@ -7912,7 +7912,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"345.00",
+        "Rank":345,
         "Player":"Mihael Mihelec",
         "Total Score":"38.79",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -7935,7 +7935,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"346.00",
+        "Rank":346,
         "Player":"Ivan Pelivan",
         "Total Score":"38.79",
         "12x7 & Hrvatskih 100 - Best 5":"38.79",
@@ -7958,7 +7958,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"347.00",
+        "Rank":347,
         "Player":"Darko Krpo",
         "Total Score":"38.46",
         "12x7 & Hrvatskih 100 - Best 5":"38.46",
@@ -7981,7 +7981,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"348.00",
+        "Rank":348,
         "Player":"Marijo Kauka",
         "Total Score":"37.97",
         "12x7 & Hrvatskih 100 - Best 5":"37.97",
@@ -8004,7 +8004,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"349.00",
+        "Rank":349,
         "Player":"Toni Favro",
         "Total Score":"36.97",
         "12x7 & Hrvatskih 100 - Best 5":"36.97",
@@ -8027,7 +8027,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"350.00",
+        "Rank":350,
         "Player":"Tin Cvitković",
         "Total Score":"36.28",
         "12x7 & Hrvatskih 100 - Best 5":"36.28",
@@ -8050,7 +8050,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"351.00",
+        "Rank":351,
         "Player":"Marko Bošnjaković",
         "Total Score":"35.69",
         "12x7 & Hrvatskih 100 - Best 5":"35.69",
@@ -8073,7 +8073,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"352.00",
+        "Rank":352,
         "Player":"Dominik Jadrić",
         "Total Score":"34.91",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -8096,7 +8096,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"353.00",
+        "Rank":353,
         "Player":"David Eđed",
         "Total Score":"34.42",
         "12x7 & Hrvatskih 100 - Best 5":"34.42",
@@ -8119,7 +8119,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"354.00",
+        "Rank":354,
         "Player":"Stefanija Klokočki",
         "Total Score":"34.37",
         "12x7 & Hrvatskih 100 - Best 5":"16.27",
@@ -8142,7 +8142,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"355.00",
+        "Rank":355,
         "Player":"Luka Rački",
         "Total Score":"33.90",
         "12x7 & Hrvatskih 100 - Best 5":"33.90",
@@ -8165,7 +8165,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"356.00",
+        "Rank":356,
         "Player":"Branko Sabljić",
         "Total Score":"33.49",
         "12x7 & Hrvatskih 100 - Best 5":"33.49",
@@ -8188,7 +8188,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"357.00",
+        "Rank":357,
         "Player":"Petar Bračić",
         "Total Score":"33.33",
         "12x7 & Hrvatskih 100 - Best 5":"33.33",
@@ -8211,7 +8211,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"358.00",
+        "Rank":358,
         "Player":"Samir Milla",
         "Total Score":"31.19",
         "12x7 & Hrvatskih 100 - Best 5":"31.19",
@@ -8234,7 +8234,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"359.00",
+        "Rank":359,
         "Player":"Damian Ključe",
         "Total Score":"31.03",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -8257,7 +8257,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"360.00",
+        "Rank":360,
         "Player":"Željka Barić",
         "Total Score":"31.03",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -8280,7 +8280,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"361.00",
+        "Rank":361,
         "Player":"Toni Zelić",
         "Total Score":"29.79",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -8303,7 +8303,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"362.00",
+        "Rank":362,
         "Player":"Matej Kurtak",
         "Total Score":"28.47",
         "12x7 & Hrvatskih 100 - Best 5":"28.47",
@@ -8326,7 +8326,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"363.00",
+        "Rank":363,
         "Player":"Ivan Telebar",
         "Total Score":"28.31",
         "12x7 & Hrvatskih 100 - Best 5":"28.31",
@@ -8349,7 +8349,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"364.00",
+        "Rank":364,
         "Player":"Jan Tomich",
         "Total Score":"27.12",
         "12x7 & Hrvatskih 100 - Best 5":"27.12",
@@ -8372,7 +8372,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"365.00",
+        "Rank":365,
         "Player":"Darka Pribudić",
         "Total Score":"26.67",
         "12x7 & Hrvatskih 100 - Best 5":"26.67",
@@ -8395,7 +8395,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"366.00",
+        "Rank":366,
         "Player":"Slaven Periškić",
         "Total Score":"26.67",
         "12x7 & Hrvatskih 100 - Best 5":"26.67",
@@ -8418,7 +8418,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"367.00",
+        "Rank":367,
         "Player":"Leon Debak",
         "Total Score":"25.53",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -8441,7 +8441,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"368.00",
+        "Rank":368,
         "Player":"Josip Paripović",
         "Total Score":"24.19",
         "12x7 & Hrvatskih 100 - Best 5":"24.19",
@@ -8464,7 +8464,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"369.00",
+        "Rank":369,
         "Player":"Andrej Tomić",
         "Total Score":"23.38",
         "12x7 & Hrvatskih 100 - Best 5":"23.38",
@@ -8487,7 +8487,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"370.00",
+        "Rank":370,
         "Player":"Nikša Mitrović",
         "Total Score":"23.28",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -8510,7 +8510,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"371.00",
+        "Rank":371,
         "Player":"Mario Novaković",
         "Total Score":"23.08",
         "12x7 & Hrvatskih 100 - Best 5":"23.08",
@@ -8533,7 +8533,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"372.00",
+        "Rank":372,
         "Player":"Matko Grošinić",
         "Total Score":"22.70",
         "12x7 & Hrvatskih 100 - Best 5":"0.00",
@@ -8556,7 +8556,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"373.00",
+        "Rank":373,
         "Player":"Josip Rubeša",
         "Total Score":"22.07",
         "12x7 & Hrvatskih 100 - Best 5":"22.07",
@@ -8579,7 +8579,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"374.00",
+        "Rank":374,
         "Player":"Marina Knapić",
         "Total Score":"21.69",
         "12x7 & Hrvatskih 100 - Best 5":"21.69",
@@ -8602,7 +8602,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"375.00",
+        "Rank":375,
         "Player":"Morana Cerin Domba",
         "Total Score":"17.63",
         "12x7 & Hrvatskih 100 - Best 5":"17.63",
@@ -8625,7 +8625,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"376.00",
+        "Rank":376,
         "Player":"Marina Rajsman",
         "Total Score":"16.97",
         "12x7 & Hrvatskih 100 - Best 5":"16.97",
@@ -8648,7 +8648,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"377.00",
+        "Rank":377,
         "Player":"Zoran Palavra",
         "Total Score":"16.27",
         "12x7 & Hrvatskih 100 - Best 5":"16.27",
@@ -8671,7 +8671,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"378.00",
+        "Rank":378,
         "Player":"Ivan Šestanović",
         "Total Score":"15.17",
         "12x7 & Hrvatskih 100 - Best 5":"15.17",
@@ -8694,7 +8694,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"379.00",
+        "Rank":379,
         "Player":"Olga Favro",
         "Total Score":"9.66",
         "12x7 & Hrvatskih 100 - Best 5":"9.66",
@@ -8717,7 +8717,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"380.00",
+        "Rank":380,
         "Player":"Jakov Prebanić",
         "Total Score":"8.37",
         "12x7 & Hrvatskih 100 - Best 5":"8.37",
@@ -8740,7 +8740,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"381.00",
+        "Rank":381,
         "Player":"Niko Karamarko",
         "Total Score":"5.58",
         "12x7 & Hrvatskih 100 - Best 5":"5.58",
@@ -8763,7 +8763,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"382.00",
+        "Rank":382,
         "Player":"Darija Janković",
         "Total Score":"5.52",
         "12x7 & Hrvatskih 100 - Best 5":"5.52",
@@ -8786,7 +8786,7 @@
         "Austrian Open 2024":"0.00"
     },
     {
-        "Rank":"383.00",
+        "Rank":383,
         "Player":"David Sosa",
         "Total Score":"4.65",
         "12x7 & Hrvatskih 100 - Best 5":"4.65",
