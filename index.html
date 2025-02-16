@@ -14,23 +14,22 @@
             color: #2935cf;
         }
         .container {
-            width: 100%;
-            overflow-x: auto; /* ✅ Enables horizontal scrolling */
-            position: relative;
+            width: 95%;
+            margin: 0 auto;
+            text-align: center;
         }
         table {
-            width: max-content; /* ✅ Prevents full-width stretching */
-            border-collapse: collapse;
+            width: auto;
             margin: 0 auto;
+            border-collapse: collapse;
+            table-layout: fixed;
         }
         th, td {
             border: 1px solid #ddd;
             padding: 6px 10px;
             text-align: center;
             overflow: hidden;
-            white-space: nowrap;
         }
-        /* ✅ Headers */
         th {
             background-color: #2935cf;
             color: white;
@@ -38,69 +37,16 @@
             padding: 8px 6px;
             font-size: 12px;
             line-height: 1.2;
-            white-space: normal;
+            white-space: normal; /* ✅ Allows wrapping */
         }
         .total-score {
-            background-color: #fe1a1a !important;
+            background-color: #fe1a1a;
             color: white;
             font-weight: bold;
         }
-        .rank-col {
-            background-color: #2935cf !important;
-            color: white;
-            font-weight: bold;
+        .hidden {
+            display: none;
         }
-        .player-col {
-            background-color: white !important;
-        }
-        .dropped {
-            font-style: italic;
-            color: #808080;
-        }
-        tr:nth-child(even) {
-            background-color: #F2F2F2;
-        }
-        tr:nth-child(odd) {
-            background-color: #FFFFFF;
-        }
-        .narrow {
-            width: 75px;
-        }
-        .wide-player {
-            width: 180px;
-            white-space: nowrap;
-        }
-
-        /* ✅ FREEZE First Three Columns */
-        th:nth-child(1), td:nth-child(1) { /* Rank */
-            position: sticky;
-            left: 0;
-            background-color: #2935cf !important;
-            color: white;
-            z-index: 2;
-        }
-        th:nth-child(2), td:nth-child(2) { /* Player */
-            position: sticky;
-            left: 50px;
-            background-color: white !important;
-            z-index: 2;
-        }
-        th:nth-child(3), td:nth-child(3) { /* Total Score */
-            position: sticky;
-            left: 230px;
-            background-color: #fe1a1a !important;
-            color: white;
-            z-index: 2;
-        }
-
-        /* ✅ Keep header above all */
-        thead th {
-            position: sticky;
-            top: 0;
-            z-index: 3;
-        }
-
-        /* ✅ Details Button */
         .toggle-btn {
             background-color: #2935cf;
             color: white;
@@ -113,6 +59,23 @@
         .toggle-btn:hover {
             background-color: #1e2ea1;
         }
+        .dropped {
+            font-style: italic;
+            color: #808080;
+        }
+        tr:nth-child(even) {
+            background-color: #F2F2F2;
+        }
+        tr:nth-child(odd) {
+            background-color: #FFFFFF;
+        }
+        .narrow {
+            width: 75px; /* ✅ All quiz columns are fixed-width */
+        }
+        .wide-player {
+            width: 180px; /* ✅ Ensures Player column stays wide */
+            white-space: nowrap; /* ✅ Prevents player names from wrapping */
+        }
     </style>
 </head>
 <body>
@@ -120,18 +83,16 @@
     <h1>HKS Rankings</h1>
     <button id="toggleButton" class="toggle-btn">Show Details</button>
 
-    <div class="container">
-        <table id="rankingsTable">
-            <thead>
-                <tr>
-                    <th class="narrow rank-col">Rank</th>
-                    <th class="wide-player player-col">Player</th>
-                    <th class="total-score narrow">Total Score</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
+    <table id="rankingsTable">
+        <thead>
+            <tr>
+                <th class="narrow">Rank</th>
+                <th class="wide-player">Player</th>
+                <th class="total-score narrow">Total Score</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
     <script>
         let detailsVisible = false;
@@ -147,8 +108,8 @@
             rankings.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td class="narrow rank-col">${player.Rank}</td>
-                    <td class="wide-player player-col">${player.Player}</td>
+                    <td class="narrow">${player.Rank}</td>
+                    <td class="wide-player">${player.Player}</td>
                     <td class="total-score narrow">${player["Total Score"]}</td>
                 `;
 
