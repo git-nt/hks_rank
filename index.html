@@ -22,29 +22,34 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             overflow: hidden;
-            font-size: 12px; /* Smaller text */
+            font-size: 12px;
         }
         th, td {
-            padding: 4px 6px; /* Small padding */
+            padding: 4px 6px;
             border: 1px solid #ddd;
             text-align: center;
-            line-height: 1.2; /* Reduce height */
+            line-height: 1.2;
         }
+        /* Header Styles */
         th {
             background-color: #135aa1;
             color: white;
             font-weight: bold;
         }
-        td:first-child, th:first-child {
+        th:first-child {
+            background: #0e447a !important;
+            color: white !important;
+        }
+        td:first-child {
             background: #e0eafc;
             font-weight: bold;
         }
         tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-        /* Highlight specific columns */
-        .total-score { background-color: #4CAF50; color: white; font-weight: bold; } /* Green */
-        .other-totals { background-color: #FFD700; font-weight: bold; } /* Yellow */
+        /* Polished Color Scheme */
+        .total-score { background-color: #5A9E5A; color: white; font-weight: bold; } /* Softer Green */
+        .other-totals { background-color: #E6B800; font-weight: bold; } /* Softer Gold */
     </style>
 </head>
 <body>
@@ -81,7 +86,13 @@
                     const row = document.createElement("tr");
                     headers.forEach(header => {
                         const td = document.createElement("td");
-                        td.textContent = rank[header];
+
+                        // Round all numbers to 2 decimals
+                        let value = rank[header];
+                        if (!isNaN(value)) {
+                            value = parseFloat(value).toFixed(2);
+                        }
+                        td.textContent = value;
 
                         // Apply color coding
                         if (header.includes("Total Score")) td.classList.add("total-score");
