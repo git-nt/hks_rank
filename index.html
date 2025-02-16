@@ -37,7 +37,7 @@
             padding: 8px 6px;
             font-size: 12px;
             line-height: 1.2;
-            white-space: normal; /* ✅ Allows wrapping */
+            white-space: normal;
         }
         .total-score {
             background-color: #fe1a1a;
@@ -59,6 +59,23 @@
         .toggle-btn:hover {
             background-color: #1e2ea1;
         }
+        .pagination {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .page-btn {
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 5px 10px;
+            color: black;
+        }
+        .page-btn:disabled {
+            color: gray;
+            cursor: not-allowed;
+        }
         .dropped {
             font-style: italic;
             color: #808080;
@@ -70,11 +87,11 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 75px; /* ✅ All quiz columns are fixed-width */
+            width: 75px;
         }
         .wide-player {
-            width: 180px; /* ✅ Ensures Player column stays wide */
-            white-space: nowrap; /* ✅ Prevents player names from wrapping */
+            width: 180px;
+            white-space: nowrap;
         }
     </style>
 </head>
@@ -94,18 +111,34 @@
         <tbody></tbody>
     </table>
 
+    <div class="pagination">
+        <button id="prevPage" class="page-btn" disabled>◀</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage" class="page-btn">▶</button>
+    </div>
+
     <script>
+        let rankingsData = [];
         let detailsVisible = false;
+        let currentPage = 1;
+        const playersPerPage = 20;
 
         async function loadRankings() {
             const response = await fetch('rankings.json');
-            const rankings = await response.json();
+            rankingsData = await response.json();
+            updateTable();
+        }
 
+        function updateTable() {
             const table = document.getElementById('rankingsTable');
             const tbody = table.querySelector('tbody');
             tbody.innerHTML = '';
 
-            rankings.forEach((player) => {
+            const startIdx = (currentPage - 1) * playersPerPage;
+            const endIdx = startIdx + playersPerPage;
+            const pageData = rankingsData.slice(startIdx, endIdx);
+
+            pageData.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td class="narrow">${player.Rank}</td>
@@ -137,14 +170,26 @@
             });
 
             const headerRow = table.querySelector("thead tr");
-            Object.keys(rankings[0]).forEach(key => {
-                if (!["Rank", "Player", "Total Score"].includes(key)) {
-                    const th = document.createElement("th");
-                    th.textContent = key;
-                    th.classList.add("hidden", "details-column", "narrow");
-                    headerRow.appendChild(th);
-                }
-            });
+            if (headerRow.children.length === 3) {
+                Object.keys(rankingsData[0]).forEach(key => {
+                    if (!["Rank", "Player", "Total Score"].includes(key)) {
+                        const th = document.createElement("th");
+                        th.textContent = key;
+                        th.classList.add("hidden", "details-column", "narrow");
+                        headerRow.appendChild(th);
+                    }
+                });
+            }
+
+            updatePagination();
+        }
+
+        function updatePagination() {
+            const totalPages = Math.ceil(rankingsData.length / playersPerPage);
+            document.getElementById('pageInfo').textContent = 
+                `${(currentPage - 1) * playersPerPage + 1} - ${Math.min(currentPage * playersPerPage, rankingsData.length)} of ${rankingsData.length}`;
+            document.getElementById('prevPage').disabled = currentPage === 1;
+            document.getElementById('nextPage').disabled = currentPage === totalPages;
         }
 
         document.getElementById("toggleButton").addEventListener("click", function() {
@@ -156,6 +201,20 @@
 
             detailsVisible = !detailsVisible;
             this.textContent = detailsVisible ? "Hide Details" : "Show Details";
+        });
+
+        document.getElementById("prevPage").addEventListener("click", function() {
+            if (currentPage > 1) {
+                currentPage--;
+                updateTable();
+            }
+        });
+
+        document.getElementById("nextPage").addEventListener("click", function() {
+            if (currentPage * playersPerPage < rankingsData.length) {
+                currentPage++;
+                updateTable();
+            }
         });
 
         loadRankings();
