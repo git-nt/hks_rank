@@ -14,6 +14,19 @@
         h1 {
             color: #004080;
         }
+        button {
+            margin-bottom: 10px;
+            padding: 8px 12px;
+            background-color: #004080;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #003366;
+        }
         table {
             width: 90%;
             margin: 20px auto;
@@ -32,7 +45,7 @@
         }
         /* Header Styles */
         th {
-            background-color: #004080; /* Dark Blue */
+            background-color: #004080;
             color: white;
             font-weight: bold;
         }
@@ -52,18 +65,26 @@
             background-color: #FFFFFF;
         }
         /* Custom Colors */
-        .total-score { background-color: #6EC98D; color: black; font-weight: bold; } /* Softer Green */
-        .other-totals { background-color: #FFF2CC; font-weight: bold; } /* Softer Yellow */
+        .total-score { background-color: #6EC98D; color: black; font-weight: bold; }
+        .other-totals { background-color: #FFF2CC; font-weight: bold; }
+
+        /* Hide additional columns initially */
+        .toggle-column {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <h1>HKS Rankings</h1>
+    <button id="toggleButton">Show More Columns</button>
     <table id="rankingsTable">
         <thead></thead>
         <tbody></tbody>
     </table>
 
     <script>
+        let showExtraColumns = false;
+
         async function fetchRankings() {
             try {
                 const response = await fetch('rankings.json');
@@ -78,17 +99,24 @@
                 // Set up headers
                 const headers = Object.keys(rankings[0]);
                 const headerRow = document.createElement("tr");
-                headers.forEach(header => {
+
+                headers.forEach((header, index) => {
                     const th = document.createElement("th");
                     th.textContent = header;
+                    
+                    // Add toggle class for extra columns
+                    if (index >= 5) {
+                        th.classList.add("toggle-column");
+                    }
                     headerRow.appendChild(th);
                 });
+
                 tableHead.appendChild(headerRow);
 
                 // Set up data rows
                 rankings.forEach(rank => {
                     const row = document.createElement("tr");
-                    headers.forEach(header => {
+                    headers.forEach((header, index) => {
                         const td = document.createElement("td");
 
                         let value = rank[header];
@@ -96,9 +124,9 @@
                         // Properly format numbers
                         if (!isNaN(value)) {
                             if (header === "Rank") {
-                                value = parseInt(value); // Keep Rank as an integer
+                                value = parseInt(value);
                             } else {
-                                value = parseFloat(value).toFixed(2); // Format everything else as XX.XX
+                                value = parseFloat(value).toFixed(2);
                             }
                         }
                         td.textContent = value;
@@ -107,17 +135,38 @@
                         if (header.includes("Total Score") || header.includes("Ranking Points")) td.classList.add("total-score");
                         if (header.includes("Best")) td.classList.add("other-totals");
 
+                        // Add toggle class for extra columns
+                        if (index >= 5) {
+                            td.classList.add("toggle-column");
+                        }
+
                         row.appendChild(td);
                     });
                     tableBody.appendChild(row);
                 });
+
+                updateColumnVisibility();
             } catch (error) {
                 console.error("Failed to fetch rankings:", error);
             }
         }
 
+        function updateColumnVisibility() {
+            const extraColumns = document.querySelectorAll(".toggle-column");
+            extraColumns.forEach(col => {
+                col.style.display = showExtraColumns ? "table-cell" : "none";
+            });
+
+            document.getElementById("toggleButton").textContent = showExtraColumns ? "Hide Extra Columns" : "Show More Columns";
+        }
+
+        document.getElementById("toggleButton").addEventListener("click", () => {
+            showExtraColumns = !showExtraColumns;
+            updateColumnVisibility();
+        });
+
         fetchRankings();
-        setInterval(fetchRankings, 60000);  // Refresh every 60 seconds
+        setInterval(fetchRankings, 60000);
     </script>
 </body>
 </html>
