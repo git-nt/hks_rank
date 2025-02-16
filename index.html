@@ -28,16 +28,16 @@
             border: 1px solid #ddd;
             padding: 6px 10px;
             text-align: center;
-            white-space: normal; /* ✅ Allows wrapping */
             overflow: hidden;
-            font-size: 14px; /* ✅ Sleek, non-bold font */
-            line-height: 1.2; /* ✅ Adjusted for multi-line headers */
         }
         th {
             background-color: #2935cf;
             color: white;
             font-weight: normal;
             padding: 8px 6px;
+            font-size: 12px;
+            line-height: 1.2;
+            white-space: normal; /* ✅ Allows wrapping */
         }
         .total-score {
             background-color: #fe1a1a;
@@ -72,6 +72,10 @@
         .narrow {
             width: 75px; /* ✅ All quiz columns are fixed-width */
         }
+        .wide-player {
+            width: 180px; /* ✅ Ensures Player column stays wide */
+            white-space: nowrap; /* ✅ Prevents player names from wrapping */
+        }
     </style>
 </head>
 <body>
@@ -83,7 +87,7 @@
         <thead>
             <tr>
                 <th class="narrow">Rank</th>
-                <th class="narrow">Player</th>
+                <th class="wide-player">Player</th>
                 <th class="total-score narrow">Total Score</th>
             </tr>
         </thead>
@@ -105,7 +109,7 @@
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td class="narrow">${player.Rank}</td>
-                    <td class="narrow">${player.Player}</td>
+                    <td class="wide-player">${player.Player}</td>
                     <td class="total-score narrow">${player["Total Score"]}</td>
                 `;
 
