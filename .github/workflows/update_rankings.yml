@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
-  workflow_dispatch:  # ✅ Enables manual runs
+    - cron: '0 * * * *'  # Runs every hour (adjust as needed)
+  workflow_dispatch:  # Enables manual runs
 
 jobs:
   update:
@@ -24,14 +24,17 @@ jobs:
       - name: Install Dependencies
         run: pip install pandas loguru openpyxl
 
+      - name: Download Excel File from Google Drive
+        run: |
+          curl -L -o hks_scores.xlsx "https://docs.google.com/uc?export=download&id=11YZNb0w0DUDN9D2DPCQO3UDKPbwi05Qq"
+
       - name: Run Ranking Script
         run: python hks_ranking.py
 
       - name: Commit and Push Results
         run: |
-          git config --global user.name "GitHub Actions"
+          git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f rankings.json  # ✅ Force add the ignored file
-          git add ranking.xlsx  # Ensure the Excel file is added too
+          git add rankings.json
           git commit -m "Auto-update rankings" || echo "No changes to commit"
-          git push
+          git push || echo "No changes to push"
