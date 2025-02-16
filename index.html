@@ -35,6 +35,9 @@
             background-color: #2935cf;
             color: white;
             font-weight: bold;
+            white-space: normal; /* Allows text wrapping */
+            word-wrap: break-word;
+            text-align: center;
         }
         .total-score {
             background-color: #fe1a1a;
@@ -67,7 +70,17 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 80px;
+            width: 60px;
+        }
+        .rank-col {
+            width: 40px; /* Rank column is now very narrow */
+        }
+        .vertical-text {
+            writing-mode: vertical-rl;
+            text-align: center;
+            transform: rotate(180deg);
+            white-space: nowrap;
+            height: 150px;
         }
     </style>
 </head>
@@ -79,7 +92,7 @@
     <table id="rankingsTable">
         <thead>
             <tr>
-                <th class="narrow">Rank</th>
+                <th class="rank-col">Rank</th>
                 <th class="narrow">Player</th>
                 <th class="total-score narrow">Total Score</th>
             </tr>
@@ -101,7 +114,7 @@
             rankings.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td class="narrow">${player.Rank}</td>
+                    <td class="rank-col">${player.Rank}</td>
                     <td class="narrow">${player.Player}</td>
                     <td class="total-score narrow">${player["Total Score"]}</td>
                 `;
@@ -134,7 +147,7 @@
                 if (!["Rank", "Player", "Total Score"].includes(key)) {
                     const th = document.createElement("th");
                     th.textContent = key;
-                    th.classList.add("hidden", "details-column", "narrow");
+                    th.classList.add("hidden", "details-column", "narrow", "vertical-text");
                     headerRow.appendChild(th);
                 }
             });
