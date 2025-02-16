@@ -14,21 +14,21 @@
             color: #2935cf;
         }
         .container {
-            width: 95%;
-            margin: 0 auto;
-            text-align: center;
+            width: 100%;
+            overflow-x: auto; /* ✅ Enables horizontal scrolling */
+            position: relative;
         }
         table {
-            width: auto;
-            margin: 0 auto;
+            width: max-content; /* ✅ Prevents full-width stretching */
             border-collapse: collapse;
-            table-layout: fixed;
+            margin: 0 auto;
         }
         th, td {
             border: 1px solid #ddd;
             padding: 6px 10px;
             text-align: center;
             overflow: hidden;
+            white-space: nowrap;
         }
         th {
             background-color: #2935cf;
@@ -37,27 +37,12 @@
             padding: 8px 6px;
             font-size: 12px;
             line-height: 1.2;
-            white-space: normal; /* ✅ Allows wrapping */
+            white-space: normal;
         }
         .total-score {
             background-color: #fe1a1a;
             color: white;
             font-weight: bold;
-        }
-        .hidden {
-            display: none;
-        }
-        .toggle-btn {
-            background-color: #2935cf;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            font-size: 16px;
-            margin-bottom: 10px;
-            cursor: pointer;
-        }
-        .toggle-btn:hover {
-            background-color: #1e2ea1;
         }
         .dropped {
             font-style: italic;
@@ -70,11 +55,34 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 75px; /* ✅ All quiz columns are fixed-width */
+            width: 75px;
         }
         .wide-player {
-            width: 180px; /* ✅ Ensures Player column stays wide */
-            white-space: nowrap; /* ✅ Prevents player names from wrapping */
+            width: 180px;
+            white-space: nowrap;
+        }
+
+        /* ✅ FREEZE First Three Columns */
+        th:nth-child(1), td:nth-child(1),  /* Rank */
+        th:nth-child(2), td:nth-child(2),  /* Player */
+        th:nth-child(3), td:nth-child(3) { /* Total Score */
+            position: sticky;
+            left: 0;
+            background-color: white; /* ✅ Prevent overlap issues */
+            z-index: 2;
+        }
+        th:nth-child(2), td:nth-child(2) { /* Player */
+            left: 50px; /* ✅ Moves Player next to Rank */
+        }
+        th:nth-child(3), td:nth-child(3) { /* Total Score */
+            left: 230px; /* ✅ Moves Total Score next to Player */
+        }
+
+        /* ✅ Keep header above all */
+        thead th {
+            position: sticky;
+            top: 0;
+            z-index: 3;
         }
     </style>
 </head>
@@ -83,16 +91,18 @@
     <h1>HKS Rankings</h1>
     <button id="toggleButton" class="toggle-btn">Show Details</button>
 
-    <table id="rankingsTable">
-        <thead>
-            <tr>
-                <th class="narrow">Rank</th>
-                <th class="wide-player">Player</th>
-                <th class="total-score narrow">Total Score</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <div class="container">
+        <table id="rankingsTable">
+            <thead>
+                <tr>
+                    <th class="narrow">Rank</th>
+                    <th class="wide-player">Player</th>
+                    <th class="total-score narrow">Total Score</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
 
     <script>
         let detailsVisible = false;
