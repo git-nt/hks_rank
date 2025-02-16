@@ -102,7 +102,7 @@
 
     <table id="rankingsTable">
         <thead>
-            <tr>
+            <tr id="headerRow">
                 <th class="narrow">Rank</th>
                 <th class="wide-player">Player</th>
                 <th class="total-score narrow">Total Score</th>
@@ -126,7 +126,25 @@
         async function loadRankings() {
             const response = await fetch('rankings.json');
             rankingsData = await response.json();
+            createHeaders();
             updateTable();
+        }
+
+        function createHeaders() {
+            const headerRow = document.getElementById("headerRow");
+            if (headerRow.children.length === 3) {
+                Object.keys(rankingsData[0]).forEach(key => {
+                    if (!["Rank", "Player", "Total Score"].includes(key)) {
+                        const th = document.createElement("th");
+                        th.textContent = key;
+                        th.classList.add("details-column", "narrow");
+                        if (!detailsVisible) {
+                            th.classList.add("hidden"); 
+                        }
+                        headerRow.appendChild(th);
+                    }
+                });
+            }
         }
 
         function updateTable() {
@@ -161,25 +179,16 @@
                         if (isDropped) {
                             cell.classList.add("dropped");
                         }
-                        cell.classList.add("hidden", "details-column", "narrow");
+                        cell.classList.add("details-column", "narrow");
+                        if (!detailsVisible) {
+                            cell.classList.add("hidden"); 
+                        }
                         row.appendChild(cell);
                     }
                 });
 
                 tbody.appendChild(row);
             });
-
-            const headerRow = table.querySelector("thead tr");
-            if (headerRow.children.length === 3) {
-                Object.keys(rankingsData[0]).forEach(key => {
-                    if (!["Rank", "Player", "Total Score"].includes(key)) {
-                        const th = document.createElement("th");
-                        th.textContent = key;
-                        th.classList.add("hidden", "details-column", "narrow");
-                        headerRow.appendChild(th);
-                    }
-                });
-            }
 
             updatePagination();
         }
@@ -193,13 +202,13 @@
         }
 
         document.getElementById("toggleButton").addEventListener("click", function() {
+            detailsVisible = !detailsVisible;
             const detailElements = document.querySelectorAll(".details-column");
 
             detailElements.forEach(el => {
-                el.classList.toggle("hidden");
+                el.classList.toggle("hidden", !detailsVisible);
             });
 
-            detailsVisible = !detailsVisible;
             this.textContent = detailsVisible ? "Hide Details" : "Show Details";
         });
 
