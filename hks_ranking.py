@@ -206,7 +206,7 @@ def main() -> None:
         for index, row in final_scores.iterrows():
             # ✅ Select Best 5 from 12x7 + Hrvatskih 100
             valid_12x7_hr100 = [
-                quiz for quiz in twelve_x7_hr100 if pd.to_numeric(row[quiz], errors="coerce") > 0
+                quiz for quiz in twelve_x7_hr100 if pd.to_numeric(row[quiz], errors="coerce") >= 0
             ]
             best_12x7_hr100 = sorted(
                 valid_12x7_hr100, key=lambda quiz: pd.to_numeric(row[quiz], errors="coerce"), reverse=True

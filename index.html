@@ -33,119 +33,105 @@
             color: white;
             font-weight: bold;
         }
+        th:first-child {
+            background-color: #2935cf;
+        }
         .total-score {
-            background-color: #fe1a1a !important;
+            background-color: #fe1a1a;
             color: white;
             font-weight: bold;
         }
-        .hidden-columns {
+        .hidden {
             display: none;
         }
-        .show-button {
-            background-color: #2935cf;
-            color: white;
-            padding: 8px 16px;
-            border: none;
-            cursor: pointer;
-            margin-bottom: 10px;
-            font-size: 16px;
-            border-radius: 5px;
+        .details {
+            display: none;
         }
-        .show-button:hover {
-            background-color: #1f2da0;
+        tr:nth-child(even) {
+            background-color: #F2F2F2;
+        }
+        tr:nth-child(odd) {
+            background-color: #FFFFFF;
         }
         .dropped {
             font-style: italic;
             color: gray;
         }
-        .alt-row {
-            background-color: #F2F2F2;
+        .button-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+        button {
+            background-color: #2935cf;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background-color: #1e2da3;
         }
     </style>
+    <script>
+        function toggleDetails() {
+            var details = document.getElementsByClassName("details");
+            var button = document.getElementById("toggleButton");
+            for (var i = 0; i < details.length; i++) {
+                if (details[i].style.display === "none" || details[i].style.display === "") {
+                    details[i].style.display = "table-cell";
+                } else {
+                    details[i].style.display = "none";
+                }
+            }
+            button.textContent = button.textContent === "Show Details" ? "Hide Details" : "Show Details";
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("rankings.json")
+                .then(response => response.json())
+                .then(data => {
+                    var table = document.getElementById("rankingsTable");
+                    var headerRow = "<tr><th>Rank</th><th>Player</th><th class='total-score'>Total Score</th>";
+                    var firstRow = data[0];
+                    var detailColumns = [];
+                    for (var key in firstRow) {
+                        if (!["Rank", "Player", "Total Score"].includes(key)) {
+                            detailColumns.push(key);
+                            headerRow += `<th class="details" style="display:none">${key}</th>`;
+                        }
+                    }
+                    headerRow += "</tr>";
+                    table.innerHTML = headerRow;
+                    data.forEach(row => {
+                        var rowHtml = `<tr><td>${row.Rank}</td><td>${row.Player}</td><td class="total-score">${row["Total Score"]}</td>`;
+                        detailColumns.forEach(col => {
+                            var value = row[col];
+                            if (typeof value === "object" && value !== null) {
+                                if (value.dropped) {
+                                    rowHtml += `<td class="details dropped" style="display:none">(${value.score})</td>`;
+                                } else {
+                                    rowHtml += `<td class="details" style="display:none">${value.score}</td>`;
+                                }
+                            } else {
+                                rowHtml += `<td class="details" style="display:none">${value}</td>`;
+                            }
+                        });
+                        rowHtml += "</tr>";
+                        table.innerHTML += rowHtml;
+                    });
+                })
+                .catch(error => console.error("Error loading rankings:", error));
+        });
+    </script>
 </head>
 <body>
     <h1>HKS Rankings</h1>
-    <button class="show-button" onclick="toggleDetails()">Show Details</button>
-    <div class="container">
-        <table id="rankings-table">
-            <thead>
-                <tr id="header-row">
-                    <th>Rank</th>
-                    <th>Player</th>
-                    <th class="total-score">Total Score</th>
-                </tr>
-            </thead>
-            <tbody id="table-body"></tbody>
-        </table>
+    <div class="button-container">
+        <button id="toggleButton" onclick="toggleDetails()">Show Details</button>
     </div>
-
-    <script>
-        let showDetails = false;
-
-        function toggleDetails() {
-            showDetails = !showDetails;
-            const button = document.querySelector('.show-button');
-            const extraColumns = document.querySelectorAll('.hidden-columns');
-            
-            if (showDetails) {
-                button.textContent = "Hide Details";
-                extraColumns.forEach(col => col.style.display = "table-cell");
-            } else {
-                button.textContent = "Show Details";
-                extraColumns.forEach(col => col.style.display = "none");
-            }
-        }
-
-        async function loadRankings() {
-            const response = await fetch('rankings.json');
-            const data = await response.json();
-
-            const tableBody = document.getElementById('table-body');
-            const headerRow = document.getElementById('header-row');
-
-            tableBody.innerHTML = '';
-
-            if (data.length > 0) {
-                const columns = Object.keys(data[0]);
-
-                // Add extra columns dynamically
-                columns.slice(3).forEach(col => {
-                    const th = document.createElement('th');
-                    th.textContent = col;
-                    th.classList.add("hidden-columns");
-                    headerRow.appendChild(th);
-                });
-
-                data.forEach((row, index) => {
-                    const tr = document.createElement('tr');
-                    if (index % 2 === 1) tr.classList.add("alt-row");
-
-                    tr.innerHTML = `
-                        <td>${row.Rank}</td>
-                        <td>${row.Player}</td>
-                        <td class="total-score">${row["Total Score"]}</td>
-                    `;
-
-                    columns.slice(3).forEach(col => {
-                        let value = row[col];
-
-                        if (typeof value === 'object' && value !== null) {
-                            if (value.dropped) {
-                                tr.innerHTML += `<td class="hidden-columns dropped">(${value.score})</td>`;
-                            } else {
-                                tr.innerHTML += `<td class="hidden-columns">${value.score}</td>`;
-                            }
-                        } else {
-                            tr.innerHTML += `<td class="hidden-columns">${value}</td>`;
-                        }
-                    });
-
-                    tableBody.appendChild(tr);
-                });
-            }
-        }
-
-        loadRankings();
-    </script>
+    <div class="container">
+        <table id="rankingsTable"></table>
+    </div>
 </body>
 </html>
