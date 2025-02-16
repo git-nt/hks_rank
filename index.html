@@ -90,8 +90,12 @@
                         // Round all numbers to 2 decimals
                         let value = rank[header];
                         if (!isNaN(value)) {
-                            value = parseFloat(value).toFixed(2);
-                        }
+                            if (header === "Rank") {
+                                value = parseInt(value); // Keep Rank as an integer
+                            } else {
+                                value = parseFloat(value).toFixed(2); // Format everything else as XX.XX
+                            }
+
                         td.textContent = value;
 
                         // Apply color coding
