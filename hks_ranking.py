@@ -191,10 +191,12 @@ def main() -> None:
         output_path = file_path.parent / 'ranking.xlsx'
         final_scores.to_excel(output_path, index=False)
         logger.info(f"Rankings saved to {output_path}")
-
+        logger.info(final_scores.columns)
         # ✅ NEW: Save rankings as JSON for GitHub Pages
         json_output_path = file_path.parent / 'rankings.json'
-        final_scores.to_json(json_output_path, orient='records', indent=4)
+        final_scores = final_scores.reset_index(names="Rank")
+        final_scores = final_scores[["Rank"] + [col for col in final_scores.columns if col != "Rank"]]
+        final_scores.to_json("rankings.json", orient="records", indent=4)
         logger.info(f"Rankings saved to {json_output_path}")
         
     except FileNotFoundError:
