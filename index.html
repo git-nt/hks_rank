@@ -66,6 +66,9 @@
         tr:nth-child(odd) {
             background-color: #FFFFFF;
         }
+        .narrow {
+            width: 80px;
+        }
     </style>
 </head>
 <body>
@@ -76,33 +79,33 @@
     <table id="rankingsTable">
         <thead>
             <tr>
-                <th>Rank</th>
-                <th>Player</th>
-                <th class="total-score">Total Score</th>
+                <th class="narrow">Rank</th>
+                <th class="narrow">Player</th>
+                <th class="total-score narrow">Total Score</th>
             </tr>
         </thead>
         <tbody></tbody>
     </table>
 
     <script>
+        let detailsVisible = false;
+
         async function loadRankings() {
             const response = await fetch('rankings.json');
             const rankings = await response.json();
 
             const table = document.getElementById('rankingsTable');
             const tbody = table.querySelector('tbody');
-
             tbody.innerHTML = '';
 
-            rankings.forEach((player, index) => {
+            rankings.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td>${player.Rank}</td>
-                    <td>${player.Player}</td>
-                    <td class="total-score">${player["Total Score"]}</td>
+                    <td class="narrow">${player.Rank}</td>
+                    <td class="narrow">${player.Player}</td>
+                    <td class="total-score narrow">${player["Total Score"]}</td>
                 `;
 
-                // Add hidden columns
                 Object.keys(player).forEach(key => {
                     if (!["Rank", "Player", "Total Score"].includes(key)) {
                         let value = player[key];
@@ -118,7 +121,7 @@
                         if (isDropped) {
                             cell.classList.add("dropped");
                         }
-                        cell.classList.add("hidden"); // Hidden by default
+                        cell.classList.add("hidden", "narrow");
                         row.appendChild(cell);
                     }
                 });
@@ -126,27 +129,26 @@
                 tbody.appendChild(row);
             });
 
-            // Add column headers for hidden columns
             const headerRow = table.querySelector("thead tr");
             Object.keys(rankings[0]).forEach(key => {
                 if (!["Rank", "Player", "Total Score"].includes(key)) {
                     const th = document.createElement("th");
                     th.textContent = key;
-                    th.classList.add("hidden");
+                    th.classList.add("hidden", "narrow");
                     headerRow.appendChild(th);
                 }
             });
         }
 
         document.getElementById("toggleButton").addEventListener("click", function() {
-            const table = document.getElementById("rankingsTable");
-            const hiddenColumns = table.querySelectorAll(".hidden");
+            const hiddenElements = document.querySelectorAll(".hidden");
 
-            hiddenColumns.forEach(col => {
-                col.classList.toggle("hidden");
+            hiddenElements.forEach(el => {
+                el.classList.toggle("hidden");
             });
 
-            this.textContent = this.textContent === "Show Details" ? "Hide Details" : "Show Details";
+            detailsVisible = !detailsVisible;
+            this.textContent = detailsVisible ? "Hide Details" : "Show Details";
         });
 
         loadRankings();
