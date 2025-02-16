@@ -196,6 +196,7 @@ def main() -> None:
         json_output_path = file_path.parent / 'rankings.json'
         final_scores = final_scores.reset_index(names="Rank")
         final_scores = final_scores[["Rank"] + [col for col in final_scores.columns if col != "Rank"]]
+        final_scores = final_scores.round(2)
         final_scores.to_json("rankings.json", orient="records", indent=4)
         logger.info(f"Rankings saved to {json_output_path}")
         
