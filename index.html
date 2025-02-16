@@ -8,10 +8,11 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f9f9f9;
+            background: linear-gradient(to bottom, #f9f9f9, #e3e3e3); /* ✅ Smooth background */
         }
         h1 {
             color: #2935cf;
+            font-size: 32px;
         }
         .container {
             width: 95%;
@@ -23,10 +24,19 @@
             margin: 0 auto;
             border-collapse: collapse;
             table-layout: fixed;
+            background: white;
+            border-radius: 8px; /* ✅ Soft edges */
+            overflow: hidden;
+        }
+        thead {
+            position: sticky;
+            top: 0;
+            background: white;
+            z-index: 100;
         }
         th, td {
             border: 1px solid #ddd;
-            padding: 6px 10px;
+            padding: 8px 12px;
             text-align: center;
             overflow: hidden;
         }
@@ -34,10 +44,17 @@
             background-color: #2935cf;
             color: white;
             font-weight: normal;
-            padding: 8px 6px;
+            padding: 10px 8px;
             font-size: 12px;
             line-height: 1.2;
             white-space: normal;
+        }
+        .rank, .wide-player, .total-score {
+            font-weight: bold;
+            font-size: 14px; /* ✅ Bigger fonts */
+        }
+        .rank {
+            width: 50px; /* ✅ More compact */
         }
         .total-score {
             background-color: #fe1a1a;
@@ -55,12 +72,13 @@
             font-size: 16px;
             margin-bottom: 10px;
             cursor: pointer;
+            border-radius: 5px;
         }
         .toggle-btn:hover {
             background-color: #1e2ea1;
         }
         .pagination {
-            margin-top: 10px;
+            margin-top: 15px;
             font-size: 16px;
             font-weight: bold;
         }
@@ -90,8 +108,9 @@
             width: 75px;
         }
         .wide-player {
-            width: 180px;
+            width: 200px; /* ✅ Ensures Player column stays wide */
             white-space: nowrap;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -103,9 +122,9 @@
     <table id="rankingsTable">
         <thead>
             <tr id="headerRow">
-                <th class="narrow">Rank</th>
+                <th class="rank">Rank</th>
                 <th class="wide-player">Player</th>
-                <th class="total-score narrow">Total Score</th>
+                <th class="total-score narrow">Total</th>
             </tr>
         </thead>
         <tbody></tbody>
@@ -159,7 +178,7 @@
             pageData.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td class="narrow">${player.Rank}</td>
+                    <td class="rank">${player.Rank}</td>
                     <td class="wide-player">${player.Player}</td>
                     <td class="total-score narrow">${player["Total Score"]}</td>
                 `;
