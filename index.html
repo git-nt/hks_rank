@@ -8,10 +8,15 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 20px;
+            background-color: #f9f9f9;
         }
         h1 {
             color: #2935cf;
+        }
+        .container {
+            width: 95%;
+            margin: 0 auto;
+            text-align: center;
         }
         table {
             width: auto;
@@ -24,6 +29,7 @@
             padding: 6px 10px;
             text-align: center;
             white-space: nowrap;
+            overflow: hidden;
         }
         th {
             background-color: #2935cf;
@@ -33,13 +39,6 @@
         .total-score {
             background-color: #fe1a1a;
             color: white;
-        }
-        .highlight-green {
-            background-color: #6EC98D;
-            font-weight: bold;
-        }
-        .highlight-yellow {
-            background-color: #FFF2CC;
             font-weight: bold;
         }
         .hidden {
@@ -59,10 +58,13 @@
         }
         .dropped {
             font-style: italic;
-            color: gray;
+            color: #808080;
         }
         tr:nth-child(even) {
             background-color: #F2F2F2;
+        }
+        tr:nth-child(odd) {
+            background-color: #FFFFFF;
         }
     </style>
 </head>
@@ -97,7 +99,7 @@
                 row.innerHTML = `
                     <td>${player.Rank}</td>
                     <td>${player.Player}</td>
-                    <td class="highlight-green">${player["Total Score"]}</td>
+                    <td class="total-score">${player["Total Score"]}</td>
                 `;
 
                 // Add hidden columns
