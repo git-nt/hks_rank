@@ -30,6 +30,7 @@
             overflow: hidden;
             white-space: nowrap;
         }
+        /* ✅ Headers */
         th {
             background-color: #2935cf;
             color: white;
@@ -40,9 +41,17 @@
             white-space: normal;
         }
         .total-score {
-            background-color: #fe1a1a;
+            background-color: #fe1a1a !important;
             color: white;
             font-weight: bold;
+        }
+        .rank-col {
+            background-color: #2935cf !important;
+            color: white;
+            font-weight: bold;
+        }
+        .player-col {
+            background-color: white !important;
         }
         .dropped {
             font-style: italic;
@@ -63,19 +72,25 @@
         }
 
         /* ✅ FREEZE First Three Columns */
-        th:nth-child(1), td:nth-child(1),  /* Rank */
-        th:nth-child(2), td:nth-child(2),  /* Player */
-        th:nth-child(3), td:nth-child(3) { /* Total Score */
+        th:nth-child(1), td:nth-child(1) { /* Rank */
             position: sticky;
             left: 0;
-            background-color: white; /* ✅ Prevent overlap issues */
+            background-color: #2935cf !important;
+            color: white;
             z-index: 2;
         }
         th:nth-child(2), td:nth-child(2) { /* Player */
-            left: 50px; /* ✅ Moves Player next to Rank */
+            position: sticky;
+            left: 50px;
+            background-color: white !important;
+            z-index: 2;
         }
         th:nth-child(3), td:nth-child(3) { /* Total Score */
-            left: 230px; /* ✅ Moves Total Score next to Player */
+            position: sticky;
+            left: 230px;
+            background-color: #fe1a1a !important;
+            color: white;
+            z-index: 2;
         }
 
         /* ✅ Keep header above all */
@@ -83,6 +98,20 @@
             position: sticky;
             top: 0;
             z-index: 3;
+        }
+
+        /* ✅ Details Button */
+        .toggle-btn {
+            background-color: #2935cf;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .toggle-btn:hover {
+            background-color: #1e2ea1;
         }
     </style>
 </head>
@@ -95,8 +124,8 @@
         <table id="rankingsTable">
             <thead>
                 <tr>
-                    <th class="narrow">Rank</th>
-                    <th class="wide-player">Player</th>
+                    <th class="narrow rank-col">Rank</th>
+                    <th class="wide-player player-col">Player</th>
                     <th class="total-score narrow">Total Score</th>
                 </tr>
             </thead>
@@ -118,8 +147,8 @@
             rankings.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td class="narrow">${player.Rank}</td>
-                    <td class="wide-player">${player.Player}</td>
+                    <td class="narrow rank-col">${player.Rank}</td>
+                    <td class="wide-player player-col">${player.Player}</td>
                     <td class="total-score narrow">${player["Total Score"]}</td>
                 `;
 
