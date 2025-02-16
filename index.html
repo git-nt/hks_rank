@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HKS Rankings</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
-        th, td { border: 1px solid #ddd; padding: 10px; }
-        th { background-color: #a5c8f0; color: #135aa1; }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            color: #135aa1;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #135aa1;
+            color: white;
+        }
+        td:first-child, th:first-child {
+            font-weight: bold;
+            background: #f2f6fc;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .highlight {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -21,7 +56,7 @@
     <script>
         async function fetchRankings() {
             try {
-                const response = await fetch('rankings.json'); // ✅ Fetch updated rankings
+                const response = await fetch('rankings.json');  // Fetch latest rankings
                 const rankings = await response.json();
 
                 const tableHead = document.querySelector("#rankingsTable thead");
@@ -41,11 +76,12 @@
                 tableHead.appendChild(headerRow);
 
                 // Set up data rows
-                rankings.forEach(rank => {
+                rankings.forEach((rank, index) => {
                     const row = document.createElement("tr");
                     headers.forEach(header => {
                         const td = document.createElement("td");
                         td.textContent = rank[header];
+                        if (header === "Ranking Points") td.classList.add("highlight"); // Highlight points
                         row.appendChild(td);
                     });
                     tableBody.appendChild(row);
