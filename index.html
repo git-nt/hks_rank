@@ -121,7 +121,7 @@
                         if (isDropped) {
                             cell.classList.add("dropped");
                         }
-                        cell.classList.add("hidden", "narrow");
+                        cell.classList.add("hidden", "details-column", "narrow");
                         row.appendChild(cell);
                     }
                 });
@@ -134,16 +134,16 @@
                 if (!["Rank", "Player", "Total Score"].includes(key)) {
                     const th = document.createElement("th");
                     th.textContent = key;
-                    th.classList.add("hidden", "narrow");
+                    th.classList.add("hidden", "details-column", "narrow");
                     headerRow.appendChild(th);
                 }
             });
         }
 
         document.getElementById("toggleButton").addEventListener("click", function() {
-            const hiddenElements = document.querySelectorAll(".hidden");
+            const detailElements = document.querySelectorAll(".details-column");
 
-            hiddenElements.forEach(el => {
+            detailElements.forEach(el => {
                 el.classList.toggle("hidden");
             });
 
