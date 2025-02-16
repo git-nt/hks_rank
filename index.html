@@ -28,14 +28,16 @@
             border: 1px solid #ddd;
             padding: 6px 10px;
             text-align: center;
-            white-space: nowrap;
+            white-space: normal; /* ✅ Allows wrapping */
             overflow: hidden;
-            font-size: 14px; /* ✅ Slick, non-bold font */
+            font-size: 14px; /* ✅ Sleek, non-bold font */
+            line-height: 1.2; /* ✅ Adjusted for multi-line headers */
         }
         th {
             background-color: #2935cf;
             color: white;
             font-weight: normal;
+            padding: 8px 6px;
         }
         .total-score {
             background-color: #fe1a1a;
