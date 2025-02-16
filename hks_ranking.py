@@ -197,7 +197,10 @@ def main() -> None:
         final_scores = final_scores.reset_index(names="Rank")
         final_scores = final_scores[["Rank"] + [col for col in final_scores.columns if col != "Rank"]]
         for col in final_scores.select_dtypes(include=['float64', 'int64']).columns:
-            final_scores[col] = final_scores[col].apply(lambda x: f"{x:.2f}")
+            if col == "Rank":
+                final_scores[col] = final_scores[col].astype(int)
+            else:
+                final_scores[col] = final_scores[col].apply(lambda x: f"{x:.2f}") 
 
         final_scores.to_json("rankings.json", orient="records", indent=4, force_ascii=False)
         logger.info(f"Rankings saved to {json_output_path}")
