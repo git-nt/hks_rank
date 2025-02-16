@@ -30,14 +30,12 @@
             text-align: center;
             white-space: nowrap;
             overflow: hidden;
+            font-size: 14px; /* ✅ Smaller font size for better spacing */
         }
         th {
             background-color: #2935cf;
             color: white;
-            font-weight: bold;
-            white-space: normal; /* Allows text wrapping */
-            word-wrap: break-word;
-            text-align: center;
+            font-weight: normal; /* ✅ No excessive bolding */
         }
         .total-score {
             background-color: #fe1a1a;
@@ -70,17 +68,15 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 60px;
+            width: 75px; /* ✅ Adjusted for (100.00) */
         }
-        .rank-col {
-            width: 40px; /* Rank column is now very narrow */
-        }
-        .vertical-text {
-            writing-mode: vertical-rl;
+        .vertical-header {
+            writing-mode: vertical-rl; /* ✅ Rotates text bottom-to-top */
             text-align: center;
-            transform: rotate(180deg);
+            vertical-align: middle;
+            font-size: 12px; /* ✅ Smaller text */
+            height: 120px; /* ✅ Ensures alignment */
             white-space: nowrap;
-            height: 150px;
         }
     </style>
 </head>
@@ -92,7 +88,7 @@
     <table id="rankingsTable">
         <thead>
             <tr>
-                <th class="rank-col">Rank</th>
+                <th class="narrow">Rank</th>
                 <th class="narrow">Player</th>
                 <th class="total-score narrow">Total Score</th>
             </tr>
@@ -114,7 +110,7 @@
             rankings.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td class="rank-col">${player.Rank}</td>
+                    <td class="narrow">${player.Rank}</td>
                     <td class="narrow">${player.Player}</td>
                     <td class="total-score narrow">${player["Total Score"]}</td>
                 `;
@@ -147,7 +143,7 @@
                 if (!["Rank", "Player", "Total Score"].includes(key)) {
                     const th = document.createElement("th");
                     th.textContent = key;
-                    th.classList.add("hidden", "details-column", "narrow", "vertical-text");
+                    th.classList.add("hidden", "details-column", "narrow", "vertical-header");
                     headerRow.appendChild(th);
                 }
             });
