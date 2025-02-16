@@ -128,7 +128,6 @@ class QuizRankingGenerator:
             return best_combined_12x7, best_other, total_score
 
         partial_scores = self.pivoted_data.apply(calculate_partial_scores, axis=1)
-        self.pivoted_data['12x7 & Hrvatskih 100 - Best 5'] = partial_scores.map(lambda x: x[0])
         
         # Dynamically name the "Other - Best xx" column
         other_best_count = len(self.other_quizzes) - drop_count  # Use the drop_count variable
@@ -147,7 +146,7 @@ class QuizRankingGenerator:
         self.pivoted_data.index = range(1, len(self.pivoted_data) + 1)
 
         # Define the first columns in specific order
-        fixed_columns = ['Player', 'Total Score', '12x7 & Hrvatskih 100 - Best 5', 'Other - Best 5']
+        fixed_columns = ['Player', 'Total Score']
         
         # Get remaining columns
         quiz_columns = [col for col in self.quiz_order if col not in fixed_columns]
