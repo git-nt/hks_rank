@@ -186,24 +186,62 @@ def main() -> None:
         ranking = QuizRankingGenerator(file_path)
         final_scores = ranking.run()
         logger.info(final_scores)
-        
+
         output_path = file_path.parent / 'ranking.xlsx'
         final_scores.to_excel(output_path, index=False)
         logger.info(f"Rankings saved to {output_path}")
-        logger.info(final_scores.columns)
-        # ✅ NEW: Save rankings as JSON for GitHub Pages
-        json_output_path = file_path.parent / 'rankings.json'
+
         final_scores = final_scores.reset_index(names="Rank")
         final_scores = final_scores[["Rank"] + [col for col in final_scores.columns if col != "Rank"]]
+
         for col in final_scores.select_dtypes(include=['float64', 'int64']).columns:
             if col == "Rank":
                 final_scores[col] = final_scores[col].astype(int)
             else:
-                final_scores[col] = final_scores[col].apply(lambda x: f"{x:.2f}") 
+                final_scores[col] = final_scores[col].apply(lambda x: f"{x:.2f}")
 
-        final_scores.to_json("rankings.json", orient="records", indent=4, force_ascii=False)
+        twelve_x7_hr100 = [col for col in final_scores.columns if "12x7" in col or "Hrvatskih 100" in col]
+        other_quizzes = [col for col in final_scores.columns if col not in ["Rank", "Player", "Total Score"] + twelve_x7_hr100]
+
+        for index, row in final_scores.iterrows():
+            # ✅ Select Best 5 from 12x7 + Hrvatskih 100
+            valid_12x7_hr100 = [
+                quiz for quiz in twelve_x7_hr100 if pd.to_numeric(row[quiz], errors="coerce") > 0
+            ]
+            best_12x7_hr100 = sorted(
+                valid_12x7_hr100, key=lambda quiz: pd.to_numeric(row[quiz], errors="coerce"), reverse=True
+            )[:5] if len(valid_12x7_hr100) > 5 else valid_12x7_hr100
+
+            # ✅ Select All But the Worst 3 in "Other" Category
+            valid_others = [
+                quiz for quiz in other_quizzes if pd.to_numeric(row[quiz], errors="coerce") >= 0
+            ]
+            worst_others = sorted(
+                valid_others, key=lambda quiz: pd.to_numeric(row[quiz], errors="coerce")
+            )[:3] if len(valid_others) > 3 else []
+
+            kept_others = [quiz for quiz in valid_others if quiz not in worst_others]
+
+            logger.info(f"Row {index}: Best 12x7 = {best_12x7_hr100}")
+            logger.info(f"Row {index}: Worst Others = {worst_others}, Kept Others = {kept_others}")
+
+            for quiz in twelve_x7_hr100 + other_quizzes:
+                value = row[quiz]
+
+                if pd.notna(value) and isinstance(pd.to_numeric(value, errors="coerce"), (int, float)):
+                    value = round(float(value), 2)
+                    if (quiz in worst_others) or (quiz in twelve_x7_hr100 and quiz not in best_12x7_hr100):
+                        final_scores.at[index, quiz] = {"score": value, "dropped": True}
+                    else:
+                        final_scores.at[index, quiz] = {"score": value}
+                else:
+                    final_scores.at[index, quiz] = value
+
+        json_output_path = file_path.parent / 'rankings.json'
+        final_scores.to_json(json_output_path, orient="records", indent=4, force_ascii=False)
+
         logger.info(f"Rankings saved to {json_output_path}")
-        
+
     except FileNotFoundError:
         logger.error(f"Input file not found: {file_path}")
     except Exception as e:
