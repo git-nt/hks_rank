@@ -9,130 +9,143 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f8f9fa;
-            margin: 20px;
+        }
+        h1 {
+            color: #2935cf;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow-x: auto;
         }
         table {
-            width: auto;
+            width: 100%;
             border-collapse: collapse;
-            margin: auto;
-            font-size: 14px;
+            margin-top: 10px;
         }
         th, td {
             border: 1px solid #ddd;
-            padding: 5px 10px;
+            padding: 6px;
             text-align: center;
-            white-space: nowrap;
         }
         th {
-            background-color: #004080;
+            background-color: #2935cf;
             color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #F2F2F2;
-        }
-        tr:nth-child(odd) {
-            background-color: #FFFFFF;
+            font-weight: bold;
         }
         .total-score {
-            background-color: #6EC98D;
+            background-color: #fe1a1a !important;
+            color: white;
+            font-weight: bold;
+        }
+        .hidden-columns {
+            display: none;
+        }
+        .show-button {
+            background-color: #2935cf;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .show-button:hover {
+            background-color: #1f2da0;
         }
         .dropped {
             font-style: italic;
             color: gray;
         }
-        .details-toggle {
-            margin-top: 10px;
-            cursor: pointer;
-            color: #004080;
-            font-weight: bold;
-            text-decoration: underline;
-            border: none;
-            background: none;
-            font-size: 16px;
-        }
-        .hidden {
-            display: none;
+        .alt-row {
+            background-color: #F2F2F2;
         }
     </style>
 </head>
 <body>
     <h1>HKS Rankings</h1>
-    <table id="ranking-table">
-        <thead>
-            <tr id="table-header"></tr>
-        </thead>
-        <tbody id="table-body"></tbody>
-    </table>
-
-    <button class="details-toggle" onclick="toggleDetails()">Show Details</button>
+    <button class="show-button" onclick="toggleDetails()">Show Details</button>
+    <div class="container">
+        <table id="rankings-table">
+            <thead>
+                <tr id="header-row">
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th class="total-score">Total Score</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
 
     <script>
-        async function fetchRankings() {
-            const response = await fetch('rankings.json');
-            const data = await response.json();
-            return data;
-        }
-
-        function createTable(data) {
-            const tableHeader = document.getElementById("table-header");
-            const tableBody = document.getElementById("table-body");
-
-            tableHeader.innerHTML = "";
-            tableBody.innerHTML = "";
-
-            if (data.length === 0) return;
-
-            const columns = Object.keys(data[0]);
-            const coreColumns = ["Rank", "Player", "Total Score"];
-            const detailsColumns = columns.filter(col => !coreColumns.includes(col));
-
-            coreColumns.concat(detailsColumns).forEach((col, index) => {
-                const th = document.createElement("th");
-                th.textContent = col;
-                if (col === "Total Score") th.classList.add("total-score");
-                if (index >= coreColumns.length) th.classList.add("hidden");
-                tableHeader.appendChild(th);
-            });
-
-            data.forEach(row => {
-                const tr = document.createElement("tr");
-
-                coreColumns.concat(detailsColumns).forEach((col, index) => {
-                    const td = document.createElement("td");
-                    let value = row[col];
-
-                    if (typeof value === "object" && value !== null) {
-                        if (value.dropped) {
-                            td.innerHTML = `<span class="dropped">(${value.score.toFixed(2)})</span>`;
-                        } else {
-                            td.textContent = value.score.toFixed(2);
-                        }
-                    } else {
-                        td.textContent = value;
-                    }
-
-                    if (index >= coreColumns.length) td.classList.add("hidden");
-                    tr.appendChild(td);
-                });
-
-                tableBody.appendChild(tr);
-            });
-        }
+        let showDetails = false;
 
         function toggleDetails() {
-            const detailsCells = document.querySelectorAll("#ranking-table th.hidden, #ranking-table td.hidden");
-            const button = document.querySelector(".details-toggle");
-
-            if (detailsCells[0].style.display === "none" || detailsCells[0].classList.contains("hidden")) {
-                detailsCells.forEach(cell => cell.classList.remove("hidden"));
+            showDetails = !showDetails;
+            const button = document.querySelector('.show-button');
+            const extraColumns = document.querySelectorAll('.hidden-columns');
+            
+            if (showDetails) {
                 button.textContent = "Hide Details";
+                extraColumns.forEach(col => col.style.display = "table-cell");
             } else {
-                detailsCells.forEach(cell => cell.classList.add("hidden"));
                 button.textContent = "Show Details";
+                extraColumns.forEach(col => col.style.display = "none");
             }
         }
 
-        fetchRankings().then(createTable);
+        async function loadRankings() {
+            const response = await fetch('rankings.json');
+            const data = await response.json();
+
+            const tableBody = document.getElementById('table-body');
+            const headerRow = document.getElementById('header-row');
+
+            tableBody.innerHTML = '';
+
+            if (data.length > 0) {
+                const columns = Object.keys(data[0]);
+
+                // Add extra columns dynamically
+                columns.slice(3).forEach(col => {
+                    const th = document.createElement('th');
+                    th.textContent = col;
+                    th.classList.add("hidden-columns");
+                    headerRow.appendChild(th);
+                });
+
+                data.forEach((row, index) => {
+                    const tr = document.createElement('tr');
+                    if (index % 2 === 1) tr.classList.add("alt-row");
+
+                    tr.innerHTML = `
+                        <td>${row.Rank}</td>
+                        <td>${row.Player}</td>
+                        <td class="total-score">${row["Total Score"]}</td>
+                    `;
+
+                    columns.slice(3).forEach(col => {
+                        let value = row[col];
+
+                        if (typeof value === 'object' && value !== null) {
+                            if (value.dropped) {
+                                tr.innerHTML += `<td class="hidden-columns dropped">(${value.score})</td>`;
+                            } else {
+                                tr.innerHTML += `<td class="hidden-columns">${value.score}</td>`;
+                            }
+                        } else {
+                            tr.innerHTML += `<td class="hidden-columns">${value}</td>`;
+                        }
+                    });
+
+                    tableBody.appendChild(tr);
+                });
+            }
+        }
+
+        loadRankings();
     </script>
 </body>
 </html>
