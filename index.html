@@ -12,12 +12,14 @@
             padding: 20px;
         }
         h1 {
-            color: #004080;
+            color: #2935cf;
+            font-size: 24px;
+            font-weight: bold;
         }
         button {
             margin-bottom: 10px;
             padding: 6px 10px;
-            background-color: #004080;
+            background-color: #2935cf;
             color: white;
             border: none;
             cursor: pointer;
@@ -25,7 +27,7 @@
             border-radius: 5px;
         }
         button:hover {
-            background-color: #003366;
+            background-color: #1d28a1;
         }
         table {
             width: auto;
@@ -42,16 +44,16 @@
             border: 1px solid #ddd;
             text-align: center;
             line-height: 1.2;
-            white-space: nowrap;
+            white-space: normal;
+            word-wrap: break-word;
         }
-        /* Header Styles */
         th {
-            background-color: #004080;
+            background-color: #2935cf;
             color: white;
             font-weight: bold;
         }
         th:first-child {
-            background: #003366 !important;
+            background: #1d28a1 !important;
             color: white !important;
         }
         td:first-child {
@@ -66,10 +68,11 @@
             background-color: #FFFFFF;
         }
         /* Custom Colors */
-        .total-score { background-color: #6EC98D; color: black; font-weight: bold; }
-        .other-totals { background-color: #FFF2CC; font-weight: bold; }
-        
-        /* Hide additional columns initially */
+        .total-score {
+            background-color: #fe1a1a;
+            color: white;
+            font-weight: bold;
+        }
         .toggle-column {
             display: none;
         }
@@ -104,9 +107,13 @@
                 headers.forEach((header, index) => {
                     const th = document.createElement("th");
                     th.textContent = header;
-                    
-                    // Add toggle class for extra columns
-                    if (index >= 5) {
+
+                    // Allow headers to wrap if needed
+                    th.style.wordWrap = "break-word";
+                    th.style.whiteSpace = "normal";
+
+                    // Keep only the first 3 columns visible
+                    if (index >= 3) {
                         th.classList.add("toggle-column");
                     }
                     headerRow.appendChild(th);
@@ -134,10 +141,9 @@
 
                         // Apply color coding
                         if (header.includes("Total Score") || header.includes("Ranking Points")) td.classList.add("total-score");
-                        if (header.includes("Best")) td.classList.add("other-totals");
 
-                        // Add toggle class for extra columns
-                        if (index >= 5) {
+                        // Hide extra columns
+                        if (index >= 3) {
                             td.classList.add("toggle-column");
                         }
 
