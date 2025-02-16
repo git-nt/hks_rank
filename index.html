@@ -36,19 +36,22 @@
         .total-score {
             background-color: #6EC98D;
         }
+        .dropped {
+            font-style: italic;
+            color: gray;
+        }
         .details-toggle {
             margin-top: 10px;
             cursor: pointer;
             color: #004080;
             font-weight: bold;
             text-decoration: underline;
+            border: none;
+            background: none;
+            font-size: 16px;
         }
         .hidden {
             display: none;
-        }
-        .dropped {
-            font-style: italic;
-            color: gray;
         }
     </style>
 </head>
@@ -56,13 +59,9 @@
     <h1>HKS Rankings</h1>
     <table id="ranking-table">
         <thead>
-            <tr id="table-header">
-                <!-- Headers will be inserted dynamically -->
-            </tr>
+            <tr id="table-header"></tr>
         </thead>
-        <tbody id="table-body">
-            <!-- Data will be inserted dynamically -->
-        </tbody>
+        <tbody id="table-body"></tbody>
     </table>
 
     <button class="details-toggle" onclick="toggleDetails()">Show Details</button>
@@ -83,24 +82,18 @@
 
             if (data.length === 0) return;
 
-            // Extract column names
             const columns = Object.keys(data[0]);
-
-            // Separate "core" columns from "details" columns
             const coreColumns = ["Rank", "Player", "Total Score"];
             const detailsColumns = columns.filter(col => !coreColumns.includes(col));
 
-            // Create table headers
             coreColumns.concat(detailsColumns).forEach((col, index) => {
                 const th = document.createElement("th");
                 th.textContent = col;
                 if (col === "Total Score") th.classList.add("total-score");
-                th.setAttribute("data-column", col);
                 if (index >= coreColumns.length) th.classList.add("hidden");
                 tableHeader.appendChild(th);
             });
 
-            // Populate table rows
             data.forEach(row => {
                 const tr = document.createElement("tr");
 
@@ -108,7 +101,6 @@
                     const td = document.createElement("td");
                     let value = row[col];
 
-                    // If the value is an object with "score" and "dropped" fields
                     if (typeof value === "object" && value !== null) {
                         if (value.dropped) {
                             td.innerHTML = `<span class="dropped">(${value.score.toFixed(2)})</span>`;
