@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *'  # Runs every hour (adjust as needed)
+    - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:  # ✅ Enables manual runs
 
 jobs:
@@ -27,17 +27,11 @@ jobs:
       - name: Run Ranking Script
         run: python hks_ranking.py
 
-      - name: Move `rankings.json` to Root
-        run: |
-          mv rankings.json rankings.json || true
-          mv ranking.xlsx ranking.xlsx || true
-
       - name: Commit and Push Results
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add rankings.json ranking.xlsx
-          git diff --cached --quiet || git commit -m "Auto-update rankings"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f rankings.json  # ✅ Force add the ignored file
+          git add ranking.xlsx  # Ensure the Excel file is added too
+          git commit -m "Auto-update rankings" || echo "No changes to commit"
+          git push
