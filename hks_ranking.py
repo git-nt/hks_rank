@@ -112,7 +112,7 @@ class QuizRankingGenerator:
 
     def calculate_total_scores(self) -> None:
         """Calculate total scores for each player."""
-        drop_count = 3  # Change this value to adjust how many other quizzes to drop
+        drop_count = 2  # Change this value to adjust how many other quizzes to drop
         best_combined_12x7_count = 5  # Always take the top 5 scores across 12x7 and Hrvatskih 100 quizzes
 
         def calculate_partial_scores(row) -> Tuple[float, float, float]:
@@ -218,7 +218,7 @@ def main() -> None:
             ]
             worst_others = sorted(
                 valid_others, key=lambda quiz: pd.to_numeric(row[quiz], errors="coerce")
-            )[:2] if len(valid_others) > 3 else []
+            )[:2] if len(valid_others) > 2 else []
 
             kept_others = [quiz for quiz in valid_others if quiz not in worst_others]
 
