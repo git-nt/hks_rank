@@ -263,16 +263,9 @@
 
         document.getElementById("toggleButton").addEventListener("click", () => { 
             detailsVisible = !detailsVisible;
+            document.getElementById("toggleButton").textContent = detailsVisible ? "Sakrij detalje" : "Prikaži detalje";
             createHeaders(); 
             updateTable();
-        });
-
-        document.getElementById("prevPage").addEventListener("click", () => { 
-            if (currentPage > 1) { currentPage--; updateTable(); }
-        });
-
-        document.getElementById("nextPage").addEventListener("click", () => { 
-            if (currentPage * playersPerPage < rankingsData.length) { currentPage++; updateTable(); }
         });
 
         loadRankings();
