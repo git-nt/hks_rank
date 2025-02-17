@@ -9,15 +9,31 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background: linear-gradient(to bottom, #f9f9f9, #e3e3e3);
+            margin: 0;
+            padding: 0;
+        }
+        .header-bar {
+            background-color: #2935cf;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 200;
+        }
+        .header-bar img {
+            height: 60px;
+        }
+        .content {
+            padding-top: 100px;
         }
         h1 {
             color: #2935cf;
-            font-size: 32px;
-        }
-        .container {
-            width: 95%;
-            margin: 0 auto;
-            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
         }
         table {
             width: auto;
@@ -30,22 +46,24 @@
         }
         thead {
             position: sticky;
-            top: 0;
+            top: 80px;
             background: white;
             z-index: 100;
         }
         th, td {
             border: 1px solid #ddd;
-            padding: 5px 6px; /* Smaller row height */
+            padding: 4px 8px;
             text-align: center;
             overflow: hidden;
-            font-size: 12px; /* Keep font size small */
-            line-height: 1.2;
+            font-size: 14px;
         }
         th {
             background-color: #2935cf;
             color: white;
             font-weight: normal;
+            padding: 6px 4px;
+            font-size: 12px;
+            line-height: 1.2;
             white-space: normal;
         }
         .rank, .wide-player, .total-score {
@@ -67,8 +85,8 @@
             background-color: #2935cf;
             color: white;
             border: none;
-            padding: 8px 12px;
-            font-size: 14px;
+            padding: 10px 15px;
+            font-size: 16px;
             margin-bottom: 10px;
             cursor: pointer;
             border-radius: 5px;
@@ -77,12 +95,10 @@
             background-color: #1e2ea1;
         }
         .pagination {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 10px;
+            margin-top: 15px;
             font-size: 16px;
             font-weight: bold;
+            text-align: center;
         }
         .page-btn {
             background: none;
@@ -107,37 +123,36 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 50px; /* Reduced quiz column width */
+            width: 60px;
         }
         .wide-player {
-            width: 200px;
+            width: 180px;
             white-space: nowrap;
             font-weight: bold;
-        }
-        .pagination-wrapper {
-            display: flex;
-            justify-content: center;
-            margin-top: 15px;
         }
     </style>
 </head>
 <body>
 
-    <h1>HKS Rankings</h1>
-    <button id="toggleButton" class="toggle-btn">Show Details</button>
+    <div class="header-bar">
+        <img src="hks_logo.png" alt="HKS Logo">
+    </div>
 
-    <table id="rankingsTable">
-        <thead>
-            <tr id="headerRow">
-                <th class="rank">Rank</th>
-                <th class="wide-player">Player</th>
-                <th class="total-score narrow">Total</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <div class="content">
+        <h1>HKS Rankings</h1>
+        <button id="toggleButton" class="toggle-btn">Show Details</button>
 
-    <div class="pagination-wrapper">
+        <table id="rankingsTable">
+            <thead>
+                <tr id="headerRow">
+                    <th class="rank">Rank</th>
+                    <th class="wide-player">Player</th>
+                    <th class="total-score narrow">Total</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
         <div class="pagination">
             <button id="prevPage" class="page-btn" disabled>◀</button>
             <span id="pageInfo"></span>
@@ -167,7 +182,7 @@
                         th.textContent = key;
                         th.classList.add("details-column", "narrow");
                         if (!detailsVisible) {
-                            th.classList.add("hidden");
+                            th.classList.add("hidden"); 
                         }
                         headerRow.appendChild(th);
                     }
@@ -209,7 +224,7 @@
                         }
                         cell.classList.add("details-column", "narrow");
                         if (!detailsVisible) {
-                            cell.classList.add("hidden");
+                            cell.classList.add("hidden"); 
                         }
                         row.appendChild(cell);
                     }
