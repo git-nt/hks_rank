@@ -222,15 +222,14 @@
         }
 
         function updateTable() {
-            const table = document.getElementById('rankingsTable');
-            const tbody = table.querySelector('tbody');
+            const tbody = document.querySelector('#rankingsTable tbody');
             tbody.innerHTML = '';
 
             const startIdx = (currentPage - 1) * playersPerPage;
             const endIdx = startIdx + playersPerPage;
             const pageData = rankingsData.slice(startIdx, endIdx);
 
-            pageData.forEach((player) => {
+            pageData.forEach(player => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td class="rank">${player.Rank}</td>
@@ -250,13 +249,9 @@
 
                         const cell = document.createElement("td");
                         cell.textContent = isDropped ? `(${value.toFixed(2)})` : value.toFixed(2);
-                        if (isDropped) {
-                            cell.classList.add("dropped");
-                        }
+                        if (isDropped) cell.classList.add("dropped");
                         cell.classList.add("details-column", "narrow");
-                        if (!detailsVisible) {
-                            cell.classList.add("hidden"); 
-                        }
+                        if (!detailsVisible) cell.classList.add("hidden"); 
                         row.appendChild(cell);
                     }
                 });
@@ -264,17 +259,15 @@
                 tbody.appendChild(row);
             });
 
-            updatePagination();
+            document.getElementById('pageInfo').textContent = 
+                `${startIdx + 1} - ${Math.min(endIdx, rankingsData.length)} od ${rankingsData.length}`;
+            document.getElementById('prevPage').disabled = currentPage === 1;
+            document.getElementById('nextPage').disabled = currentPage * playersPerPage >= rankingsData.length;
         }
 
-        document.getElementById("toggleButton").addEventListener("click", function() {
-            detailsVisible = !detailsVisible;
-            document.querySelectorAll(".details-column").forEach(el => {
-                el.classList.toggle("hidden", !detailsVisible);
-            });
-            document.getElementById("contentContainer").classList.toggle("details-visible", detailsVisible);
-            this.textContent = detailsVisible ? "Sakrij detalje" : "Prikaži detalje";
-        });
+        document.getElementById("prevPage").addEventListener("click", () => { if (currentPage > 1) { currentPage--; updateTable(); }});
+        document.getElementById("nextPage").addEventListener("click", () => { if (currentPage * playersPerPage < rankingsData.length) { currentPage++; updateTable(); }});
+        document.getElementById("toggleButton").addEventListener("click", () => { detailsVisible = !detailsVisible; updateTable(); });
 
         loadRankings();
     </script>

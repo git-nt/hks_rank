@@ -185,7 +185,7 @@ def main() -> None:
         file_path = Path(__file__).parent / 'hks_scores.xlsx'
         ranking = QuizRankingGenerator(file_path)
         final_scores = ranking.run()
-        logger.info(final_scores)
+        logger.info(final_scores.head(10))
 
         output_path = file_path.parent / 'ranking.xlsx'
         final_scores.to_excel(output_path, index=False)
