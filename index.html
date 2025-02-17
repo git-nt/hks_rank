@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background: linear-gradient(to bottom, #f9f9f9, #e3e3e3); /* ✅ Smooth background */
+            background: linear-gradient(to bottom, #f9f9f9, #e3e3e3);
         }
         h1 {
             color: #2935cf;
@@ -25,7 +25,7 @@
             border-collapse: collapse;
             table-layout: fixed;
             background: white;
-            border-radius: 8px; /* ✅ Soft edges */
+            border-radius: 8px;
             overflow: hidden;
         }
         thead {
@@ -36,25 +36,24 @@
         }
         th, td {
             border: 1px solid #ddd;
-            padding: 8px 12px;
+            padding: 5px 6px; /* Smaller row height */
             text-align: center;
             overflow: hidden;
+            font-size: 12px; /* Keep font size small */
+            line-height: 1.2;
         }
         th {
             background-color: #2935cf;
             color: white;
             font-weight: normal;
-            padding: 10px 8px;
-            font-size: 12px;
-            line-height: 1.2;
             white-space: normal;
         }
         .rank, .wide-player, .total-score {
             font-weight: bold;
-            font-size: 14px; /* ✅ Bigger fonts */
+            font-size: 14px;
         }
         .rank {
-            width: 50px; /* ✅ More compact */
+            width: 50px;
         }
         .total-score {
             background-color: #fe1a1a;
@@ -68,8 +67,8 @@
             background-color: #2935cf;
             color: white;
             border: none;
-            padding: 10px 15px;
-            font-size: 16px;
+            padding: 8px 12px;
+            font-size: 14px;
             margin-bottom: 10px;
             cursor: pointer;
             border-radius: 5px;
@@ -78,7 +77,10 @@
             background-color: #1e2ea1;
         }
         .pagination {
-            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
             font-size: 16px;
             font-weight: bold;
         }
@@ -105,12 +107,17 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 75px;
+            width: 50px; /* Reduced quiz column width */
         }
         .wide-player {
-            width: 200px; /* ✅ Ensures Player column stays wide */
+            width: 200px;
             white-space: nowrap;
             font-weight: bold;
+        }
+        .pagination-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -130,10 +137,12 @@
         <tbody></tbody>
     </table>
 
-    <div class="pagination">
-        <button id="prevPage" class="page-btn" disabled>◀</button>
-        <span id="pageInfo"></span>
-        <button id="nextPage" class="page-btn">▶</button>
+    <div class="pagination-wrapper">
+        <div class="pagination">
+            <button id="prevPage" class="page-btn" disabled>◀</button>
+            <span id="pageInfo"></span>
+            <button id="nextPage" class="page-btn">▶</button>
+        </div>
     </div>
 
     <script>
@@ -158,7 +167,7 @@
                         th.textContent = key;
                         th.classList.add("details-column", "narrow");
                         if (!detailsVisible) {
-                            th.classList.add("hidden"); 
+                            th.classList.add("hidden");
                         }
                         headerRow.appendChild(th);
                     }
@@ -200,7 +209,7 @@
                         }
                         cell.classList.add("details-column", "narrow");
                         if (!detailsVisible) {
-                            cell.classList.add("hidden"); 
+                            cell.classList.add("hidden");
                         }
                         row.appendChild(cell);
                     }
