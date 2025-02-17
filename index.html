@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Državna rang lista</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-        
+
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background: linear-gradient(to bottom, #f9f9f9, #e3e3e3);
             margin: 0;
             padding: 0;
-            min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         .header-bar {
             background-color: #101d5e;
             width: 100%;
@@ -31,14 +31,17 @@
             z-index: 200;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
         }
+
         .header-content {
             display: flex;
             align-items: center;
             gap: 15px;
         }
+
         .header-bar img {
             height: 30px;
         }
+
         .header-title {
             color: white;
             font-size: 20px;
@@ -46,18 +49,21 @@
             font-family: 'Poppins', sans-serif;
             letter-spacing: 0.5px;
         }
+
         .content {
             padding-top: 70px;
             flex: 1;
             width: 90%;
-            max-width: 1000px;
-            transition: width 0.3s ease;
+            max-width: 1100px;
+            text-align: center;
         }
+
         h1 {
             color: #101d5e;
             font-size: 28px;
             margin-bottom: 15px;
         }
+
         .toggle-btn {
             background-color: #101d5e;
             color: white;
@@ -68,25 +74,35 @@
             cursor: pointer;
             border-radius: 5px;
         }
+
         .toggle-btn:hover {
             background-color: #0d174b;
         }
+
+        .table-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            overflow-x: auto;
+        }
+
         table {
-            width: auto;
-            margin: 0 auto;
             border-collapse: collapse;
             table-layout: fixed;
             background: white;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            min-width: 600px;
         }
+
         thead {
             position: sticky;
             top: 50px;
             background: white;
             z-index: 100;
         }
+
         th, td {
             border: 1px solid #ddd;
             padding: 4px 8px;
@@ -94,6 +110,7 @@
             overflow: hidden;
             font-size: 14px;
         }
+
         th {
             background-color: #101d5e;
             color: white;
@@ -103,29 +120,44 @@
             line-height: 1.2;
             white-space: normal;
         }
-        .rank {
-            width: 60px; /* Fixed width */
-        }
-        .wide-player {
-            width: 200px; /* Fixed width */
-            white-space: nowrap;
+
+        .rank, .wide-player, .total-score {
             font-weight: bold;
+            font-size: 16px;
         }
+
+        .rank {
+            width: 50px;
+        }
+
+        .wide-player {
+            width: 200px;
+            white-space: nowrap;
+        }
+
         .total-score {
-            width: 90px; /* Fixed width */
             background-color: #cb1f1f;
             color: white;
             font-weight: bold;
+            width: 80px;
         }
+
+        .details-column {
+            width: 55px;
+            font-size: 12px;
+        }
+
         .hidden {
             display: none;
         }
+
         .pagination {
             margin-top: 15px;
             font-size: 16px;
             font-weight: bold;
             text-align: center;
         }
+
         .page-btn {
             background: none;
             border: none;
@@ -134,26 +166,23 @@
             padding: 5px 10px;
             color: black;
         }
+
         .page-btn:disabled {
             color: gray;
             cursor: not-allowed;
         }
+
         .dropped {
             font-style: italic;
             color: #808080;
         }
+
         tr:nth-child(even) {
             background-color: #F2F2F2;
         }
+
         tr:nth-child(odd) {
             background-color: #FFFFFF;
-        }
-        .narrow {
-            width: 50px; /* Fixed width for quiz columns */
-            font-size: 12px;
-        }
-        .details-visible {
-            max-width: 100%;
         }
     </style>
 </head>
@@ -166,19 +195,21 @@
         </div>
     </div>
 
-    <div class="content" id="contentContainer">
+    <div class="content">
         <button id="toggleButton" class="toggle-btn">Prikaži detalje</button>
 
-        <table id="rankingsTable">
-            <thead>
-                <tr id="headerRow">
-                    <th class="rank">Rang</th>
-                    <th class="wide-player">Ime i prezime</th>
-                    <th class="total-score">Bodovi</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+        <div class="table-container">
+            <table id="rankingsTable">
+                <thead>
+                    <tr id="headerRow">
+                        <th class="rank">Rang</th>
+                        <th class="wide-player">Ime i prezime</th>
+                        <th class="total-score">Bodovi</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
 
         <div class="pagination">
             <button id="prevPage" class="page-btn" disabled>◀</button>
@@ -202,28 +233,27 @@
 
         function createHeaders() {
             const headerRow = document.getElementById("headerRow");
-            document.querySelectorAll(".details-column").forEach(el => el.remove());
-
-            Object.keys(rankingsData[0]).forEach(key => {
-                if (!["Rank", "Player", "Total Score"].includes(key)) {
-                    const th = document.createElement("th");
-                    th.textContent = key;
-                    th.classList.add("details-column", "narrow");
-                    if (!detailsVisible) th.classList.add("hidden");
-                    headerRow.appendChild(th);
-                }
-            });
+            if (headerRow.children.length === 3) {
+                Object.keys(rankingsData[0]).forEach(key => {
+                    if (!["Rank", "Player", "Total Score"].includes(key)) {
+                        const th = document.createElement("th");
+                        th.textContent = key;
+                        th.classList.add("details-column", "hidden");
+                        headerRow.appendChild(th);
+                    }
+                });
+            }
         }
 
         function updateTable() {
-            const tbody = document.querySelector('#rankingsTable tbody');
+            const tbody = document.getElementById('rankingsTable').querySelector('tbody');
             tbody.innerHTML = '';
 
             const startIdx = (currentPage - 1) * playersPerPage;
             const endIdx = startIdx + playersPerPage;
             const pageData = rankingsData.slice(startIdx, endIdx);
 
-            pageData.forEach(player => {
+            pageData.forEach((player) => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td class="rank">${player.Rank}</td>
@@ -234,18 +264,11 @@
                 Object.keys(player).forEach(key => {
                     if (!["Rank", "Player", "Total Score"].includes(key)) {
                         let value = player[key];
-                        let isDropped = false;
-
-                        if (typeof value === "object" && value !== null) {
-                            isDropped = value.dropped;
-                            value = value.score;
-                        }
-
-                        const cell = document.createElement("td");
-                        cell.textContent = isDropped ? `(${value.toFixed(2)})` : value.toFixed(2);
+                        let isDropped = value.dropped ?? false;
+                        let cell = document.createElement("td");
+                        cell.textContent = isDropped ? `(${value.score.toFixed(2)})` : value.score.toFixed(2);
                         if (isDropped) cell.classList.add("dropped");
-                        cell.classList.add("details-column", "narrow");
-                        if (!detailsVisible) cell.classList.add("hidden");
+                        cell.classList.add("details-column", "hidden");
                         row.appendChild(cell);
                     }
                 });
@@ -253,15 +276,14 @@
                 tbody.appendChild(row);
             });
 
-            document.getElementById('pageInfo').textContent = 
-                `${startIdx + 1} - ${Math.min(endIdx, rankingsData.length)} od ${rankingsData.length}`;
-            document.getElementById('prevPage').disabled = currentPage === 1;
-            document.getElementById('nextPage').disabled = currentPage * playersPerPage >= rankingsData.length;
+            updatePagination();
         }
 
-        document.getElementById("toggleButton").addEventListener("click", () => { detailsVisible = !detailsVisible; createHeaders(); updateTable(); });
-        document.getElementById("prevPage").addEventListener("click", () => { if (currentPage > 1) { currentPage--; updateTable(); }});
-        document.getElementById("nextPage").addEventListener("click", () => { if (currentPage * playersPerPage < rankingsData.length) { currentPage++; updateTable(); }});
+        document.getElementById("toggleButton").addEventListener("click", function() {
+            detailsVisible = !detailsVisible;
+            document.querySelectorAll(".details-column").forEach(el => el.classList.toggle("hidden", !detailsVisible));
+            this.textContent = detailsVisible ? "Sakrij detalje" : "Prikaži detalje";
+        });
 
         loadRankings();
     </script>
