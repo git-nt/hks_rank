@@ -218,7 +218,7 @@ def main() -> None:
             ]
             worst_others = sorted(
                 valid_others, key=lambda quiz: pd.to_numeric(row[quiz], errors="coerce")
-            )[:3] if len(valid_others) > 3 else []
+            )[:2] if len(valid_others) > 3 else []
 
             kept_others = [quiz for quiz in valid_others if quiz not in worst_others]
 

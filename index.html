@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Državna rang lista</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
         body {
-            font-family: Arial, sans-serif; /* ✅ Restored table font */
+            font-family: Arial, sans-serif;
             text-align: center;
             background: linear-gradient(to bottom, #f9f9f9, #e3e3e3);
             margin: 0;
             padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-
-        /* Top Bar */
         .header-bar {
             background-color: #101d5e;
             width: 100%;
-            height: 40px;
+            height: 50px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -27,39 +27,46 @@
             top: 0;
             left: 0;
             z-index: 200;
-            padding: 5px 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
         }
-
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
         .header-bar img {
-            height: 28px;
-            margin-right: 10px;
+            height: 30px;
         }
-
         .header-title {
-            font-family: 'Poppins', sans-serif; /* ✅ Only header font changed */
+            color: white;
             font-size: 18px;
             font-weight: bold;
-            color: white;
-            letter-spacing: 0.5px;
-            margin: 0;
-            padding: 0;
-            vertical-align: middle;
+            font-family: Arial, sans-serif;
         }
-
-        /* Content Adjustments */
         .content {
-            padding-top: 60px; /* ✅ Added spacing so Show Details is lower */
+            padding-top: 70px;
+            flex: 1;
+            width: 90%;
+            max-width: 1000px;
         }
-
         h1 {
             color: #101d5e;
-            font-size: 26px;
-            margin-bottom: 20px; /* ✅ More spacing */
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-size: 28px;
+            margin-bottom: 15px;
         }
-
-        /* Table Styling */
+        .toggle-btn {
+            background-color: #101d5e;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .toggle-btn:hover {
+            background-color: #0d174b;
+        }
         table {
             width: auto;
             margin: 0 auto;
@@ -68,23 +75,21 @@
             background: white;
             border-radius: 8px;
             overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
         }
-
         thead {
             position: sticky;
-            top: 40px;
+            top: 50px;
             background: white;
             z-index: 100;
         }
-
         th, td {
             border: 1px solid #ddd;
             padding: 4px 8px;
             text-align: center;
             overflow: hidden;
-            font-size: 14px; /* ✅ Restored table font */
+            font-size: 14px;
         }
-
         th {
             background-color: #101d5e;
             color: white;
@@ -94,57 +99,27 @@
             line-height: 1.2;
             white-space: normal;
         }
-
         .rank, .wide-player, .total-score {
             font-weight: bold;
             font-size: 14px;
         }
-
         .rank {
             width: 50px;
         }
-
         .total-score {
             background-color: #cb1f1f;
             color: white;
             font-weight: bold;
         }
-
-        /* Details View (Smaller Font + Narrower Columns) */
-        .details-column {
-            font-size: 12px;
-            width: 50px;
-        }
-
         .hidden {
             display: none;
         }
-
-        /* Buttons */
-        .toggle-btn {
-            background-color: #101d5e;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            font-size: 16px;
-            margin-bottom: 10px;
-            margin-top: 10px; /* ✅ Added spacing above Show Details */
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .toggle-btn:hover {
-            background-color: #101d5e;
-        }
-
-        /* Pagination */
         .pagination {
             margin-top: 15px;
             font-size: 16px;
             font-weight: bold;
             text-align: center;
         }
-
         .page-btn {
             background: none;
             border: none;
@@ -153,29 +128,24 @@
             padding: 5px 10px;
             color: black;
         }
-
         .page-btn:disabled {
             color: gray;
             cursor: not-allowed;
         }
-
         .dropped {
             font-style: italic;
             color: #808080;
         }
-
         tr:nth-child(even) {
             background-color: #F2F2F2;
         }
-
         tr:nth-child(odd) {
             background-color: #FFFFFF;
         }
-
         .narrow {
-            width: 50px;
+            width: 55px;
+            font-size: 12px;
         }
-
         .wide-player {
             width: 180px;
             white-space: nowrap;
@@ -185,10 +155,11 @@
 </head>
 <body>
 
-    <!-- Top Bar -->
     <div class="header-bar">
-        <img src="hks_logo.png" alt="HKS Logo">
-        <span class="header-title">Državna rang lista</span>
+        <div class="header-content">
+            <img src="hks_logo.png" alt="HKS Logo">
+            <span class="header-title">Državna rang lista</span>
+        </div>
     </div>
 
     <div class="content">
@@ -288,13 +259,13 @@
             updatePagination();
         }
 
-        function updatePagination() {
-            const totalPages = Math.ceil(rankingsData.length / playersPerPage);
-            document.getElementById('pageInfo').textContent = 
-                `${(currentPage - 1) * playersPerPage + 1} - ${Math.min(currentPage * playersPerPage, rankingsData.length)} of ${rankingsData.length}`;
-            document.getElementById('prevPage').disabled = currentPage === 1;
-            document.getElementById('nextPage').disabled = currentPage === totalPages;
-        }
+        document.getElementById("toggleButton").addEventListener("click", function() {
+            detailsVisible = !detailsVisible;
+            document.querySelectorAll(".details-column").forEach(el => {
+                el.classList.toggle("hidden", !detailsVisible);
+            });
+            this.textContent = detailsVisible ? "Sakrij detalje" : "Prikaži detalje";
+        });
 
         loadRankings();
     </script>
