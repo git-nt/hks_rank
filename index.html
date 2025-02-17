@@ -103,14 +103,16 @@
             line-height: 1.2;
             white-space: normal;
         }
-        .rank, .wide-player, .total-score {
-            font-weight: bold;
-            font-size: 14px;
-        }
         .rank {
-            width: 50px;
+            width: 60px; /* Fixed width */
+        }
+        .wide-player {
+            width: 200px; /* Fixed width */
+            white-space: nowrap;
+            font-weight: bold;
         }
         .total-score {
+            width: 90px; /* Fixed width */
             background-color: #cb1f1f;
             color: white;
             font-weight: bold;
@@ -147,15 +149,9 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 55px;
+            width: 50px; /* Fixed width for quiz columns */
             font-size: 12px;
         }
-        .wide-player {
-            width: 180px;
-            white-space: nowrap;
-            font-weight: bold;
-        }
-        /* Ensure centering when details are shown */
         .details-visible {
             max-width: 100%;
         }
@@ -178,7 +174,7 @@
                 <tr id="headerRow">
                     <th class="rank">Rang</th>
                     <th class="wide-player">Ime i prezime</th>
-                    <th class="total-score narrow">Bodovi</th>
+                    <th class="total-score">Bodovi</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -206,19 +202,17 @@
 
         function createHeaders() {
             const headerRow = document.getElementById("headerRow");
-            if (headerRow.children.length === 3) {
-                Object.keys(rankingsData[0]).forEach(key => {
-                    if (!["Rank", "Player", "Total Score"].includes(key)) {
-                        const th = document.createElement("th");
-                        th.textContent = key;
-                        th.classList.add("details-column", "narrow");
-                        if (!detailsVisible) {
-                            th.classList.add("hidden"); 
-                        }
-                        headerRow.appendChild(th);
-                    }
-                });
-            }
+            document.querySelectorAll(".details-column").forEach(el => el.remove());
+
+            Object.keys(rankingsData[0]).forEach(key => {
+                if (!["Rank", "Player", "Total Score"].includes(key)) {
+                    const th = document.createElement("th");
+                    th.textContent = key;
+                    th.classList.add("details-column", "narrow");
+                    if (!detailsVisible) th.classList.add("hidden");
+                    headerRow.appendChild(th);
+                }
+            });
         }
 
         function updateTable() {
@@ -234,7 +228,7 @@
                 row.innerHTML = `
                     <td class="rank">${player.Rank}</td>
                     <td class="wide-player">${player.Player}</td>
-                    <td class="total-score narrow">${player["Total Score"]}</td>
+                    <td class="total-score">${player["Total Score"]}</td>
                 `;
 
                 Object.keys(player).forEach(key => {
@@ -251,7 +245,7 @@
                         cell.textContent = isDropped ? `(${value.toFixed(2)})` : value.toFixed(2);
                         if (isDropped) cell.classList.add("dropped");
                         cell.classList.add("details-column", "narrow");
-                        if (!detailsVisible) cell.classList.add("hidden"); 
+                        if (!detailsVisible) cell.classList.add("hidden");
                         row.appendChild(cell);
                     }
                 });
@@ -265,9 +259,9 @@
             document.getElementById('nextPage').disabled = currentPage * playersPerPage >= rankingsData.length;
         }
 
+        document.getElementById("toggleButton").addEventListener("click", () => { detailsVisible = !detailsVisible; createHeaders(); updateTable(); });
         document.getElementById("prevPage").addEventListener("click", () => { if (currentPage > 1) { currentPage--; updateTable(); }});
         document.getElementById("nextPage").addEventListener("click", () => { if (currentPage * playersPerPage < rankingsData.length) { currentPage++; updateTable(); }});
-        document.getElementById("toggleButton").addEventListener("click", () => { detailsVisible = !detailsVisible; updateTable(); });
 
         loadRankings();
     </script>
