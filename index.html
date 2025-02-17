@@ -6,7 +6,7 @@
     <title>Državna rang lista</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-        
+
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -50,13 +50,8 @@
             padding-top: 70px;
             flex: 1;
             width: 90%;
-            max-width: 1000px;
+            max-width: 1200px;
             transition: width 0.3s ease;
-        }
-        h1 {
-            color: #101d5e;
-            font-size: 28px;
-            margin-bottom: 15px;
         }
         .toggle-btn {
             background-color: #101d5e;
@@ -89,7 +84,7 @@
         }
         th, td {
             border: 1px solid #ddd;
-            padding: 4px 8px;
+            padding: 6px 10px;
             text-align: center;
             overflow: hidden;
             font-size: 14px;
@@ -104,18 +99,22 @@
             white-space: normal;
         }
         .rank {
-            width: 60px; /* Fixed width */
+            width: 60px;
+            font-weight: bold;
+            font-size: 14px;
         }
         .wide-player {
-            width: 200px; /* Fixed width */
+            width: 200px;
             white-space: nowrap;
             font-weight: bold;
+            font-size: 14px;
         }
         .total-score {
-            width: 90px; /* Fixed width */
+            width: 90px;
             background-color: #cb1f1f;
             color: white;
             font-weight: bold;
+            font-size: 14px;
         }
         .hidden {
             display: none;
@@ -149,11 +148,17 @@
             background-color: #FFFFFF;
         }
         .narrow {
-            width: 50px; /* Fixed width for quiz columns */
+            width: 50px;
             font-size: 12px;
         }
         .details-visible {
             max-width: 100%;
+        }
+        .table-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            overflow-x: auto;
         }
     </style>
 </head>
@@ -169,16 +174,18 @@
     <div class="content" id="contentContainer">
         <button id="toggleButton" class="toggle-btn">Prikaži detalje</button>
 
-        <table id="rankingsTable">
-            <thead>
-                <tr id="headerRow">
-                    <th class="rank">Rang</th>
-                    <th class="wide-player">Ime i prezime</th>
-                    <th class="total-score">Bodovi</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+        <div class="table-container">
+            <table id="rankingsTable">
+                <thead>
+                    <tr id="headerRow">
+                        <th class="rank">Rang</th>
+                        <th class="wide-player">Ime i prezime</th>
+                        <th class="total-score">Bodovi</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
 
         <div class="pagination">
             <button id="prevPage" class="page-btn" disabled>◀</button>
@@ -255,13 +262,9 @@
 
             document.getElementById('pageInfo').textContent = 
                 `${startIdx + 1} - ${Math.min(endIdx, rankingsData.length)} od ${rankingsData.length}`;
-            document.getElementById('prevPage').disabled = currentPage === 1;
-            document.getElementById('nextPage').disabled = currentPage * playersPerPage >= rankingsData.length;
         }
 
         document.getElementById("toggleButton").addEventListener("click", () => { detailsVisible = !detailsVisible; createHeaders(); updateTable(); });
-        document.getElementById("prevPage").addEventListener("click", () => { if (currentPage > 1) { currentPage--; updateTable(); }});
-        document.getElementById("nextPage").addEventListener("click", () => { if (currentPage * playersPerPage < rankingsData.length) { currentPage++; updateTable(); }});
 
         loadRankings();
     </script>
