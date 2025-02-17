@@ -2,7 +2,7 @@
     {
         "Rank":1,
         "Player":"Lucian Šošić",
-        "Total Score":"1260.51",
+        "Total Score":"1410.51",
         "12x7-5x2":{
             "score":80.0
         },
@@ -60,7 +60,7 @@
     {
         "Rank":2,
         "Player":"Lovro Jurišić",
-        "Total Score":"1241.70",
+        "Total Score":"1389.12",
         "12x7-5x2":{
             "score":80.0
         },
@@ -118,7 +118,7 @@
     {
         "Rank":3,
         "Player":"Ante Uzelac",
-        "Total Score":"1201.76",
+        "Total Score":"1336.24",
         "12x7-5x2":{
             "score":73.22
         },
@@ -176,7 +176,7 @@
     {
         "Rank":4,
         "Player":"Filip Znaor",
-        "Total Score":"1081.02",
+        "Total Score":"1207.23",
         "12x7-5x2":{
             "score":65.08
         },
@@ -234,7 +234,7 @@
     {
         "Rank":5,
         "Player":"Željko Pavić",
-        "Total Score":"1067.59",
+        "Total Score":"1190.43",
         "12x7-5x2":{
             "score":67.8
         },
@@ -291,6 +291,296 @@
     },
     {
         "Rank":6,
+        "Player":"Mladen Vukorepa",
+        "Total Score":"1170.87",
+        "12x7-5x2":{
+            "score":62.37,
+            "dropped":true
+        },
+        "12x7-5x3":{
+            "score":73.94
+        },
+        "12x7-5x4":{
+            "score":66.67
+        },
+        "12x7-5x5":{
+            "score":73.85
+        },
+        "12x7-5x6":{
+            "score":63.45,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":67.78
+        },
+        "12x7-6x1":{
+            "score":64.0
+        },
+        "Hrvatskih 100":{
+            "score":59.53,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":128.45
+        },
+        "Norway Open 2024":{
+            "score":162.16
+        },
+        "WQC 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-06":{
+            "score":121.03
+        },
+        "MMM 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-10":{
+            "score":128.72
+        },
+        "Croatian Open 2024":{
+            "score":168.42
+        },
+        "Austrian Open 2024":{
+            "score":115.85
+        }
+    },
+    {
+        "Rank":7,
+        "Player":"Goran Vesić",
+        "Total Score":"1148.09",
+        "12x7-5x2":{
+            "score":56.95,
+            "dropped":true
+        },
+        "12x7-5x3":{
+            "score":65.45
+        },
+        "12x7-5x4":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-5x5":{
+            "score":69.23
+        },
+        "12x7-5x6":{
+            "score":64.83
+        },
+        "12x7-5x7":{
+            "score":67.78
+        },
+        "12x7-6x1":{
+            "score":70.15
+        },
+        "Hrvatskih 100":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":118.97
+        },
+        "Norway Open 2024":{
+            "score":147.3
+        },
+        "WQC 2024":{
+            "score":130.5
+        },
+        "Cro Slam 2024-06":{
+            "score":116.9
+        },
+        "MMM 2024":{
+            "score":121.55
+        },
+        "Cro Slam 2024-10":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Croatian Open 2024":{
+            "score":175.44
+        },
+        "Austrian Open 2024":{
+            "score":104.88,
+            "dropped":true
+        }
+    },
+    {
+        "Rank":8,
+        "Player":"Nikola Lazić",
+        "Total Score":"1144.70",
+        "12x7-5x2":{
+            "score":67.8
+        },
+        "12x7-5x3":{
+            "score":56.97,
+            "dropped":true
+        },
+        "12x7-5x4":{
+            "score":60.0
+        },
+        "12x7-5x5":{
+            "score":66.15
+        },
+        "12x7-5x6":{
+            "score":60.69
+        },
+        "12x7-5x7":{
+            "score":60.0,
+            "dropped":true
+        },
+        "12x7-6x1":{
+            "score":66.46
+        },
+        "Hrvatskih 100":{
+            "score":51.16,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":111.21,
+            "dropped":true
+        },
+        "Norway Open 2024":{
+            "score":155.41
+        },
+        "WQC 2024":{
+            "score":148.94
+        },
+        "Cro Slam 2024-06":{
+            "score":125.17
+        },
+        "MMM 2024":{
+            "score":117.67
+        },
+        "Cro Slam 2024-10":{
+            "score":125.53
+        },
+        "Croatian Open 2024":{
+            "score":150.88
+        },
+        "Austrian Open 2024":{
+            "score":102.44,
+            "dropped":true
+        }
+    },
+    {
+        "Rank":9,
+        "Player":"Borko Barić",
+        "Total Score":"1116.01",
+        "12x7-5x2":{
+            "score":58.31,
+            "dropped":true
+        },
+        "12x7-5x3":{
+            "score":64.24
+        },
+        "12x7-5x4":{
+            "score":65.56
+        },
+        "12x7-5x5":{
+            "score":64.62
+        },
+        "12x7-5x6":{
+            "score":55.17,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":61.11
+        },
+        "12x7-6x1":{
+            "score":64.0
+        },
+        "Hrvatskih 100":{
+            "score":40.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":115.52
+        },
+        "Norway Open 2024":{
+            "score":136.49
+        },
+        "WQC 2024":{
+            "score":148.94
+        },
+        "Cro Slam 2024-06":{
+            "score":113.79,
+            "dropped":true
+        },
+        "MMM 2024":{
+            "score":104.74,
+            "dropped":true
+        },
+        "Cro Slam 2024-10":{
+            "score":117.02
+        },
+        "Croatian Open 2024":{
+            "score":160.23
+        },
+        "Austrian Open 2024":{
+            "score":118.29
+        }
+    },
+    {
+        "Rank":10,
+        "Player":"Haris Mujkić",
+        "Total Score":"1068.59",
+        "12x7-5x2":{
+            "score":63.73
+        },
+        "12x7-5x3":{
+            "score":66.67
+        },
+        "12x7-5x4":{
+            "score":65.56
+        },
+        "12x7-5x5":{
+            "score":64.62
+        },
+        "12x7-5x6":{
+            "score":60.69,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":64.44
+        },
+        "12x7-6x1":{
+            "score":59.08,
+            "dropped":true
+        },
+        "Hrvatskih 100":{
+            "score":63.26,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Norway Open 2024":{
+            "score":150.0
+        },
+        "WQC 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-06":{
+            "score":106.55
+        },
+        "MMM 2024":{
+            "score":111.21
+        },
+        "Cro Slam 2024-10":{
+            "score":120.21
+        },
+        "Croatian Open 2024":{
+            "score":154.39
+        },
+        "Austrian Open 2024":{
+            "score":101.22
+        }
+    },
+    {
+        "Rank":11,
         "Player":"Neven Trgovec",
         "Total Score":"1056.99",
         "12x7-5x2":{
@@ -348,181 +638,65 @@
         }
     },
     {
-        "Rank":7,
-        "Player":"Mladen Vukorepa",
-        "Total Score":"1055.02",
+        "Rank":12,
+        "Player":"Bojan Hlača",
+        "Total Score":"1040.45",
         "12x7-5x2":{
-            "score":62.37,
-            "dropped":true
+            "score":61.02
         },
         "12x7-5x3":{
-            "score":73.94
-        },
-        "12x7-5x4":{
-            "score":66.67
-        },
-        "12x7-5x5":{
-            "score":73.85
-        },
-        "12x7-5x6":{
-            "score":63.45,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":67.78
-        },
-        "12x7-6x1":{
-            "score":64.0
-        },
-        "Hrvatskih 100":{
-            "score":59.53,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":128.45
-        },
-        "Norway Open 2024":{
-            "score":162.16
-        },
-        "WQC 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Cro Slam 2024-06":{
-            "score":121.03
-        },
-        "MMM 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Cro Slam 2024-10":{
-            "score":128.72
-        },
-        "Croatian Open 2024":{
-            "score":168.42
-        },
-        "Austrian Open 2024":{
-            "score":115.85
-        }
-    },
-    {
-        "Rank":8,
-        "Player":"Goran Vesić",
-        "Total Score":"1031.19",
-        "12x7-5x2":{
-            "score":56.95,
-            "dropped":true
-        },
-        "12x7-5x3":{
-            "score":65.45
-        },
-        "12x7-5x4":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-5x5":{
-            "score":69.23
-        },
-        "12x7-5x6":{
-            "score":64.83
-        },
-        "12x7-5x7":{
-            "score":67.78
-        },
-        "12x7-6x1":{
-            "score":70.15
-        },
-        "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":118.97
-        },
-        "Norway Open 2024":{
-            "score":147.3
-        },
-        "WQC 2024":{
-            "score":130.5
-        },
-        "Cro Slam 2024-06":{
-            "score":116.9
-        },
-        "MMM 2024":{
-            "score":121.55
-        },
-        "Cro Slam 2024-10":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Croatian Open 2024":{
-            "score":175.44
-        },
-        "Austrian Open 2024":{
-            "score":104.88,
-            "dropped":true
-        }
-    },
-    {
-        "Rank":9,
-        "Player":"Nikola Lazić",
-        "Total Score":"1027.02",
-        "12x7-5x2":{
-            "score":67.8
-        },
-        "12x7-5x3":{
-            "score":56.97,
+            "score":55.76,
             "dropped":true
         },
         "12x7-5x4":{
-            "score":60.0
+            "score":58.89
         },
         "12x7-5x5":{
-            "score":66.15
+            "score":67.69
         },
         "12x7-5x6":{
-            "score":60.69
+            "score":51.03,
+            "dropped":true
         },
         "12x7-5x7":{
-            "score":60.0,
+            "score":54.44,
             "dropped":true
         },
         "12x7-6x1":{
-            "score":66.46
+            "score":61.54
         },
         "Hrvatskih 100":{
-            "score":51.16,
-            "dropped":true
+            "score":57.67
         },
         "Serbian Open 2024":{
-            "score":111.21,
+            "score":100.86,
             "dropped":true
         },
         "Norway Open 2024":{
-            "score":155.41
+            "score":145.95
         },
         "WQC 2024":{
-            "score":148.94
+            "score":120.57
         },
         "Cro Slam 2024-06":{
-            "score":125.17
+            "score":107.59
         },
         "MMM 2024":{
-            "score":117.67
+            "score":96.98,
+            "dropped":true
         },
         "Cro Slam 2024-10":{
-            "score":125.53
+            "score":108.51
         },
         "Croatian Open 2024":{
-            "score":150.88
+            "score":147.37
         },
         "Austrian Open 2024":{
-            "score":102.44,
-            "dropped":true
+            "score":103.66
         }
     },
     {
-        "Rank":10,
+        "Rank":13,
         "Player":"Juraj Kveder",
         "Total Score":"1010.21",
         "12x7-5x2":{
@@ -580,123 +754,181 @@
         }
     },
     {
-        "Rank":11,
-        "Player":"Borko Barić",
-        "Total Score":"1000.50",
+        "Rank":14,
+        "Player":"Krunoslav Valentić",
+        "Total Score":"1006.15",
         "12x7-5x2":{
-            "score":58.31,
+            "score":47.46,
             "dropped":true
         },
         "12x7-5x3":{
-            "score":64.24
-        },
-        "12x7-5x4":{
-            "score":65.56
-        },
-        "12x7-5x5":{
-            "score":64.62
-        },
-        "12x7-5x6":{
-            "score":55.17,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":61.11
-        },
-        "12x7-6x1":{
-            "score":64.0
-        },
-        "Hrvatskih 100":{
-            "score":40.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":115.52
-        },
-        "Norway Open 2024":{
-            "score":136.49
-        },
-        "WQC 2024":{
-            "score":148.94
-        },
-        "Cro Slam 2024-06":{
-            "score":113.79,
-            "dropped":true
-        },
-        "MMM 2024":{
-            "score":104.74,
-            "dropped":true
-        },
-        "Cro Slam 2024-10":{
-            "score":117.02
-        },
-        "Croatian Open 2024":{
-            "score":160.23
-        },
-        "Austrian Open 2024":{
-            "score":118.29
-        }
-    },
-    {
-        "Rank":12,
-        "Player":"Haris Mujkić",
-        "Total Score":"967.37",
-        "12x7-5x2":{
-            "score":63.73
-        },
-        "12x7-5x3":{
-            "score":66.67
-        },
-        "12x7-5x4":{
-            "score":65.56
-        },
-        "12x7-5x5":{
-            "score":64.62
-        },
-        "12x7-5x6":{
-            "score":60.69,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":64.44
-        },
-        "12x7-6x1":{
-            "score":59.08,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":63.26,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
             "score":0.0,
             "dropped":true
         },
+        "12x7-5x4":{
+            "score":52.22
+        },
+        "12x7-5x5":{
+            "score":66.15
+        },
+        "12x7-5x6":{
+            "score":52.41
+        },
+        "12x7-5x7":{
+            "score":48.89
+        },
+        "12x7-6x1":{
+            "score":56.62
+        },
+        "Hrvatskih 100":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":110.34
+        },
         "Norway Open 2024":{
-            "score":150.0
+            "score":139.19
         },
         "WQC 2024":{
             "score":0.0,
             "dropped":true
         },
         "Cro Slam 2024-06":{
-            "score":106.55
+            "score":114.83
         },
         "MMM 2024":{
-            "score":111.21
+            "score":99.57,
+            "dropped":true
         },
         "Cro Slam 2024-10":{
-            "score":120.21
+            "score":107.45
         },
         "Croatian Open 2024":{
             "score":154.39
         },
         "Austrian Open 2024":{
-            "score":101.22
+            "score":103.66
         }
     },
     {
-        "Rank":13,
+        "Rank":15,
+        "Player":"Pavao Crnko",
+        "Total Score":"961.78",
+        "12x7-5x2":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-5x3":{
+            "score":60.61
+        },
+        "12x7-5x4":{
+            "score":56.67
+        },
+        "12x7-5x5":{
+            "score":64.62
+        },
+        "12x7-5x6":{
+            "score":57.93
+        },
+        "12x7-5x7":{
+            "score":48.89
+        },
+        "12x7-6x1":{
+            "score":44.31,
+            "dropped":true
+        },
+        "Hrvatskih 100":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":106.9
+        },
+        "Norway Open 2024":{
+            "score":124.32
+        },
+        "WQC 2024":{
+            "score":97.87
+        },
+        "Cro Slam 2024-06":{
+            "score":104.48
+        },
+        "MMM 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-10":{
+            "score":96.81
+        },
+        "Croatian Open 2024":{
+            "score":142.69
+        },
+        "Austrian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        }
+    },
+    {
+        "Rank":16,
+        "Player":"Dalibor Benković",
+        "Total Score":"955.72",
+        "12x7-5x2":{
+            "score":58.31
+        },
+        "12x7-5x3":{
+            "score":53.33
+        },
+        "12x7-5x4":{
+            "score":57.78
+        },
+        "12x7-5x5":{
+            "score":50.77,
+            "dropped":true
+        },
+        "12x7-5x6":{
+            "score":55.17
+        },
+        "12x7-5x7":{
+            "score":53.33,
+            "dropped":true
+        },
+        "12x7-6x1":{
+            "score":57.85
+        },
+        "Hrvatskih 100":{
+            "score":48.37,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":103.45
+        },
+        "Norway Open 2024":{
+            "score":131.08
+        },
+        "WQC 2024":{
+            "score":119.15
+        },
+        "Cro Slam 2024-06":{
+            "score":112.76
+        },
+        "MMM 2024":{
+            "score":93.1,
+            "dropped":true
+        },
+        "Cro Slam 2024-10":{
+            "score":103.19
+        },
+        "Croatian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Austrian Open 2024":{
+            "score":103.66
+        }
+    },
+    {
+        "Rank":17,
         "Player":"Ivica Brtan",
         "Total Score":"950.05",
         "12x7-5x2":{
@@ -754,65 +986,65 @@
         }
     },
     {
-        "Rank":14,
-        "Player":"Bojan Hlača",
-        "Total Score":"936.79",
+        "Rank":18,
+        "Player":"Petar Kordić",
+        "Total Score":"949.86",
         "12x7-5x2":{
-            "score":61.02
+            "score":47.46
         },
         "12x7-5x3":{
-            "score":55.76,
+            "score":35.15,
             "dropped":true
         },
         "12x7-5x4":{
-            "score":58.89
+            "score":61.11
         },
         "12x7-5x5":{
-            "score":67.69
+            "score":50.77
         },
         "12x7-5x6":{
-            "score":51.03,
-            "dropped":true
+            "score":62.07
         },
         "12x7-5x7":{
-            "score":54.44,
-            "dropped":true
+            "score":47.78
         },
         "12x7-6x1":{
-            "score":61.54
+            "score":0.0,
+            "dropped":true
         },
         "Hrvatskih 100":{
-            "score":57.67
+            "score":47.44,
+            "dropped":true
         },
         "Serbian Open 2024":{
-            "score":100.86,
+            "score":86.21,
             "dropped":true
         },
         "Norway Open 2024":{
-            "score":145.95
+            "score":113.51
         },
         "WQC 2024":{
-            "score":120.57
+            "score":117.73
         },
         "Cro Slam 2024-06":{
-            "score":107.59
+            "score":100.34
         },
         "MMM 2024":{
-            "score":96.98,
-            "dropped":true
+            "score":93.1
         },
         "Cro Slam 2024-10":{
-            "score":108.51
+            "score":107.45
         },
         "Croatian Open 2024":{
-            "score":147.37
+            "score":148.54
         },
         "Austrian Open 2024":{
-            "score":103.66
+            "score":0.0,
+            "dropped":true
         }
     },
     {
-        "Rank":15,
+        "Rank":19,
         "Player":"Jurica Benčik",
         "Total Score":"926.04",
         "12x7-5x2":{
@@ -870,7 +1102,7 @@
         }
     },
     {
-        "Rank":16,
+        "Rank":20,
         "Player":"Domagoj Marić",
         "Total Score":"922.29",
         "12x7-5x2":{
@@ -928,7 +1160,7 @@
         }
     },
     {
-        "Rank":17,
+        "Rank":21,
         "Player":"Krešimir Sučević-Međeral",
         "Total Score":"913.27",
         "12x7-5x2":{
@@ -986,115 +1218,115 @@
         }
     },
     {
-        "Rank":18,
-        "Player":"Krunoslav Valentić",
-        "Total Score":"902.49",
+        "Rank":22,
+        "Player":"Josip Paškov",
+        "Total Score":"911.12",
         "12x7-5x2":{
-            "score":47.46,
+            "score":50.17,
             "dropped":true
         },
         "12x7-5x3":{
+            "score":55.76
+        },
+        "12x7-5x4":{
+            "score":54.44
+        },
+        "12x7-5x5":{
+            "score":53.85
+        },
+        "12x7-5x6":{
+            "score":49.66,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":51.11
+        },
+        "12x7-6x1":{
+            "score":49.23,
+            "dropped":true
+        },
+        "Hrvatskih 100":{
+            "score":58.6
+        },
+        "Serbian Open 2024":{
+            "score":95.69
+        },
+        "Norway Open 2024":{
+            "score":137.84
+        },
+        "WQC 2024":{
             "score":0.0,
             "dropped":true
         },
+        "Cro Slam 2024-06":{
+            "score":105.52
+        },
+        "MMM 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-10":{
+            "score":85.11
+        },
+        "Croatian Open 2024":{
+            "score":119.3
+        },
+        "Austrian Open 2024":{
+            "score":93.9
+        }
+    },
+    {
+        "Rank":23,
+        "Player":"Ivica Glavan",
+        "Total Score":"906.21",
+        "12x7-5x2":{
+            "score":55.59
+        },
+        "12x7-5x3":{
+            "score":52.12
+        },
         "12x7-5x4":{
+            "score":51.11
+        },
+        "12x7-5x5":{
+            "score":49.23,
+            "dropped":true
+        },
+        "12x7-5x6":{
+            "score":46.9,
+            "dropped":true
+        },
+        "12x7-5x7":{
             "score":52.22
         },
-        "12x7-5x5":{
-            "score":66.15
-        },
-        "12x7-5x6":{
-            "score":52.41
-        },
-        "12x7-5x7":{
-            "score":48.89
-        },
         "12x7-6x1":{
-            "score":56.62
-        },
-        "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":110.34
-        },
-        "Norway Open 2024":{
-            "score":139.19
-        },
-        "WQC 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Cro Slam 2024-06":{
-            "score":114.83
-        },
-        "MMM 2024":{
-            "score":99.57,
-            "dropped":true
-        },
-        "Cro Slam 2024-10":{
-            "score":107.45
-        },
-        "Croatian Open 2024":{
-            "score":154.39
-        },
-        "Austrian Open 2024":{
-            "score":103.66
-        }
-    },
-    {
-        "Rank":19,
-        "Player":"Pavao Crnko",
-        "Total Score":"864.97",
-        "12x7-5x2":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-5x3":{
-            "score":60.61
-        },
-        "12x7-5x4":{
-            "score":56.67
-        },
-        "12x7-5x5":{
-            "score":64.62
-        },
-        "12x7-5x6":{
-            "score":57.93
-        },
-        "12x7-5x7":{
-            "score":48.89
-        },
-        "12x7-6x1":{
-            "score":44.31,
+            "score":49.23,
             "dropped":true
         },
         "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
+            "score":57.67
         },
         "Serbian Open 2024":{
-            "score":106.9
-        },
-        "Norway Open 2024":{
-            "score":124.32
-        },
-        "WQC 2024":{
-            "score":97.87
-        },
-        "Cro Slam 2024-06":{
-            "score":104.48
-        },
-        "MMM 2024":{
             "score":0.0,
             "dropped":true
         },
+        "Norway Open 2024":{
+            "score":108.11
+        },
+        "WQC 2024":{
+            "score":104.96
+        },
+        "Cro Slam 2024-06":{
+            "score":107.59
+        },
+        "MMM 2024":{
+            "score":90.52
+        },
         "Cro Slam 2024-10":{
-            "score":96.81
+            "score":100.0
         },
         "Croatian Open 2024":{
-            "score":142.69
+            "score":126.32
         },
         "Austrian Open 2024":{
             "score":0.0,
@@ -1102,65 +1334,181 @@
         }
     },
     {
-        "Rank":20,
-        "Player":"Petar Kordić",
-        "Total Score":"856.76",
+        "Rank":24,
+        "Player":"Krešimir Melnik",
+        "Total Score":"877.64",
         "12x7-5x2":{
-            "score":47.46
+            "score":0.0
         },
         "12x7-5x3":{
-            "score":35.15,
-            "dropped":true
+            "score":0.0
         },
         "12x7-5x4":{
-            "score":61.11
+            "score":66.67
         },
         "12x7-5x5":{
-            "score":50.77
+            "score":0.0
         },
         "12x7-5x6":{
-            "score":62.07
+            "score":0.0
         },
         "12x7-5x7":{
-            "score":47.78
+            "score":0.0,
+            "dropped":true
         },
         "12x7-6x1":{
             "score":0.0,
             "dropped":true
         },
         "Hrvatskih 100":{
-            "score":47.44,
+            "score":0.0,
             "dropped":true
         },
         "Serbian Open 2024":{
-            "score":86.21,
-            "dropped":true
+            "score":131.9
         },
         "Norway Open 2024":{
-            "score":113.51
+            "score":166.22
         },
         "WQC 2024":{
-            "score":117.73
+            "score":157.45
         },
         "Cro Slam 2024-06":{
-            "score":100.34
+            "score":112.76
+        },
+        "MMM 2024":{
+            "score":128.02
+        },
+        "Cro Slam 2024-10":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Croatian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Austrian Open 2024":{
+            "score":114.63
+        }
+    },
+    {
+        "Rank":25,
+        "Player":"Ivan Marić",
+        "Total Score":"874.08",
+        "12x7-5x2":{
+            "score":48.81,
+            "dropped":true
+        },
+        "12x7-5x3":{
+            "score":56.97
+        },
+        "12x7-5x4":{
+            "score":50.0
+        },
+        "12x7-5x5":{
+            "score":52.31
+        },
+        "12x7-5x6":{
+            "score":37.24,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":47.78,
+            "dropped":true
+        },
+        "12x7-6x1":{
+            "score":52.92
+        },
+        "Hrvatskih 100":{
+            "score":51.16
+        },
+        "Serbian Open 2024":{
+            "score":92.24
+        },
+        "Norway Open 2024":{
+            "score":102.7
+        },
+        "WQC 2024":{
+            "score":102.13
+        },
+        "Cro Slam 2024-06":{
+            "score":102.41
         },
         "MMM 2024":{
             "score":93.1
         },
         "Cro Slam 2024-10":{
-            "score":107.45
+            "score":91.49,
+            "dropped":true
         },
         "Croatian Open 2024":{
-            "score":148.54
+            "score":118.13
         },
         "Austrian Open 2024":{
-            "score":0.0,
+            "score":81.71,
             "dropped":true
         }
     },
     {
-        "Rank":21,
+        "Rank":26,
+        "Player":"Mario Ferenčak",
+        "Total Score":"867.74",
+        "12x7-5x2":{
+            "score":50.17
+        },
+        "12x7-5x3":{
+            "score":47.27
+        },
+        "12x7-5x4":{
+            "score":38.89,
+            "dropped":true
+        },
+        "12x7-5x5":{
+            "score":50.77
+        },
+        "12x7-5x6":{
+            "score":46.9
+        },
+        "12x7-5x7":{
+            "score":41.11
+        },
+        "12x7-6x1":{
+            "score":39.38,
+            "dropped":true
+        },
+        "Hrvatskih 100":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":89.66,
+            "dropped":true
+        },
+        "Norway Open 2024":{
+            "score":124.32
+        },
+        "WQC 2024":{
+            "score":112.06
+        },
+        "Cro Slam 2024-06":{
+            "score":90.0
+        },
+        "MMM 2024":{
+            "score":90.52
+        },
+        "Cro Slam 2024-10":{
+            "score":76.6,
+            "dropped":true
+        },
+        "Croatian Open 2024":{
+            "score":114.62
+        },
+        "Austrian Open 2024":{
+            "score":100.0
+        }
+    },
+    {
+        "Rank":27,
         "Player":"Šime Gverić",
         "Total Score":"855.18",
         "12x7-5x2":{
@@ -1218,65 +1566,7 @@
         }
     },
     {
-        "Rank":22,
-        "Player":"Dalibor Benković",
-        "Total Score":"852.53",
-        "12x7-5x2":{
-            "score":58.31
-        },
-        "12x7-5x3":{
-            "score":53.33
-        },
-        "12x7-5x4":{
-            "score":57.78
-        },
-        "12x7-5x5":{
-            "score":50.77,
-            "dropped":true
-        },
-        "12x7-5x6":{
-            "score":55.17
-        },
-        "12x7-5x7":{
-            "score":53.33,
-            "dropped":true
-        },
-        "12x7-6x1":{
-            "score":57.85
-        },
-        "Hrvatskih 100":{
-            "score":48.37,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":103.45
-        },
-        "Norway Open 2024":{
-            "score":131.08
-        },
-        "WQC 2024":{
-            "score":119.15
-        },
-        "Cro Slam 2024-06":{
-            "score":112.76
-        },
-        "MMM 2024":{
-            "score":93.1,
-            "dropped":true
-        },
-        "Cro Slam 2024-10":{
-            "score":103.19
-        },
-        "Croatian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Austrian Open 2024":{
-            "score":103.66
-        }
-    },
-    {
-        "Rank":23,
+        "Rank":28,
         "Player":"Ivan Jurić",
         "Total Score":"851.85",
         "12x7-5x2":{
@@ -1334,7 +1624,7 @@
         }
     },
     {
-        "Rank":24,
+        "Rank":29,
         "Player":"Dražen Nemet",
         "Total Score":"839.84",
         "12x7-5x2":{
@@ -1392,7 +1682,7 @@
         }
     },
     {
-        "Rank":25,
+        "Rank":30,
         "Player":"Tomislav Bartolović",
         "Total Score":"827.19",
         "12x7-5x2":{
@@ -1450,115 +1740,57 @@
         }
     },
     {
-        "Rank":26,
-        "Player":"Josip Paškov",
-        "Total Score":"826.01",
+        "Rank":31,
+        "Player":"Luka Čmrlec",
+        "Total Score":"825.30",
         "12x7-5x2":{
-            "score":50.17,
-            "dropped":true
+            "score":46.1
         },
         "12x7-5x3":{
-            "score":55.76
+            "score":46.06
         },
         "12x7-5x4":{
-            "score":54.44
+            "score":53.33
         },
         "12x7-5x5":{
-            "score":53.85
+            "score":58.46
         },
         "12x7-5x6":{
-            "score":49.66,
-            "dropped":true
+            "score":53.79
         },
         "12x7-5x7":{
-            "score":51.11
+            "score":45.56,
+            "dropped":true
         },
         "12x7-6x1":{
-            "score":49.23,
+            "score":45.54,
             "dropped":true
         },
         "Hrvatskih 100":{
-            "score":58.6
+            "score":33.49,
+            "dropped":true
         },
         "Serbian Open 2024":{
-            "score":95.69
+            "score":86.21
         },
         "Norway Open 2024":{
-            "score":137.84
+            "score":94.59
         },
         "WQC 2024":{
-            "score":0.0,
-            "dropped":true
+            "score":103.55
         },
         "Cro Slam 2024-06":{
-            "score":105.52
+            "score":88.97
         },
         "MMM 2024":{
-            "score":0.0,
-            "dropped":true
+            "score":86.64
         },
         "Cro Slam 2024-10":{
-            "score":85.11
+            "score":86.17,
+            "dropped":true
         },
         "Croatian Open 2024":{
-            "score":119.3
-        },
-        "Austrian Open 2024":{
-            "score":93.9
-        }
-    },
-    {
-        "Rank":27,
-        "Player":"Ivica Glavan",
-        "Total Score":"815.70",
-        "12x7-5x2":{
-            "score":55.59
-        },
-        "12x7-5x3":{
-            "score":52.12
-        },
-        "12x7-5x4":{
-            "score":51.11
-        },
-        "12x7-5x5":{
-            "score":49.23,
-            "dropped":true
-        },
-        "12x7-5x6":{
-            "score":46.9,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":52.22
-        },
-        "12x7-6x1":{
-            "score":49.23,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":57.67
-        },
-        "Serbian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Norway Open 2024":{
-            "score":108.11
-        },
-        "WQC 2024":{
-            "score":104.96
-        },
-        "Cro Slam 2024-06":{
-            "score":107.59
-        },
-        "MMM 2024":{
-            "score":90.52
-        },
-        "Cro Slam 2024-10":{
-            "score":100.0
-        },
-        "Croatian Open 2024":{
-            "score":126.32
+            "score":107.6
         },
         "Austrian Open 2024":{
             "score":0.0,
@@ -1566,7 +1798,7 @@
         }
     },
     {
-        "Rank":28,
+        "Rank":32,
         "Player":"Fabijan Bošnjak",
         "Total Score":"804.19",
         "12x7-5x2":{
@@ -1624,123 +1856,7 @@
         }
     },
     {
-        "Rank":29,
-        "Player":"Ivan Marić",
-        "Total Score":"781.84",
-        "12x7-5x2":{
-            "score":48.81,
-            "dropped":true
-        },
-        "12x7-5x3":{
-            "score":56.97
-        },
-        "12x7-5x4":{
-            "score":50.0
-        },
-        "12x7-5x5":{
-            "score":52.31
-        },
-        "12x7-5x6":{
-            "score":37.24,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":47.78,
-            "dropped":true
-        },
-        "12x7-6x1":{
-            "score":52.92
-        },
-        "Hrvatskih 100":{
-            "score":51.16
-        },
-        "Serbian Open 2024":{
-            "score":92.24
-        },
-        "Norway Open 2024":{
-            "score":102.7
-        },
-        "WQC 2024":{
-            "score":102.13
-        },
-        "Cro Slam 2024-06":{
-            "score":102.41
-        },
-        "MMM 2024":{
-            "score":93.1
-        },
-        "Cro Slam 2024-10":{
-            "score":91.49,
-            "dropped":true
-        },
-        "Croatian Open 2024":{
-            "score":118.13
-        },
-        "Austrian Open 2024":{
-            "score":81.71,
-            "dropped":true
-        }
-    },
-    {
-        "Rank":30,
-        "Player":"Mario Ferenčak",
-        "Total Score":"777.74",
-        "12x7-5x2":{
-            "score":50.17
-        },
-        "12x7-5x3":{
-            "score":47.27
-        },
-        "12x7-5x4":{
-            "score":38.89,
-            "dropped":true
-        },
-        "12x7-5x5":{
-            "score":50.77
-        },
-        "12x7-5x6":{
-            "score":46.9
-        },
-        "12x7-5x7":{
-            "score":41.11
-        },
-        "12x7-6x1":{
-            "score":39.38,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":89.66,
-            "dropped":true
-        },
-        "Norway Open 2024":{
-            "score":124.32
-        },
-        "WQC 2024":{
-            "score":112.06
-        },
-        "Cro Slam 2024-06":{
-            "score":90.0
-        },
-        "MMM 2024":{
-            "score":90.52
-        },
-        "Cro Slam 2024-10":{
-            "score":76.6,
-            "dropped":true
-        },
-        "Croatian Open 2024":{
-            "score":114.62
-        },
-        "Austrian Open 2024":{
-            "score":100.0
-        }
-    },
-    {
-        "Rank":31,
+        "Rank":33,
         "Player":"Marinko Čogelja",
         "Total Score":"770.97",
         "12x7-5x2":{
@@ -1798,123 +1914,181 @@
         }
     },
     {
-        "Rank":32,
-        "Player":"Krešimir Melnik",
-        "Total Score":"764.88",
-        "12x7-5x2":{
-            "score":0.0
-        },
-        "12x7-5x3":{
-            "score":0.0
-        },
-        "12x7-5x4":{
-            "score":66.67
-        },
-        "12x7-5x5":{
-            "score":0.0
-        },
-        "12x7-5x6":{
-            "score":0.0
-        },
-        "12x7-5x7":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-6x1":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":131.9
-        },
-        "Norway Open 2024":{
-            "score":166.22
-        },
-        "WQC 2024":{
-            "score":157.45
-        },
-        "Cro Slam 2024-06":{
-            "score":112.76
-        },
-        "MMM 2024":{
-            "score":128.02
-        },
-        "Cro Slam 2024-10":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Croatian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Austrian Open 2024":{
-            "score":114.63
-        }
-    },
-    {
-        "Rank":33,
-        "Player":"Luka Čmrlec",
-        "Total Score":"739.10",
-        "12x7-5x2":{
-            "score":46.1
-        },
-        "12x7-5x3":{
-            "score":46.06
-        },
-        "12x7-5x4":{
-            "score":53.33
-        },
-        "12x7-5x5":{
-            "score":58.46
-        },
-        "12x7-5x6":{
-            "score":53.79
-        },
-        "12x7-5x7":{
-            "score":45.56,
-            "dropped":true
-        },
-        "12x7-6x1":{
-            "score":45.54,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":33.49,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":86.21
-        },
-        "Norway Open 2024":{
-            "score":94.59
-        },
-        "WQC 2024":{
-            "score":103.55
-        },
-        "Cro Slam 2024-06":{
-            "score":88.97
-        },
-        "MMM 2024":{
-            "score":86.64
-        },
-        "Cro Slam 2024-10":{
-            "score":86.17,
-            "dropped":true
-        },
-        "Croatian Open 2024":{
-            "score":107.6
-        },
-        "Austrian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        }
-    },
-    {
         "Rank":34,
+        "Player":"Saša Benzon",
+        "Total Score":"757.35",
+        "12x7-5x2":{
+            "score":0.0
+        },
+        "12x7-5x3":{
+            "score":0.0
+        },
+        "12x7-5x4":{
+            "score":0.0
+        },
+        "12x7-5x5":{
+            "score":0.0
+        },
+        "12x7-5x6":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-6x1":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Hrvatskih 100":{
+            "score":56.74
+        },
+        "Serbian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Norway Open 2024":{
+            "score":124.32
+        },
+        "WQC 2024":{
+            "score":114.89
+        },
+        "Cro Slam 2024-06":{
+            "score":118.97
+        },
+        "MMM 2024":{
+            "score":103.45
+        },
+        "Cro Slam 2024-10":{
+            "score":102.13
+        },
+        "Croatian Open 2024":{
+            "score":136.84
+        },
+        "Austrian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        }
+    },
+    {
+        "Rank":35,
+        "Player":"Bruno Vojvodić",
+        "Total Score":"752.47",
+        "12x7-5x2":{
+            "score":37.97,
+            "dropped":true
+        },
+        "12x7-5x3":{
+            "score":47.27
+        },
+        "12x7-5x4":{
+            "score":41.11
+        },
+        "12x7-5x5":{
+            "score":52.31
+        },
+        "12x7-5x6":{
+            "score":38.62,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":40.0
+        },
+        "12x7-6x1":{
+            "score":50.46
+        },
+        "Hrvatskih 100":{
+            "score":31.63,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":68.1
+        },
+        "Norway Open 2024":{
+            "score":93.24
+        },
+        "WQC 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-06":{
+            "score":91.03
+        },
+        "MMM 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-10":{
+            "score":81.91
+        },
+        "Croatian Open 2024":{
+            "score":104.09
+        },
+        "Austrian Open 2024":{
+            "score":82.93
+        }
+    },
+    {
+        "Rank":36,
+        "Player":"Tomislav Nedić",
+        "Total Score":"738.88",
+        "12x7-5x2":{
+            "score":0.0
+        },
+        "12x7-5x3":{
+            "score":0.0
+        },
+        "12x7-5x4":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-5x5":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-5x6":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":56.67
+        },
+        "12x7-6x1":{
+            "score":44.31
+        },
+        "Hrvatskih 100":{
+            "score":30.7
+        },
+        "Serbian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Norway Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "WQC 2024":{
+            "score":99.29
+        },
+        "Cro Slam 2024-06":{
+            "score":101.38
+        },
+        "MMM 2024":{
+            "score":90.52
+        },
+        "Cro Slam 2024-10":{
+            "score":94.68
+        },
+        "Croatian Open 2024":{
+            "score":128.65
+        },
+        "Austrian Open 2024":{
+            "score":92.68
+        }
+    },
+    {
+        "Rank":37,
         "Player":"Kristo Kristić",
         "Total Score":"732.73",
         "12x7-5x2":{
@@ -1972,7 +2146,7 @@
         }
     },
     {
-        "Rank":35,
+        "Rank":38,
         "Player":"Dražen Cukina",
         "Total Score":"726.29",
         "12x7-5x2":{
@@ -2030,7 +2204,7 @@
         }
     },
     {
-        "Rank":36,
+        "Rank":39,
         "Player":"Tomislav Grubišić",
         "Total Score":"723.93",
         "12x7-5x2":{
@@ -2088,7 +2262,7 @@
         }
     },
     {
-        "Rank":37,
+        "Rank":40,
         "Player":"Branimir Ivković",
         "Total Score":"722.15",
         "12x7-5x2":{
@@ -2146,7 +2320,7 @@
         }
     },
     {
-        "Rank":38,
+        "Rank":41,
         "Player":"Siniša Žegor",
         "Total Score":"691.54",
         "12x7-5x2":{
@@ -2201,180 +2375,6 @@
         },
         "Austrian Open 2024":{
             "score":0.0
-        }
-    },
-    {
-        "Rank":39,
-        "Player":"Bruno Vojvodić",
-        "Total Score":"684.37",
-        "12x7-5x2":{
-            "score":37.97,
-            "dropped":true
-        },
-        "12x7-5x3":{
-            "score":47.27
-        },
-        "12x7-5x4":{
-            "score":41.11
-        },
-        "12x7-5x5":{
-            "score":52.31
-        },
-        "12x7-5x6":{
-            "score":38.62,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":40.0
-        },
-        "12x7-6x1":{
-            "score":50.46
-        },
-        "Hrvatskih 100":{
-            "score":31.63,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":68.1
-        },
-        "Norway Open 2024":{
-            "score":93.24
-        },
-        "WQC 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Cro Slam 2024-06":{
-            "score":91.03
-        },
-        "MMM 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Cro Slam 2024-10":{
-            "score":81.91
-        },
-        "Croatian Open 2024":{
-            "score":104.09
-        },
-        "Austrian Open 2024":{
-            "score":82.93
-        }
-    },
-    {
-        "Rank":40,
-        "Player":"Saša Benzon",
-        "Total Score":"655.22",
-        "12x7-5x2":{
-            "score":0.0
-        },
-        "12x7-5x3":{
-            "score":0.0
-        },
-        "12x7-5x4":{
-            "score":0.0
-        },
-        "12x7-5x5":{
-            "score":0.0
-        },
-        "12x7-5x6":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-6x1":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":56.74
-        },
-        "Serbian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Norway Open 2024":{
-            "score":124.32
-        },
-        "WQC 2024":{
-            "score":114.89
-        },
-        "Cro Slam 2024-06":{
-            "score":118.97
-        },
-        "MMM 2024":{
-            "score":103.45
-        },
-        "Cro Slam 2024-10":{
-            "score":102.13
-        },
-        "Croatian Open 2024":{
-            "score":136.84
-        },
-        "Austrian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        }
-    },
-    {
-        "Rank":41,
-        "Player":"Tomislav Nedić",
-        "Total Score":"648.36",
-        "12x7-5x2":{
-            "score":0.0
-        },
-        "12x7-5x3":{
-            "score":0.0
-        },
-        "12x7-5x4":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-5x5":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-5x6":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":56.67
-        },
-        "12x7-6x1":{
-            "score":44.31
-        },
-        "Hrvatskih 100":{
-            "score":30.7
-        },
-        "Serbian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Norway Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "WQC 2024":{
-            "score":99.29
-        },
-        "Cro Slam 2024-06":{
-            "score":101.38
-        },
-        "MMM 2024":{
-            "score":90.52
-        },
-        "Cro Slam 2024-10":{
-            "score":94.68
-        },
-        "Croatian Open 2024":{
-            "score":128.65
-        },
-        "Austrian Open 2024":{
-            "score":92.68
         }
     },
     {
@@ -2437,6 +2437,64 @@
     },
     {
         "Rank":43,
+        "Player":"Vanja Galović",
+        "Total Score":"643.55",
+        "12x7-5x2":{
+            "score":31.19
+        },
+        "12x7-5x3":{
+            "score":49.7
+        },
+        "12x7-5x4":{
+            "score":50.0
+        },
+        "12x7-5x5":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-5x6":{
+            "score":27.59,
+            "dropped":true
+        },
+        "12x7-5x7":{
+            "score":37.78
+        },
+        "12x7-6x1":{
+            "score":40.62
+        },
+        "Hrvatskih 100":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":58.62
+        },
+        "Norway Open 2024":{
+            "score":82.43
+        },
+        "WQC 2024":{
+            "score":80.85
+        },
+        "Cro Slam 2024-06":{
+            "score":91.03
+        },
+        "MMM 2024":{
+            "score":54.31
+        },
+        "Cro Slam 2024-10":{
+            "score":67.02
+        },
+        "Croatian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Austrian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        }
+    },
+    {
+        "Rank":44,
         "Player":"Leo Kovač",
         "Total Score":"642.54",
         "12x7-5x2":{
@@ -2494,7 +2552,7 @@
         }
     },
     {
-        "Rank":44,
+        "Rank":45,
         "Player":"Maja Bulatović",
         "Total Score":"640.71",
         "12x7-5x2":{
@@ -2552,7 +2610,7 @@
         }
     },
     {
-        "Rank":45,
+        "Rank":46,
         "Player":"Barislav Poparić",
         "Total Score":"636.12",
         "12x7-5x2":{
@@ -2610,7 +2668,7 @@
         }
     },
     {
-        "Rank":46,
+        "Rank":47,
         "Player":"Petar Prugovečki",
         "Total Score":"632.86",
         "12x7-5x2":{
@@ -2668,7 +2726,7 @@
         }
     },
     {
-        "Rank":47,
+        "Rank":48,
         "Player":"Ivan Ribarić",
         "Total Score":"627.93",
         "12x7-5x2":{
@@ -2726,7 +2784,7 @@
         }
     },
     {
-        "Rank":48,
+        "Rank":49,
         "Player":"Josip Rončević",
         "Total Score":"626.19",
         "12x7-5x2":{
@@ -2784,7 +2842,7 @@
         }
     },
     {
-        "Rank":49,
+        "Rank":50,
         "Player":"Josip Maskaljević",
         "Total Score":"621.10",
         "12x7-5x2":{
@@ -2842,7 +2900,7 @@
         }
     },
     {
-        "Rank":50,
+        "Rank":51,
         "Player":"Sandro Jažo",
         "Total Score":"617.47",
         "12x7-5x2":{
@@ -2900,7 +2958,7 @@
         }
     },
     {
-        "Rank":51,
+        "Rank":52,
         "Player":"Matko Šimić",
         "Total Score":"609.49",
         "12x7-5x2":{
@@ -2958,7 +3016,7 @@
         }
     },
     {
-        "Rank":52,
+        "Rank":53,
         "Player":"Hrvoje Šimić",
         "Total Score":"604.54",
         "12x7-5x2":{
@@ -3013,64 +3071,6 @@
         },
         "Austrian Open 2024":{
             "score":93.9
-        }
-    },
-    {
-        "Rank":53,
-        "Player":"Vanja Galović",
-        "Total Score":"589.24",
-        "12x7-5x2":{
-            "score":31.19
-        },
-        "12x7-5x3":{
-            "score":49.7
-        },
-        "12x7-5x4":{
-            "score":50.0
-        },
-        "12x7-5x5":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-5x6":{
-            "score":27.59,
-            "dropped":true
-        },
-        "12x7-5x7":{
-            "score":37.78
-        },
-        "12x7-6x1":{
-            "score":40.62
-        },
-        "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":58.62
-        },
-        "Norway Open 2024":{
-            "score":82.43
-        },
-        "WQC 2024":{
-            "score":80.85
-        },
-        "Cro Slam 2024-06":{
-            "score":91.03
-        },
-        "MMM 2024":{
-            "score":54.31
-        },
-        "Cro Slam 2024-10":{
-            "score":67.02
-        },
-        "Croatian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Austrian Open 2024":{
-            "score":0.0,
-            "dropped":true
         }
     },
     {
