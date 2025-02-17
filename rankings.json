@@ -11079,7 +11079,7 @@
     },
     {
         "Rank":192,
-        "Player":"Darko Laklija",
+        "Player":"Dominik Hrestak",
         "Total Score":"102.16",
         "12x7-5x2":{
             "score":0.0
@@ -11195,7 +11195,7 @@
     },
     {
         "Rank":194,
-        "Player":"Filip Drezgić",
+        "Player":"Darko Laklija",
         "Total Score":"102.16",
         "12x7-5x2":{
             "score":0.0
@@ -11253,7 +11253,7 @@
     },
     {
         "Rank":195,
-        "Player":"Dominik Hrestak",
+        "Player":"Filip Drezgić",
         "Total Score":"102.16",
         "12x7-5x2":{
             "score":0.0
@@ -12471,7 +12471,7 @@
     },
     {
         "Rank":216,
-        "Player":"Ivan Požežanac-Hajić",
+        "Player":"Vladimir Dadić",
         "Total Score":"87.93",
         "12x7-5x2":{
             "score":0.0
@@ -12529,7 +12529,7 @@
     },
     {
         "Rank":217,
-        "Player":"Vladimir Dadić",
+        "Player":"Ivan Požežanac-Hajić",
         "Total Score":"87.93",
         "12x7-5x2":{
             "score":0.0
@@ -12993,7 +12993,7 @@
     },
     {
         "Rank":225,
-        "Player":"Ljerka Karleuša Mujkić",
+        "Player":"Antun Akšamović",
         "Total Score":"84.05",
         "12x7-5x2":{
             "score":0.0
@@ -13051,7 +13051,7 @@
     },
     {
         "Rank":226,
-        "Player":"Antun Akšamović",
+        "Player":"Ljerka Karleuša Mujkić",
         "Total Score":"84.05",
         "12x7-5x2":{
             "score":0.0
@@ -13399,7 +13399,7 @@
     },
     {
         "Rank":232,
-        "Player":"Krste Gašperov",
+        "Player":"Ivan Radun",
         "Total Score":"80.17",
         "12x7-5x2":{
             "score":0.0
@@ -13515,7 +13515,7 @@
     },
     {
         "Rank":234,
-        "Player":"Ivan Radun",
+        "Player":"Krste Gašperov",
         "Total Score":"80.17",
         "12x7-5x2":{
             "score":0.0
@@ -13921,7 +13921,7 @@
     },
     {
         "Rank":241,
-        "Player":"Matko Kreber",
+        "Player":"Jakov Kusić",
         "Total Score":"75.00",
         "12x7-5x2":{
             "score":0.0
@@ -13979,7 +13979,7 @@
     },
     {
         "Rank":242,
-        "Player":"Jakov Kusić",
+        "Player":"Matko Kreber",
         "Total Score":"75.00",
         "12x7-5x2":{
             "score":0.0
@@ -14153,7 +14153,7 @@
     },
     {
         "Rank":245,
-        "Player":"Ivan Nešković",
+        "Player":"Vedran Kos",
         "Total Score":"73.71",
         "12x7-5x2":{
             "score":0.0
@@ -14211,7 +14211,7 @@
     },
     {
         "Rank":246,
-        "Player":"Vedran Kos",
+        "Player":"Ivan Nešković",
         "Total Score":"73.71",
         "12x7-5x2":{
             "score":0.0
@@ -14385,7 +14385,7 @@
     },
     {
         "Rank":249,
-        "Player":"Jurica Picak",
+        "Player":"Matko Dujmovic",
         "Total Score":"72.41",
         "12x7-5x2":{
             "score":0.0
@@ -14443,7 +14443,7 @@
     },
     {
         "Rank":250,
-        "Player":"Kristian Bešker",
+        "Player":"Jurica Picak",
         "Total Score":"72.41",
         "12x7-5x2":{
             "score":0.0
@@ -14501,7 +14501,7 @@
     },
     {
         "Rank":251,
-        "Player":"Matko Dujmovic",
+        "Player":"Kristian Bešker",
         "Total Score":"72.41",
         "12x7-5x2":{
             "score":0.0
@@ -14733,64 +14733,6 @@
     },
     {
         "Rank":255,
-        "Player":"Hrvoje Ðurak",
-        "Total Score":"70.92",
-        "12x7-5x2":{
-            "score":0.0
-        },
-        "12x7-5x3":{
-            "score":0.0
-        },
-        "12x7-5x4":{
-            "score":0.0
-        },
-        "12x7-5x5":{
-            "score":0.0
-        },
-        "12x7-5x6":{
-            "score":0.0
-        },
-        "12x7-5x7":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-6x1":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Norway Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "WQC 2024":{
-            "score":70.92
-        },
-        "Cro Slam 2024-06":{
-            "score":0.0
-        },
-        "MMM 2024":{
-            "score":0.0
-        },
-        "Cro Slam 2024-10":{
-            "score":0.0
-        },
-        "Croatian Open 2024":{
-            "score":0.0
-        },
-        "Austrian Open 2024":{
-            "score":0.0
-        }
-    },
-    {
-        "Rank":256,
         "Player":"Bernard Grubišić",
         "Total Score":"70.92",
         "12x7-5x2":{
@@ -14848,8 +14790,66 @@
         }
     },
     {
+        "Rank":256,
+        "Player":"Hrvoje Ðurak",
+        "Total Score":"70.92",
+        "12x7-5x2":{
+            "score":0.0
+        },
+        "12x7-5x3":{
+            "score":0.0
+        },
+        "12x7-5x4":{
+            "score":0.0
+        },
+        "12x7-5x5":{
+            "score":0.0
+        },
+        "12x7-5x6":{
+            "score":0.0
+        },
+        "12x7-5x7":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-6x1":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Hrvatskih 100":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Norway Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "WQC 2024":{
+            "score":70.92
+        },
+        "Cro Slam 2024-06":{
+            "score":0.0
+        },
+        "MMM 2024":{
+            "score":0.0
+        },
+        "Cro Slam 2024-10":{
+            "score":0.0
+        },
+        "Croatian Open 2024":{
+            "score":0.0
+        },
+        "Austrian Open 2024":{
+            "score":0.0
+        }
+    },
+    {
         "Rank":257,
-        "Player":"Filip Kopecki",
+        "Player":"Marin Petrović",
         "Total Score":"69.83",
         "12x7-5x2":{
             "score":0.0
@@ -14907,7 +14907,7 @@
     },
     {
         "Rank":258,
-        "Player":"Arandjel Smiljanic",
+        "Player":"Filip Kopecki",
         "Total Score":"69.83",
         "12x7-5x2":{
             "score":0.0
@@ -14965,7 +14965,7 @@
     },
     {
         "Rank":259,
-        "Player":"Marin Petrović",
+        "Player":"Arandjel Smiljanic",
         "Total Score":"69.83",
         "12x7-5x2":{
             "score":0.0
@@ -16183,7 +16183,7 @@
     },
     {
         "Rank":280,
-        "Player":"Paško Majcenović",
+        "Player":"Ivan Skorić",
         "Total Score":"59.48",
         "12x7-5x2":{
             "score":0.0
@@ -16241,7 +16241,7 @@
     },
     {
         "Rank":281,
-        "Player":"Ivan Skorić",
+        "Player":"Paško Majcenović",
         "Total Score":"59.48",
         "12x7-5x2":{
             "score":0.0
@@ -16531,64 +16531,6 @@
     },
     {
         "Rank":286,
-        "Player":"David Koprek",
-        "Total Score":"56.90",
-        "12x7-5x2":{
-            "score":0.0
-        },
-        "12x7-5x3":{
-            "score":0.0
-        },
-        "12x7-5x4":{
-            "score":0.0
-        },
-        "12x7-5x5":{
-            "score":0.0
-        },
-        "12x7-5x6":{
-            "score":0.0
-        },
-        "12x7-5x7":{
-            "score":0.0,
-            "dropped":true
-        },
-        "12x7-6x1":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Hrvatskih 100":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Serbian Open 2024":{
-            "score":56.9
-        },
-        "Norway Open 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "WQC 2024":{
-            "score":0.0,
-            "dropped":true
-        },
-        "Cro Slam 2024-06":{
-            "score":0.0
-        },
-        "MMM 2024":{
-            "score":0.0
-        },
-        "Cro Slam 2024-10":{
-            "score":0.0
-        },
-        "Croatian Open 2024":{
-            "score":0.0
-        },
-        "Austrian Open 2024":{
-            "score":0.0
-        }
-    },
-    {
-        "Rank":287,
         "Player":"Nikola Philipp",
         "Total Score":"56.90",
         "12x7-5x2":{
@@ -16646,7 +16588,7 @@
         }
     },
     {
-        "Rank":288,
+        "Rank":287,
         "Player":"Dario Galinec",
         "Total Score":"56.90",
         "12x7-5x2":{
@@ -16692,6 +16634,64 @@
         },
         "MMM 2024":{
             "score":56.9
+        },
+        "Cro Slam 2024-10":{
+            "score":0.0
+        },
+        "Croatian Open 2024":{
+            "score":0.0
+        },
+        "Austrian Open 2024":{
+            "score":0.0
+        }
+    },
+    {
+        "Rank":288,
+        "Player":"David Koprek",
+        "Total Score":"56.90",
+        "12x7-5x2":{
+            "score":0.0
+        },
+        "12x7-5x3":{
+            "score":0.0
+        },
+        "12x7-5x4":{
+            "score":0.0
+        },
+        "12x7-5x5":{
+            "score":0.0
+        },
+        "12x7-5x6":{
+            "score":0.0
+        },
+        "12x7-5x7":{
+            "score":0.0,
+            "dropped":true
+        },
+        "12x7-6x1":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Hrvatskih 100":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Serbian Open 2024":{
+            "score":56.9
+        },
+        "Norway Open 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "WQC 2024":{
+            "score":0.0,
+            "dropped":true
+        },
+        "Cro Slam 2024-06":{
+            "score":0.0
+        },
+        "MMM 2024":{
+            "score":0.0
         },
         "Cro Slam 2024-10":{
             "score":0.0
@@ -16821,7 +16821,7 @@
     },
     {
         "Rank":291,
-        "Player":"Ozren Naglav",
+        "Player":"Marko Mandarić",
         "Total Score":"55.60",
         "12x7-5x2":{
             "score":0.0
@@ -16879,7 +16879,7 @@
     },
     {
         "Rank":292,
-        "Player":"Marko Mandarić",
+        "Player":"Ozren Naglav",
         "Total Score":"55.60",
         "12x7-5x2":{
             "score":0.0
@@ -17053,7 +17053,7 @@
     },
     {
         "Rank":295,
-        "Player":"Ivan Horvat",
+        "Player":"Željko Pavlović",
         "Total Score":"54.31",
         "12x7-5x2":{
             "score":0.0
@@ -17111,7 +17111,7 @@
     },
     {
         "Rank":296,
-        "Player":"Željko Pavlović",
+        "Player":"Ivan Horvat",
         "Total Score":"54.31",
         "12x7-5x2":{
             "score":0.0
@@ -17691,7 +17691,7 @@
     },
     {
         "Rank":306,
-        "Player":"Srđan Bilić",
+        "Player":"Bruno Grbavac",
         "Total Score":"50.43",
         "12x7-5x2":{
             "score":0.0
@@ -17749,7 +17749,7 @@
     },
     {
         "Rank":307,
-        "Player":"Bruno Grbavac",
+        "Player":"Srđan Bilić",
         "Total Score":"50.43",
         "12x7-5x2":{
             "score":0.0
@@ -18039,7 +18039,7 @@
     },
     {
         "Rank":312,
-        "Player":"Ante Varvoda",
+        "Player":"Dunja Galinec",
         "Total Score":"49.14",
         "12x7-5x2":{
             "score":0.0
@@ -18155,7 +18155,7 @@
     },
     {
         "Rank":314,
-        "Player":"Dunja Galinec",
+        "Player":"Ante Varvoda",
         "Total Score":"49.14",
         "12x7-5x2":{
             "score":0.0
@@ -18793,7 +18793,7 @@
     },
     {
         "Rank":325,
-        "Player":"Karlo Biličić",
+        "Player":"Matej Simić",
         "Total Score":"45.26",
         "12x7-5x2":{
             "score":0.0
@@ -18851,7 +18851,7 @@
     },
     {
         "Rank":326,
-        "Player":"Matej Simić",
+        "Player":"Karlo Biličić",
         "Total Score":"45.26",
         "12x7-5x2":{
             "score":0.0
@@ -19257,7 +19257,7 @@
     },
     {
         "Rank":333,
-        "Player":"Danijel Kovačević",
+        "Player":"Zoran Lendić",
         "Total Score":"42.22",
         "12x7-5x2":{
             "score":0.0
@@ -19315,7 +19315,7 @@
     },
     {
         "Rank":334,
-        "Player":"Zoran Lendić",
+        "Player":"Danijel Kovačević",
         "Total Score":"42.22",
         "12x7-5x2":{
             "score":0.0
@@ -19779,19 +19779,19 @@
     },
     {
         "Rank":342,
-        "Player":"Ivan Salečić",
+        "Player":"Miroslav Klen",
         "Total Score":"40.00",
         "12x7-5x2":{
             "score":0.0
         },
         "12x7-5x3":{
-            "score":40.0
+            "score":0.0
         },
         "12x7-5x4":{
             "score":0.0
         },
         "12x7-5x5":{
-            "score":0.0
+            "score":40.0
         },
         "12x7-5x6":{
             "score":0.0
@@ -19837,19 +19837,19 @@
     },
     {
         "Rank":343,
-        "Player":"Miroslav Klen",
+        "Player":"Ivan Salečić",
         "Total Score":"40.00",
         "12x7-5x2":{
             "score":0.0
         },
         "12x7-5x3":{
-            "score":0.0
+            "score":40.0
         },
         "12x7-5x4":{
             "score":0.0
         },
         "12x7-5x5":{
-            "score":40.0
+            "score":0.0
         },
         "12x7-5x6":{
             "score":0.0
@@ -21113,7 +21113,7 @@
     },
     {
         "Rank":365,
-        "Player":"Slaven Periškić",
+        "Player":"Darka Pribudić",
         "Total Score":"26.67",
         "12x7-5x2":{
             "score":0.0
@@ -21122,17 +21122,17 @@
             "score":0.0
         },
         "12x7-5x4":{
-            "score":0.0
+            "score":26.67
         },
         "12x7-5x5":{
             "score":0.0
         },
         "12x7-5x6":{
-            "score":0.0,
-            "dropped":true
+            "score":0.0
         },
         "12x7-5x7":{
-            "score":26.67
+            "score":0.0,
+            "dropped":true
         },
         "12x7-6x1":{
             "score":0.0,
@@ -21171,7 +21171,7 @@
     },
     {
         "Rank":366,
-        "Player":"Darka Pribudić",
+        "Player":"Slaven Periškić",
         "Total Score":"26.67",
         "12x7-5x2":{
             "score":0.0
@@ -21180,17 +21180,17 @@
             "score":0.0
         },
         "12x7-5x4":{
-            "score":26.67
+            "score":0.0
         },
         "12x7-5x5":{
             "score":0.0
         },
         "12x7-5x6":{
-            "score":0.0
-        },
-        "12x7-5x7":{
             "score":0.0,
             "dropped":true
+        },
+        "12x7-5x7":{
+            "score":26.67
         },
         "12x7-6x1":{
             "score":0.0,
