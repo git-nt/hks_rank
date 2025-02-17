@@ -222,8 +222,8 @@ def main() -> None:
 
             kept_others = [quiz for quiz in valid_others if quiz not in worst_others]
 
-            logger.info(f"Row {index}: Best 12x7 = {best_12x7_hr100}")
-            logger.info(f"Row {index}: Worst Others = {worst_others}, Kept Others = {kept_others}")
+            # logger.info(f"Row {index}: Best 12x7 = {best_12x7_hr100}")
+            # logger.info(f"Row {index}: Worst Others = {worst_others}, Kept Others = {kept_others}")
 
             for quiz in twelve_x7_hr100 + other_quizzes:
                 value = row[quiz]
@@ -240,7 +240,7 @@ def main() -> None:
         json_output_path = file_path.parent / 'rankings.json'
         final_scores.to_json(json_output_path, orient="records", indent=4, force_ascii=False)
 
-        logger.info(f"Rankings saved to {json_output_path}")
+        logger.info(f"Rankings saved to {json_output_path}.")
 
     except FileNotFoundError:
         logger.error(f"Input file not found: {file_path}")
